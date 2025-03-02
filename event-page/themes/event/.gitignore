@@ -1,0 +1,21 @@
+# Node.js dependencies
+node_modules
+
+# macOS system files
+.DS_Store
+
+# Hugo build artifacts
+public
+resources
+.hugo_build.lock
+
+# Test and report directories
+/test-results/
+/playwright-report/
+/blob-report/
+/playwright/.cache/
+
+# Add any additional files or directories you want to ignore here
+# For example, if you have local environment files, you might add:
+# .env
+
