@@ -51,3 +51,10 @@
 .heading--embedded {
     margin-bottom: 0;
 }
+
+@media screen and (width < 768px) {
+    .heading--2 {
+        font-size: 1.4rem;
+        line-height: 2rem;
+    }
+}

@@ -24,7 +24,8 @@ sessions_page.read_more: 続きを読む
 sessions_page.heading_no_sessions: まだセッションは予定されていません
 sessions_page.heading_come_back_soon: すぐに戻ってくるか、ソーシャルメディアでフォローしてください
 menu.code_of_conduct: 行動規範
-menu.about: 歴史
+menu.about: VisionDevCampについて
+menu.history: 歴史
 menu.sessions: スケジュール
 menu.speakers: スピーカー
 menu.location: 場所
@@ -41,7 +42,7 @@ location_page.map_frame: イベントの場所を示すインタラクティブ�
 location_page.map_fullscreen: イベントの場所の大きな地図を見る
 sponsors_page.heading_sponsors: スポンサー
 sponsors_page.heading_partners: パートナー
-about_page.heading: 私たちについて
+about_page.heading: VisionDevCampについて
 about_page.organizers_heading: '{{ . }} の組織チーム'
 conference_tracks_section.heading: 会議トラック
 conference_tracks_section.subheading: 私たちのトピックを発見する
@@ -54,6 +55,8 @@ featured_sessions_section.read_more: 続きを読む
 featured_sessions_section.action: すべてのセッション
 sponsors_section.heading: 私たちのスポンサー
 sponsors_section.subheading: サポーターの皆様に大きな感謝を！
+schedule.heading: スケジュール
+schedule.subheading: イベントスケジュール
 event_highlights_section.number_of_speakers:
     one: '{{ . }} 人のスピーカー'
     other: '{{ . }} 人のスピーカー'
