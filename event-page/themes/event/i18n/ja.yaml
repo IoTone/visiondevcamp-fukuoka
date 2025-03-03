@@ -1,0 +1,71 @@
+menu.imprint: インプリント
+menu.privacy: プライバシーポリシー
+countdown.days: 日
+countdown.hours: 時間
+countdown.minutes: 分
+countdown.seconds: 秒
+cta_banner.message: 今すぐチケットを入手！
+cta_button.get_ticket: 今すぐ登録！
+cta_section.heading: 興味深いことを発見しましたか？
+cta_section.subheading: 今日登録してください！
+cta_section.message: |
+    リーディングエキスパートから学ぶチャンスを逃さないでください。
+    貴重なコンタクトを作成します！
+header_featured_speakers: 注目のスピーカー
+speakers_page.heading: スピーカー
+speakers_page.social_links: '{{ . }} のソーシャルメディアリンク'
+sessions_page.heading: スケジュール
+sessions_page.day: 日 {{ . }}
+sessions_page.heading_day_filter: 日付
+sessions_page.heading_track_filter: トラック
+sessions_page.speaker: スピーカー
+sessions_page.room: 部屋
+sessions_page.read_more: 続きを読む
+sessions_page.heading_no_sessions: まだセッションは予定されていません
+sessions_page.heading_come_back_soon: すぐに戻ってくるか、ソーシャルメディアでフォローしてください
+menu.code_of_conduct: 行動規範
+menu.about: 歴史
+menu.sessions: スケジュール
+menu.speakers: スピーカー
+menu.location: 場所
+menu.sponsors: スポンサーとパートナー
+main_menu.label: メインメニュー
+social-links_list.label: ソーシャルメディアリンク
+secondary_menu.label: セカンダリーメニュー
+language_menu.label: 言語を選択
+language_menu.ja: Japanese
+language_menu.en: English
+location_page.heading: 私たちの場所
+location_page.directions_heading: 道順
+location_page.map_frame: イベントの場所を示すインタラクティブマップ
+location_page.map_fullscreen: イベントの場所の大きな地図を見る
+sponsors_page.heading_sponsors: スポンサー
+sponsors_page.heading_partners: パートナー
+about_page.heading: 私たちについて
+about_page.organizers_heading: '{{ . }} の組織チーム'
+conference_tracks_section.heading: 会議トラック
+conference_tracks_section.subheading: 私たちのトピックを発見する
+conference_tracks_section.action: スケジュールを開く
+featured_speakers_section.heading: 注目のスピーカー
+featured_speakers_section.subheading: 専門家に会う
+featured_speakers_section.action: すべてのスピーカーを一目で見る
+featured_sessions_section.heading: 注目のセッション
+featured_sessions_section.read_more: 続きを読む
+featured_sessions_section.action: すべてのセッション
+sponsors_section.heading: 私たちのスポンサー
+sponsors_section.subheading: サポーターの皆様に大きな感謝を！
+event_highlights_section.number_of_speakers:
+    one: '{{ . }} 人のスピーカー'
+    other: '{{ . }} 人のスピーカー'
+event_highlights_section.number_of_sessions:
+    one: '{{ . }} セッション'
+    other: '{{ . }} セッション'
+event_highlights_section.number_of_days:
+    one: '{{ . }} 日'
+    other: '{{ . }} 日'
+speaker_page.sessions_by: セッション提供者
+session_page.further_sessions: その他のセッション
+session_page.further_sessions_from: その他のセッション提供者
+carousel.button_next: 次の項目
+carousel.button_previous: 前の項目
+session_categories.label: セッションカテゴリ
