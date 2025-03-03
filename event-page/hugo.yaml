@@ -22,33 +22,8 @@ languages:
                 - identifier: sponsors
                   pageRef: /sponsors
                   weight: 50
-            footer:
-                - identifier: privacy
-                  pageRef: /privacy-policy
-                  weight: 20
-            # secondary:
-            #     - identifier: about
-            #       pageRef: /about
-            #       weight: 10
-            #       params:
-            #           description: |
-            #               Learn more about our mission, values, and the people behind our organization.
-            #               The "About Us" page provides insights into who we are, what we do,
-            #               and why we're passionate about our work.
-            #     - identifier: speakers
-            #       pageRef: /speakers
-            #       weight: 30
-            #       params:
-            #           description: |
-            #               Meet our distinguished speakers who will be sharing their expertise.
-            #               Learn more about their backgrounds and what they will discuss.
-            #     - identifier: location
-            #       pageRef: /location
-            #       weight: 40
-            #       params:
-            #           description: |
-            #               Find out where the event will take place.
-            #               This section provides details on the venue, directions, and nearby accommodations.
+            footer: []
+            secondary: []
         params:
             # Open Graph / X (Twitter) Cards
             description: |
@@ -99,33 +74,8 @@ languages:
                 - identifier: sponsors
                   pageRef: /sponsors
                   weight: 50
-            footer:
-                - identifier: privacy
-                  pageRef: /privacy-policy
-                  weight: 20
-            # secondary:
-            #     - identifier: about
-            #       pageRef: /about
-            #       weight: 10
-            #       params:
-            #           description: |
-            #               私たちの使命、価値観、組織の背後にいる人々について詳しく知ることができます。
-            #               「私たちについて」のページでは、私たちが誰であるか、何をしているか、
-            #               そしてなぜ私たちがこの仕事に情熱を持っているのかを知ることができます。
-            #     - identifier: speakers
-            #       pageRef: /speakers
-            #       weight: 30
-            #       params:
-            #           description: |
-            #               私たちのイベントで専門知識を共有する優れたスピーカーを紹介します。
-            #               彼らの背景や話す内容について詳しく知ることができます。
-            #     - identifier: location
-            #       pageRef: /location
-            #       weight: 40
-            #       params:
-            #           description: |
-            #               イベントが開催される場所を確認してください。
-            #               このセクションでは、会場、道順、近くの宿泊施設についての詳細を提供します。
+            footer: []
+            secondary: []
         params:
             # Open Graph / X (Twitter) Cards
             description: |
@@ -152,7 +102,7 @@ languages:
                         ### 多数の成功プロジェクトを輩出
                         開発者コミュニティにおけるインクルージョン、多様性、エンパワーメントを促進しており、毎年、何百人もの開発者、デザイナー、愛好家が集まり、iPhone、iPad、iOS向けのアプリを作成してきました。
                         - Oauthのような著名なオープンソースプロジェクトから、Block（旧Square）のような上場企業に至るまで、多くのものを生み出してきました。
-                        - Getaround、Obama ’08アプリ、AppleのTestFlightなどもすべてここから生まれました。
+                        - Getaround、Obama '08アプリ、AppleのTestFlightなどもすべてここから生まれました。
 
                         ### そして、VisionDevCampへ
                         - Vision Proが発売された翌月末に、第1回目のVisionDevCampがアメリカのサンタクララで開催されました。
@@ -187,7 +137,7 @@ params:
                 linkedinUrl: https://de.linkedin.com/company/medialesson-gmbh
             images:
                 logo: logos/medicon-512.webp
-                titleBackground: images/pexels-caleboquendo-3023317.webp
+                titleBackground: images/visiondevcamp2025-group-photo.jpg
                 location: images/habermehlstr.webp
             sponsors:
                 - logo: logos/medialesson-logo.svg
