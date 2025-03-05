@@ -44,3 +44,29 @@ eventDate: "2025-04-10T14:00:00"
 
 session content
 ```
+
+## How to add a new speaker
+
+1. Create a new markdown file in the `event-page/content/speakers` directory.
+2. Add the speaker to the `name` parameter.
+3. Add the speaker to the `avatarResource` parameter.
+    - put image data in `event-page/static/images/speakers` directory.
+    - if you want to use default avatar, put `default-avatar.svg` in the directory.
+4. Add the speaker to the `description` parameter.
+5. Add the speaker to the `linkedinUrl` parameter.
+6. Add the speaker to the `xUrl` parameter.
+7. Add the speaker to the `companyUrl` parameter.
+
+```markdown
+---
+title: "Speaker 1"
+name: "Speaker 1 NAME"
+avatarResource: "images/speakers/default-avatar.svg"
+description: "Speaker 1 is a keynote speaker on the latest trends in technology and innovation."
+linkedinUrl: "https://www.linkedin.com/in/speaker1"
+xUrl: "https://x.com/speaker1"
+companyUrl: "https://www.company1.com"
+---
+
+speaker content
+```
