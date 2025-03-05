@@ -22,7 +22,7 @@ The following sample demonstrates how to create menu entries with standard Hugo
 configuration.
 
 ```yaml
-defaultContentLanguage: de
+defaultContentLanguage: ja
 languages:
     en:
         menus:
