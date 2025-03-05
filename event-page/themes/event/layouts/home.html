@@ -31,31 +31,7 @@
 
 
     <!-- speakers -->
-    {{- $topSpeakers := slice }}
-    {{- range (where .Site.Pages "Section" "speakers") }}
-        {{- if .Params.isTopSpeaker }}
-            {{- $topSpeakers = $topSpeakers | append (
-                dict
-                "profileUrl" .RelPermalink
-                "avatarResource" (.Resources.GetMatch "avatar.*")
-                "name" .Title
-                "description" .Params.tagLine
-                "linkedinUrl" .Params.linkedinUrl
-                "xUrl" .Params.xUrl
-                "companyUrl" .Params.company
-                )
-            }}
-        {{- end }}
-    {{- end }}
-
-    {{- if gt ($topSpeakers | len) 0 }}
-        {{ partial "sections/featured-speakers.html" (
-            dict
-            "speakers" $topSpeakers
-            "speakersUrl" (.Site.GetPage "speakers").RelPermalink
-            )
-        }}
-    {{- end }}
+    {{ partial "speakers.html" . }}
 
     {{- partial "sections/our-sponsors.html" (dict "sponsors" .Site.Params.themes.event.sponsors) -}}
 {{- end }}
