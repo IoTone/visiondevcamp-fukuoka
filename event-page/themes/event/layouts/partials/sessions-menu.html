@@ -8,7 +8,7 @@
                 <h1 class="sessions-menu__heading">{{- .title }}</h1>
                 <div>
                     <div class="sessions-menu__time">
-                        {{- if .isScheduled }}
+                        {{- if and .isScheduled .startsAt }}
                             {{- partial "elements/date-and-time.html" (dict "date" .startsAt) }}
                         {{- end }}
                     </div>

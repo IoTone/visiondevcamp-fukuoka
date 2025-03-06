@@ -1,0 +1,22 @@
+<section class="speaker-list">
+    <div class="section">
+        <h1 class="heading heading--1">{{ .Title }}</h1>
+        <menu class="speaker-list__menu">
+            {{ range where .Site.RegularPages "Section" "speakers" }}
+                <li class="speaker-list__item">
+                    {{- partial "speaker-card.html" (
+                        dict
+                        "profileUrl" .RelPermalink
+                        "avatarResource" .Params.avatarResource
+                        "name" .Title
+                        "description" .Params.description
+                        "linkedinUrl" .Params.linkedinUrl
+                        "xUrl" .Params.xUrl
+                        "companyUrl" .Params.company
+                        )
+                    }}
+                </li>
+            {{ end }}
+        </menu>
+    </div>
+</section>

@@ -27,71 +27,11 @@
 
 
     <!-- sessions -->
-    <div class="section-container section-container--dimmed">
-        <section class="section session-day-section">
-            <h1 class="heading heading--highlighted heading--centered">
-                {{ T "schedule.heading" }}
-            </h1>
-            <h2 class="heading heading--2 heading--centered">
-                {{ T "schedule.subheading" }}
-            </h2>
-            {{- $scheduledSessionPages := where .Site.RegularPages "Section" "sessions" }}
-            {{- $scheduledSessionPages = where $scheduledSessionPages "Params.isScheduled" true }}
-            {{- $sessionsGroupedByDay := $scheduledSessionPages.GroupByParamDate "date" "2006-01-02" "asc" }}
+    {{ partial "sessions.html" . }}
 
 
-            <div class="session-list">
-                {{- range $index, $element := $sessionsGroupedByDay }}
-                    <h3 class="heading heading--highlighted">{{ .Key | time.Format ":date_long" }}</h3>
-                    {{- range .Pages.GroupByParamDate "startsAt" "2006-01-02T15:04:00" "asc" }}
-                        <h4 class="heading heading--4">
-                            {{ .Key | time.Format ":time_short" }}
-                        </h4>
-                        <ul class="session-day-section__session-menu">
-                            {{- range .Pages }}
-                                <li>
-                                    <div class="event-row event-row--service-session">{{ .Title }}</div>
-                                    <p>{{ .Params.description }}</p>
-                                </li>
-                            {{- end }}
-                        </ul>
-                    {{- end }}
-                {{ else }}
-                    <div class="section nothing-scheduled-section">
-                        <h1 class="heading heading--highlighted heading--centered nothing-scheduled-section__heading">
-                            Coming soon
-                        </h1>
-                    </div>
-                {{ end }}
-            </div>
-        </section>
-    </div>
-
-    {{- $topSpeakers := slice }}
-    {{- range (where .Site.Pages "Section" "speakers") }}
-        {{- if .Params.isTopSpeaker }}
-            {{- $topSpeakers = $topSpeakers | append (
-                dict
-                "profileUrl" .RelPermalink
-                "avatarResource" (.Resources.GetMatch "avatar.*")
-                "name" .Title
-                "description" .Params.tagLine
-                "linkedinUrl" .Params.linkedinUrl
-                "xUrl" .Params.xUrl
-                "companyUrl" .Params.company
-                )
-            }}
-        {{- end }}
-    {{- end }}
-
-    {{- if gt ($topSpeakers | len) 0 }}
-        {{ partial "sections/featured-speakers.html" (
-            dict
-            "speakers" $topSpeakers
-            "speakersUrl" (.Site.GetPage "speakers").RelPermalink
-            )
-        }}
-    {{- end }}
+    <!-- speakers -->
+    {{ partial "speakers.html" . }}
 
     {{- partial "sections/our-sponsors.html" (dict "sponsors" .Site.Params.themes.event.sponsors) -}}
 {{- end }}

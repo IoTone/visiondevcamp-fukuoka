@@ -72,3 +72,5 @@ session_page.further_sessions_from: その他のセッション提供者
 carousel.button_next: 次の項目
 carousel.button_previous: 前の項目
 session_categories.label: セッションカテゴリ
+schedule_date: '2006年01月02日'
+schedule_time: '15:04'

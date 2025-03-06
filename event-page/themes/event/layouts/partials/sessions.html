@@ -1,0 +1,30 @@
+<div class="section-container section-container--dimmed">
+    <section class="section session-day-section">
+        <h1 class="heading heading--highlighted heading--centered">
+            {{ T "schedule.heading" }}
+        </h1>
+        <h2 class="heading heading--2 heading--centered">
+            {{ T "schedule.subheading" }}
+        </h2>
+        {{ range where .Site.RegularPages "Section" "sessions" }}
+            {{ if .Params.isScheduled }}
+                <div class="session-list">
+                    <h3 class="heading heading--highlighted">
+                        {{ if .Params.eventDate }}
+                            {{ .Params.eventDate | time.Format (i18n "schedule_date") }}
+                            {{ .Params.eventDate | time.Format (i18n "schedule_time") }}
+                        {{ else }}
+                            {{ .Date.Format (i18n "schedule_date") }}
+                        {{ end }}
+                    </h3>
+                    <ul class="session-day-section__session-menu">
+                        <li>
+                            <div class="event-row event-row--service-session">{{ .Title }}</div>
+                            <p>{{ .Content }}</p>
+                        </li>
+                    </ul>
+                </div>
+            {{ end }}
+        {{ end }}
+    </section>
+</div>

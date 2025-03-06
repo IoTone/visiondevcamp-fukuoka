@@ -37,6 +37,7 @@
     border-radius: 50%;
     width: 7.5rem;
     height: 7.5rem;
+    object-fit: cover;
 }
 
 .speaker-card__description {

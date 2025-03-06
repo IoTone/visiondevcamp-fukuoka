@@ -3,25 +3,12 @@
 
 <div class="speaker-card">
     <a class="speaker-card__link" href="{{ $input.profileUrl }}" aria-label="{{ $input.name }}">
-        {{ with $input.avatarResource }}
-            {{ with . | images.Filter (images.Process "resize 256x") }}
-                <img
-                    class="speaker-card__avatar"
-                    src="{{ .RelPermalink }}"
-                    alt="{{ $input.name }}"
-                    width="{{ .Width }}"
-                    height="{{ .Height }}" />
-            {{- end }}
-        {{- else }}
-            {{- with resources.Get "images/shaped-image-fallback.webp" }}
-                <img
-                    class="speaker-card__avatar"
-                    src="{{ .RelPermalink }}"
-                    alt="{{ $input.name }}"
-                    width="{{ .Width }}"
-                    height="{{ .Height }}" />
-            {{- end }}
-        {{- end }}
+        <img
+            class="speaker-card__avatar"
+            src="{{ $input.avatarResource | relURL }}"
+            alt="{{ $input.name }}"
+            width="{{ .Width }}"
+            height="{{ .Height }}" />
         <h1 class="heading">{{ $input.name }}</h1>
         <p class="speaker-card__description">{{ $input.description }}</p>
     </a>
