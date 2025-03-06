@@ -16,7 +16,7 @@
     gap: 2rem;
 }
 
-.featured-sessions-section__speakers {
+.featured-sessions-section__judges {
     flex: 50%;
     display: flex;
     justify-content: center;
@@ -24,7 +24,7 @@
 }
 
 @media (width < 768px) {
-    .featured-sessions-section__speakers {
+    .featured-sessions-section__judges {
         display: none;
     }
 }

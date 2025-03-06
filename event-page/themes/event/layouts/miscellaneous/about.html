@@ -13,14 +13,14 @@
                 </div>
             {{ end }}
 
-            {{- range (where .Site.Pages "Section" "speakers") }}
-                {{- if in $organizerIds .Params.speakerId }}
-                    <!-- Check if the speaker ID is in the organizers list -->
+            {{- range (where .Site.Pages "Section" "judges") }}
+                {{- if in $organizerIds .Params.judgeId }}
+                    <!-- Check if the judge ID is in the organizers list -->
                     {{- $organizers = $organizers | append ( dict
                         "profileUrl" .RelPermalink
                         "avatarResource" (.Resources.GetMatch "avatar.*")
                         "name" .Title
-                        "speakerId" .Params.speakerId
+                        "judgeId" .Params.judgeId
                         "description" .Params.tagLine
                         "linkedinUrl" .Params.linkedinUrl
                         "xUrl" .Params.xUrl
@@ -37,7 +37,7 @@
                 <menu class="about__organizers-menu">
                     {{- range $organizers }}
                         <li>
-                            {{- partial "speaker-card.html" (
+                            {{- partial "judge-card.html" (
                                 dict
                                 "profileUrl" .profileUrl
                                 "avatarResource" .avatarResource

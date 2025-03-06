@@ -11,10 +11,21 @@
             {{- $input.title }}
         </h1>
         <h2 class="event-title-section__subheading">
-            {{- with $input.startDate }}
-                {{- . | time.AsTime | time.Format ":date_long" }}
+            {{- $dateFormat := "1月2日" }}
+            {{- if eq $input.Language "en" }}
+                {{- $dateFormat = "January 2" }}
             {{- end }}
-            {{- if $input.startDate }}<br />{{ end }}
+
+            {{- with $input.startDate }}
+                {{- . | time.AsTime | time.Format $dateFormat }}
+            {{- end }}
+            {{- if and $input.startDate $input.endDate }}
+                〜
+            {{- end }}
+            {{- with $input.endDate }}
+                {{- . | time.AsTime | time.Format $dateFormat }}
+                <br />
+            {{- end }}
             @{{ $input.location }}
         </h2>
     </div>

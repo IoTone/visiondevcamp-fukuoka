@@ -1,7 +1,7 @@
 {{ $input := . }}
 
 
-<article class="speaker-avatar-container">
+<article class="judge-avatar-container">
     {{- partial "shaped-image.html" (
         dict
         "imageResource" $input.avatarResource
@@ -9,16 +9,15 @@
         )
     }}
 
-    {{- if (or $input.linkedinUrl $input.xUrl $input.companyUrl) }}
-        {{ $ariaLabel := T "speakers_page.social_links" $input.avatarAlt }}
+    {{- if (or $input.githubUrl $input.xUrl $input.companyUrl) }}
+        {{ $ariaLabel := T "judges_page.social_links" $input.avatarAlt }}
 
         {{- partial "social-links.html" (
             dict
-            "linkedinUrl" $input.linkedinUrl
+            "githubUrl" $input.githubUrl
             "xUrl" $input.xUrl
             "companyUrl" $input.companyUrl
-            "linkClass" "speaker-avatar-container__social-link"
-            "ariaLabel" $ariaLabel
+            "linkClass" "judge-avatar-container__social-link"
             )
         }}
     {{- end }}

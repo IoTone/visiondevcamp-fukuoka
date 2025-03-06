@@ -1,0 +1,37 @@
+{{ define "main" }}
+    <div class="section-container">
+        <section class="section single-judge-section">
+            <div class="single-judge-section__avatar">
+                {{ $ariaLabel := T "judges_page.social_links" page.Title }}
+
+                {{- partial "judge-avatar.html" (
+                    dict
+                    "avatarResource" page.Params.avatarResource
+                    "avatarAlt" page.Title
+                    "githubUrl" page.Params.githubUrl
+                    "xUrl" page.Params.xUrl
+                    "companyUrl" page.Params.company
+                    )
+                }}
+            </div>
+
+            <div class="single-judge-section__biography">
+                {{- partial "judge-biography.html" (
+                    dict
+                    "name" page.Title
+                    "position" page.Params.position
+                    "expertise" page.Params.expertise
+                    "description" page.Params.description
+                    )
+                }}
+            </div>
+        </section>
+
+        {{- partial "sections/cta.html" (
+            dict
+            "eventbriteId" .Site.Params.themes.event.callToAction.eventbrite.eventId
+            "ctaUrl" .Site.Params.themes.event.callToAction.other.url
+            )
+        }}
+    </div>
+{{ end }}

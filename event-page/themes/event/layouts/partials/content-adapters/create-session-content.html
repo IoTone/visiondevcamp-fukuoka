@@ -21,7 +21,7 @@
     {{ $isScheduled := not $date.IsZero }}
     {{ $room := index (where $input.sessionize.rooms "id" .roomId) 0 }}
     {{ $content := dict "mediaType" "text/markdown" "value" .description }}
-    {{ $speakers := where $input.sessionize.speakers "id" "in" .speakers }}
+    {{ $judges := where $input.sessionize.judges "id" "in" .judges }}
     {{ $sessionTrack := index (where $trackCategoryItems "id" "in" .categoryItems) 0 }}
     {{ $sessionCategories := where $otherCategoryItems "id" "in" .categoryItems }}
     {{ $sessionCategoryNames := slice }}
@@ -34,8 +34,8 @@
         "startsAt" $startsAt
         "room" $room
         "isServiceSession" .isServiceSession
-        "speakers" $speakers
-        "speakerIds" .speakers
+        "judges" $judges
+        "judgeIds" .judges
         "track" $sessionTrack.name
         "isScheduled" $isScheduled
         "categories" $sessionCategoryNames
@@ -50,17 +50,17 @@
     }}
     {{ $pages = $pages | append $page }}
 
-    {{ range $speakers }}
-        {{/* Store profile pictures of speakers. */}}
-        {{ $speaker := . }}
-        {{ with $url := $speaker.profilePicture }}
+    {{ range $judges }}
+        {{/* Store profile pictures of judges. */}}
+        {{ $judge := . }}
+        {{ with $url := $judge.profilePicture }}
             {{ with resources.GetRemote $url  | images.Filter (images.Process "q90 webp") }}
                 {{ $content := dict "mediaType" .MediaType.Type "value" .Content }}
-                {{ $params := dict "alt" $speaker.fullName }}
+                {{ $params := dict "alt" $judge.fullName }}
                 {{ $resource := dict
                     "content" $content
                     "params" $params
-                    "path" (printf "%s/avatar %s.%s" $path $speaker.id .MediaType.SubType)
+                    "path" (printf "%s/avatar %s.%s" $path $judge.id .MediaType.SubType)
                 }}
                 {{ $resources = $resources | append $resource }}
             {{ else }}

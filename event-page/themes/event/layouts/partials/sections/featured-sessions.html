@@ -15,11 +15,11 @@
                         class="carousel__item featured-sessions-section__list-item"
                         role="menuitem"
                         aria-label="{{ $session.sessionName }}">
-                        <div class="featured-sessions-section__speakers">
-                            {{- if gt ($session.speakers | len) 0 }}
-                                {{- with index $session.speakers 0 }}
+                        <div class="featured-sessions-section__judges">
+                            {{- if gt ($session.judges | len) 0 }}
+                                {{- with index $session.judges 0 }}
                                     <figure
-                                        {{- if gt ($session.speakers | len) 1 }}
+                                        {{- if gt ($session.judges | len) 1 }}
                                             class="featured-sessions-section__avatar featured-sessions-section__avatar--first"
                                         {{- else }}
                                             class="featured-sessions-section__avatar"
@@ -38,8 +38,8 @@
                                 {{- end }}
                             {{- end }}
 
-                            {{- if gt ($session.speakers | len) 1 }}
-                                {{- with index $session.speakers 1 }}
+                            {{- if gt ($session.judges | len) 1 }}
+                                {{- with index $session.judges 1 }}
                                     <figure class="featured-sessions-section__avatar featured-sessions-section__avatar--second">
                                         {{- partial "shaped-image.html" (
                                             dict

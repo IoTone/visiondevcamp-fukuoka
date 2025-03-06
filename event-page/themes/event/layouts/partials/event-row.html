@@ -16,8 +16,8 @@
         <h2 class="event-row__title">
             {{- $input.title -}}
         </h2>
-        <h3 class="event-row__speakers">
-            {{- range $input.speakers }}
+        <h3 class="event-row__judges">
+            {{- range $input.judges }}
                 <span>{{- .name -}}</span>
             {{- end }}
         </h3>
@@ -28,15 +28,15 @@
     </div>
     <div class="event-row__right">
         <ul class="event-row__avatars">
-            {{- range $input.speakers }}
-                {{- $speaker := . }}
-                {{- with $speaker.avatarResource }}
+            {{- range $input.judges }}
+                {{- $judge := . }}
+                {{- with $judge.avatarResource }}
                     {{- with images.Filter (images.Process "resize 128x") . }}
                         <li>
                             <img
                                 class="event-row__avatar-img"
                                 src="{{ .RelPermalink }}"
-                                alt="{{ $speaker.name }}"
+                                alt="{{ $judge.name }}"
                                 width="{{ .Width }}"
                                 height="{{ .Height }}" />
                         </li>
@@ -47,7 +47,7 @@
                             <img
                                 class="event-row__avatar-img"
                                 src="{{ .RelPermalink }}"
-                                alt="{{ $speaker.name }}"
+                                alt="{{ $judge.name }}"
                                 width="{{ .Width }}"
                                 height="{{ .Height }}" />
                         </li>

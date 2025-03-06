@@ -28,45 +28,45 @@
                 -}}
             </div>
         </section>
-        <section class="section" aria-label="Speaker of the session">
-            <h1 class="heading heading--2">{{ T "sessions_page.speaker" }}</h1>
-            <ul class="carousel single-session-speaker-list" role="list">
-                {{- $sessionSpeakerPages := where (where .Site.Pages "Section" "speakers") "Params.speakerId" "in" page.Params.speakerIds }}
-                {{- range $index, $speakerPage := $sessionSpeakerPages }}
-                    {{- if (in page.Params.speakerIds .Params.speakerId) }}
+        <section class="section" aria-label="judge of the session">
+            <h1 class="heading heading--2">{{ T "sessions_page.judge" }}</h1>
+            <ul class="carousel single-session-judge-list" role="list">
+                {{- $sessionjudgePages := where (where .Site.Pages "Section" "judges") "Params.judgeId" "in" page.Params.judgeIds }}
+                {{- range $index, $judgePage := $sessionjudgePages }}
+                    {{- if (in page.Params.judgeIds .Params.judgeId) }}
                         <li
-                            id="sessionSpeaker{{ $index }}"
-                            class="carousel__item single-session-speaker-list__list-item"
+                            id="sessionjudge{{ $index }}"
+                            class="carousel__item single-session-judge-list__list-item"
                             role="listitem"
-                            aria-label="{{ $speakerPage.Title }}">
-                            <div class="single-session-speaker-list__avatar">
-                                {{- partial "speaker-avatar.html" (
+                            aria-label="{{ $judgePage.Title }}">
+                            <div class="single-session-judge-list__avatar">
+                                {{- partial "judge-avatar.html" (
                                     dict
-                                    "avatarResource" ($speakerPage.Resources.GetMatch "avatar.*")
-                                    "avatarAlt" $speakerPage.Title
-                                    "linkedinUrl" $speakerPage.Params.linkedinUrl
-                                    "xUrl" $speakerPage.Params.xUrl
-                                    "companyUrl" $speakerPage.Params.company
+                                    "avatarResource" ($judgePage.Resources.GetMatch "avatar.*")
+                                    "avatarAlt" $judgePage.Title
+                                    "linkedinUrl" $judgePage.Params.linkedinUrl
+                                    "xUrl" $judgePage.Params.xUrl
+                                    "companyUrl" $judgePage.Params.company
                                     )
                                 }}
                             </div>
-                            <div class="single-session-speaker-list__speaker">
+                            <div class="single-session-judge-list__judge">
                                 <h2 class="heading heading--4 heading--embedded">
-                                    {{ $speakerPage.Title }}
+                                    {{ $judgePage.Title }}
                                 </h2>
-                                <p class="paragraph">{{ $speakerPage.Params.tagLine }}</p>
-                                <p class="paragraph single-session-speaker-list__biography">
-                                    {{ substr $speakerPage.RawContent 0 500 }}...
-                                    <a href="{{ $speakerPage.RelPermalink }}" class="link">
+                                <p class="paragraph">{{ $judgePage.Params.tagLine }}</p>
+                                <p class="paragraph single-session-judge-list__biography">
+                                    {{ substr $judgePage.RawContent 0 500 }}...
+                                    <a href="{{ $judgePage.RelPermalink }}" class="link">
                                         {{ T "sessions_page.read_more" | lower }}
                                     </a>
                                 </p>
-                                <div class="single-session-speaker-list__carousel-buttons">
+                                <div class="single-session-judge-list__carousel-buttons">
                                     {{- partial "carousel-buttons.html" (
                                         dict
                                         "index" $index
-                                        "numberOfItems" (len page.Params.speakerIds)
-                                        "elementIdPrefix" "sessionSpeaker"
+                                        "numberOfItems" (len page.Params.judgeIds)
+                                        "elementIdPrefix" "sessionjudge"
                                         )
                                     }}
                                 </div>

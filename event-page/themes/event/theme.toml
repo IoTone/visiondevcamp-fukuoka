@@ -18,12 +18,12 @@ tags = [
 
 features = [
 "Filterable Event schedule",
-"Session and speaker pages",
+"Session and judge pages",
 "Responsive design",
 "Multilingual",
 "Countdown",
 "Key figures",
-"Top speakers",
+"Top judges",
 "Sponsors",
 "Eventbrite integration",
 "Map integration",

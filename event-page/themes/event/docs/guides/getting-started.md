@@ -50,7 +50,7 @@
        additional fields.
         - **Sessions:** Submission fields (Track)
         - **Sessions:** Include Service Sessions
-        - **Speakers:** Links
+        - **judges:** Links
 
 1. Add and adapt the following minimal settings to your [Hugo
    configuration](https://gohugo.io/getting-started/configuration/):

@@ -98,7 +98,7 @@ params:
                   url:
                   # 👇 This name is used as the alt text for the logo
                   name:
-            # 👇 List of Sessionize speaker IDs of speakers that organize the event.
+            # 👇 List of Sessionize judge IDs of judges that organize the event.
             organizers:
             # 👇 List of Sessionize session IDs of highlight sessions.
             featuredSessions:

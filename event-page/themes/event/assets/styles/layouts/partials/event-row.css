@@ -12,6 +12,7 @@
         outline 0.3s ease,
         box-shadow 0.3s ease;
     outline: 0 solid transparent;
+    margin-bottom: 3rem;
 }
 
 .event-row:hover {
@@ -29,7 +30,7 @@
     cursor: unset;
 
     .event-row__room,
-    .event-row__speakers,
+    .event-row__judges,
     .event-row__avatars {
         display: none;
     }
@@ -76,14 +77,14 @@
 }
 
 .event-row__room,
-.event-row__speakers {
+.event-row__judges {
     all: unset;
     font-size: 1rem;
     font-weight: 400;
     color: var(--color-secondary-darker);
 }
 
-.event-row__speakers > span:not(:last-child)::after {
+.event-row__judges > span:not(:last-child)::after {
     content: ', ';
 }
 

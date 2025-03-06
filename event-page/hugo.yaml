@@ -13,8 +13,8 @@ languages:
                 - identifier: sessions
                   pageRef: /sessions
                   weight: 20
-                - identifier: speakers
-                  pageRef: /speakers
+                - identifier: judges
+                  pageRef: /judges
                   weight: 30
                 - identifier: location
                   pageRef: /location
@@ -65,8 +65,8 @@ languages:
                 - identifier: sessions
                   pageRef: /sessions
                   weight: 20
-                - identifier: speakers
-                  pageRef: /speakers
+                - identifier: judges
+                  pageRef: /judges
                   weight: 30
                 - identifier: location
                   pageRef: /location
@@ -117,20 +117,18 @@ params:
             sessionizeId: 67poir7q
             title: VisionDevCamp Fukuoka 2025
             shortTitle:
-            startDate: 2025-04-13
-            endDate: 2025-04-14
+            startDate: 2025-04-11
+            endDate: 2025-04-13
             address:
-                - Medialesson GmbH
-                - Habermehlstraße 15
-                - 75172 Pforzheim
-                - Germany
+                - Fukuoka
+                - 福岡市中央区天神
             map:
                 embeddableMapUrl: //umap.openstreetmap.fr/en/map/medialesson-gmbh_1105977?scrollWheelZoom=false
                 viewLargerMapUrl: //umap.openstreetmap.fr/en/map/medialesson-gmbh_1105977
                 # Link to edit the map: https://umap.openstreetmap.fr/en/map/anonymous-edit/1105977:HjtVVnbwCn6Yi3O02DTPnspzuyoHvP_Kn-M9rE53eE8
             callToAction:
-                eventbrite:
-                    eventId: 976108886957
+                other:
+                    url: /
             socialLinks:
                 xUrl: https://x.com/medialesson
                 facebookUrl: https://www.facebook.com/medialesson/
