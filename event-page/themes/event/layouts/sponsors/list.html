@@ -1,0 +1,29 @@
+{{ define "main" }}
+    <div class="section-container">
+        <section class="section section--short our-sponsors">
+            <h1 class="heading heading--highlighted heading--centered">
+                {{ T "sponsors_section.heading" }}
+            </h1>
+            <h2 class="heading heading--2 heading--centered">
+                {{ T "sponsors_section.subheading" }}
+            </h2>
+            <ul class="our-sponsors__list">
+                {{ range where .Site.RegularPages "Section" "sponsors" }}
+                    <li class="our-sponsors__list-item">
+                        <div class="sponsor">
+                            <a href="{{ .Params.companyUrl | safeURL }}" target="_blank">
+                                <img
+                                    src="{{ .Params.logo | relURL }}"
+                                    alt="{{ .Title }}"
+                                    class="sponsor__logo"
+                                    width="100"
+                                    height="100" />
+                            </a>
+                            <p>{{ .Title }}</p>
+                        </div>
+                    </li>
+                {{ end }}
+            </ul>
+        </section>
+    </div>
+{{ end }}

@@ -130,9 +130,9 @@ params:
                 other:
                     url: /
             socialLinks:
-                xUrl: https://x.com/medialesson
-                facebookUrl: https://www.facebook.com/medialesson/
-                linkedinUrl: https://de.linkedin.com/company/medialesson-gmbh
+                # xUrl: https://x.com/medialesson
+                # facebookUrl: https://www.facebook.com/medialesson/
+                # linkedinUrl: https://de.linkedin.com/company/medialesson-gmbh
             images:
                 logo: logos/visiondevcamp_fukuoka_logo_style2.png
                 titleBackground: images/visiondevcamp2025-group-photo.jpg

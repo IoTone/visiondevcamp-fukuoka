@@ -31,8 +31,8 @@
         <section class="section" aria-label="judge of the session">
             <h1 class="heading heading--2">{{ T "sessions_page.judge" }}</h1>
             <ul class="carousel single-session-judge-list" role="list">
-                {{- $sessionjudgePages := where (where .Site.Pages "Section" "judges") "Params.judgeId" "in" page.Params.judgeIds }}
-                {{- range $index, $judgePage := $sessionjudgePages }}
+                {{- $judgePages := where (where .Site.Pages "Section" "judges") "Params.judgeId" "in" page.Params.judgeIds }}
+                {{- range $index, $judgePage := $judgePages }}
                     {{- if (in page.Params.judgeIds .Params.judgeId) }}
                         <li
                             id="sessionjudge{{ $index }}"
