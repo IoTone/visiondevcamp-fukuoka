@@ -115,18 +115,17 @@ params:
     themes:
         event:
             sessionizeId: 67poir7q
-            title: VisionDevCamp Fukuoka 2025
+            title: VisionDevCamp Fukuoka CC-BY-SA 2025
             shortTitle:
-            startDate: 2025-04-13
-            endDate: 2025-04-14
+            startDate: 2025-04-11
+            endDate: 2025-04-13
             address:
-                - Medialesson GmbH
-                - Habermehlstraße 15
-                - 75172 Pforzheim
-                - Germany
+                - Engineer Cafe - Hacker Space Fukuoka -
+                - 1-15-30 Tenjin, Chuo-ku, Fukuoka
+                - TEL / 080-6742-7231
             map:
-                embeddableMapUrl: //umap.openstreetmap.fr/en/map/medialesson-gmbh_1105977?scrollWheelZoom=false
-                viewLargerMapUrl: //umap.openstreetmap.fr/en/map/medialesson-gmbh_1105977
+                embeddableMapUrl: https://goo.gl/maps/5qXgfFTVxNQgUw5y6
+                viewLargerMapUrl: https://goo.gl/maps/5qXgfFTVxNQgUw5y6
                 # Link to edit the map: https://umap.openstreetmap.fr/en/map/anonymous-edit/1105977:HjtVVnbwCn6Yi3O02DTPnspzuyoHvP_Kn-M9rE53eE8
             callToAction:
                 eventbrite:
