@@ -1,8 +1,8 @@
 ---
-title: 'Day 1'
+title: '17:00-19:00 REGISTRATION'
 date: 2025-03-06T10:00:00
 isScheduled: true
 eventDate: '2025-04-11T17:00:00'
 ---
 
-Team Building
+Signin/Registration/Spatial Mingle
