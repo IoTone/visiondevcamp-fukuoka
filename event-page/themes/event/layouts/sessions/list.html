@@ -11,17 +11,17 @@
                 {{ if .Params.isScheduled }}
                     <div class="session-list">
                         <h3 class="heading heading--highlighted">
+                            {{ .Title }}
                             {{ if .Params.eventDate }}
-                                {{ .Params.eventDate | time.Format (i18n "schedule_date") }}
-                                {{ .Params.eventDate | time.Format (i18n "schedule_time") }}
+                                -{{ .Params.eventDate | time.Format (i18n "schedule_date") }}
+                                <!-- {{ .Params.eventDate | time.Format (i18n "schedule_time") }} -->
                             {{ else }}
                                 {{ .Date.Format (i18n "schedule_date") }}
                             {{ end }}
                         </h3>
                         <ul class="session-day-section__session-menu">
                             <li>
-                                <div class="event-row event-row--service-session">{{ .Title }}</div>
-                                <p>{{ .Content }}</p>
+                                <div class="event-row event-row--service-session">{{ .Content }}</div>
                             </li>
                         </ul>
                     </div>

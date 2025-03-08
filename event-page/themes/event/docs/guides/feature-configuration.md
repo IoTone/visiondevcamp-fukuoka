@@ -37,19 +37,19 @@ The home page displays a countdown that counts down till the start of the event.
 
 -   `startDate`: Start date of the event.
 
-## Featured speakers
+## Featured judges
 
-This feature highlights speakers marked as top speaker in Sessionize on the home
+This feature highlights judges marked as top judge in Sessionize on the home
 page.
 
-## Featured speakers
+## Featured judges
 
 This feature highlights selected sessions on the home page. Because Sessionize has no
 corresponding functionality, the featured sessions must be configured in the
 theme parameters.
 
 Please note that this feature presents the first 200 characters of an event's
-description and up to two speakers.
+description and up to two judges.
 
 ### Parameters
 
@@ -88,9 +88,9 @@ The about page can present the organization team of your event.
 
 ### Parameters
 
--   `organizers`: A list of Sessionize speaker IDs. You can find the ID of a speaker
-    on the speaker's page of your event on Sessionize. In the URL, you'll find the
-    speaker ID in form of a UUID (a.k.a. GUID).
+-   `organizers`: A list of Sessionize judge IDs. You can find the ID of a judge
+    on the judge's page of your event on Sessionize. In the URL, you'll find the
+    judge ID in form of a UUID (a.k.a. GUID).
 
 ## Sponsors and partners
 

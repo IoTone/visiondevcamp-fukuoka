@@ -1,0 +1,29 @@
+<section class="judge-list">
+    <div class="section">
+        <h1 class="heading heading--highlighted heading--centered">
+            {{ T "judge.heading" }}
+        </h1>
+        <h2 class="heading heading--2 heading--centered">
+            {{ T "judge.subheading" }}
+        </h2>
+        <menu class="judge-list__menu">
+            {{ range where .Site.RegularPages "Section" "judges" }}
+                <li class="judge-list__item">
+                    {{- partial "judge-card.html" (
+                        dict
+                        "position" .Params.position
+                        "expertise" .Params.expertise
+                        "avatarResource" .Params.avatarResource
+                        "name" .Title
+                        "description" .Params.description
+                        "githubUrl" .Params.githubUrl
+                        "xUrl" .Params.xUrl
+                        "companyUrl" .Params.company
+                        "profileUrl" .RelPermalink
+                        )
+                    }}
+                </li>
+            {{ end }}
+        </menu>
+    </div>
+</section>

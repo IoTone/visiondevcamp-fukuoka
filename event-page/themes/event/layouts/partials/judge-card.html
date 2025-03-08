@@ -1,0 +1,40 @@
+{{ $input := . }}
+
+
+<div class="judge-card">
+    <a class="judge-card__link" href="{{ $input.profileUrl }}" aria-label="{{ $input.name }}">
+        <img
+            class="judge-card__avatar"
+            src="{{ $input.avatarResource | relURL }}"
+            alt="{{ $input.name }}"
+            width="{{ .Width }}"
+            height="{{ .Height }}" />
+        <h1 class="heading">{{ $input.name }}</h1>
+        <p class="judge-card__position">
+            {{ if $input.position }}
+                {{ $input.position }}
+                <br />
+            {{ end }}
+            {{ if $input.expertise }}
+                {{ $input.expertise }}
+            {{ end }}
+        </p>
+        <!-- <p class="judge-card__description">{{ $input.description }}</p> -->
+    </a>
+    <div class="judge-card__social-links">
+        {{ $ariaLabel := T "judges_page.social_links" $input.name }}
+        {{- $hasSocialLinks := or $input.linkedinUrl $input.xUrl $input.companyUrl }}
+
+        {{- if $hasSocialLinks }}
+            {{- partial "social-links.html" (
+                dict
+                "githubUrl" $input.githubUrl
+                "xUrl" $input.xUrl
+                "companyUrl" $input.companyUrl
+                "linkClass" "judge-card__social-link"
+                "ariaLabel" $ariaLabel
+                )
+            }}
+        {{- end }}
+    </div>
+</div>

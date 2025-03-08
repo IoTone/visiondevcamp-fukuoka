@@ -1,17 +1,19 @@
 {{ define "main" }}
-    <section class="speaker-list">
+    <section class="judge-list">
         <div class="section">
-            <h1 class="heading heading--1">{{ .Title }}</h1>
-            <menu class="speaker-list__menu">
+            <h1 class="heading heading--1">{{ T "judges_page.heading" }}</h1>
+            <menu class="judge-list__menu">
                 {{ range .Pages }}
-                    <li class="speaker-list__item">
-                        {{- partial "speaker-card.html" (
+                    <li class="judge-list__item">
+                        {{- partial "judge-card.html" (
                             dict
                             "profileUrl" .RelPermalink
                             "avatarResource" .Params.avatarResource
                             "name" .Title
+                            "position" .Params.position
+                            "expertise" .Params.expertise
                             "description" .Params.description
-                            "linkedinUrl" .Params.linkedinUrl
+                            "githubUrl" .Params.githubUrl
                             "xUrl" .Params.xUrl
                             "companyUrl" .Params.company
                             )

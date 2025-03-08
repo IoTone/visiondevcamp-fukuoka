@@ -3,41 +3,41 @@
 
 <div class="section-container">
     <section
-        class="section section--long featured-speakers"
-        {{ with T "featured_speakers_section.heading" }}
+        class="section section--long featured-judges"
+        {{ with T "featured_judges_section.heading" }}
             aria-label="{{ . }}"
         {{ end }}>
         <h1 class="heading heading--highlighted heading--centered">
-            {{ T "featured_speakers_section.heading" }}
+            {{ T "featured_judges_section.heading" }}
         </h1>
         <h2 class="heading heading--2 heading--centered">
-            {{ T "featured_speakers_section.subheading" }}
+            {{ T "featured_judges_section.subheading" }}
         </h2>
         <ul
-            class="featured-speakers__menu"
-            {{- with (T "featured_speakers_section.heading") }}
+            class="featured-judges__menu"
+            {{- with (T "featured_judges_section.heading") }}
                 aria-label="{{ . }}"
             {{- end }}>
-            {{- range $index, $speaker := $input.speakers }}
-                <li aria-label="{{ $speaker.name }}">
-                    {{- partial "speaker-card.html" (
+            {{- range $index, $judge := $input.judges }}
+                <li aria-label="{{ $judge.name }}">
+                    {{- partial "judge-card.html" (
                         dict
-                        "profileUrl" $speaker.profileUrl
-                        "avatarResource" $speaker.avatarResource
-                        "name" $speaker.name
-                        "description" $speaker.description
-                        "linkedinUrl" $speaker.linkedinUrl
-                        "xUrl" $speaker.xUrl
-                        "companyUrl" $speaker.companyUrl
+                        "profileUrl" $judge.profileUrl
+                        "avatarResource" $judge.avatarResource
+                        "name" $judge.name
+                        "description" $judge.description
+                        "linkedinUrl" $judge.linkedinUrl
+                        "xUrl" $judge.xUrl
+                        "companyUrl" $judge.companyUrl
                         )
                     }}
                 </li>
             {{- end }}
         </ul>
 
-        {{- with $input.speakersUrl }}
+        {{- with $input.judgesUrl }}
             <a href="{{ . }}" class="button button--outlined">
-                {{ T "featured_speakers_section.action" }}
+                {{ T "featured_judges_section.action" }}
             </a>
         {{- end }}
     </section>

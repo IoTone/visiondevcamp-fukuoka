@@ -16,7 +16,7 @@
             class="shaped-image__image"
         {{- end }}
         {{- with $input.imageResource }}
-            src="{{ .RelPermalink }}"
+            src="{{ $input.imageResource | relURL }}"
         {{- else }}
             {{- with resources.Get "images/shaped-image-fallback.webp" }}
                 src="{{ .RelPermalink }}"

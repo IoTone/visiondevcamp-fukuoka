@@ -45,7 +45,7 @@ breaking changes when refactoring.
 
 -   All keys must have the form `[feature].[element]` and must give the key a precise context.
     -   Where `[feature]` is a descriptive name of one functional part of the
-        theme like `about_page` or `featured_speakers_section`. In very clear and
+        theme like `about_page` or `featured_judges_section`. In very clear and
         unambiguous cases sometimes just `menu` or `countdown`.
     -   Where `[element]` is a descriptive name of one functional part of the
         specific feature like `heading` or `day_filter`. Or, as last resort, the

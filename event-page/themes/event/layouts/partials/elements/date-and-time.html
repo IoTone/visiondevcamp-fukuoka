@@ -7,6 +7,7 @@
         "%s at %s"
         ($input.date | time.Format ":date_long")
         ($input.date | time.Format ":time_short")
+        ($input.date | time.Format ":schedule_date")
     }}
     <time datetime="{{ $startsAtMachineReadable }}">{{ $startsAtHumanReadable }}</time>
 {{- else }}

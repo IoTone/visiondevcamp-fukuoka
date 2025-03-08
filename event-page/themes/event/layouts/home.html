@@ -4,9 +4,11 @@
         "title" .Site.Params.themes.event.title
         "location" .Site.Params.themes.event.location
         "startDate" .Site.Params.themes.event.startDate
+        "endDate" .Site.Params.themes.event.endDate
         "backgroundImage" .Site.Params.themes.event.images.titleBackground
         "eventbriteId" .Site.Params.themes.event.callToAction.eventbrite.eventId
         "ctaUrl" .Site.Params.themes.event.callToAction.other.url
+        "Language" .Site.Language.Lang
         )
     }}
 
@@ -19,7 +21,7 @@
         "subtitle" .Site.Params.themes.event.slogan
         "description" .Site.Params.themes.event.description
         "logo" .Site.Params.themes.event.images.logo
-        "numberOfSpeakers" ((where .Site.RegularPages "Section" "speakers") | len)
+        "numberOfjudges" ((where .Site.RegularPages "Section" "judges") | len)
         "numberOfSessions" (where (where .Site.RegularPages "Section" "sessions") "Params.isServiceSession" false | len)
         "numberOfDays" (div (sub (add $eventEndDate.Unix $dayInSeconds) $eventStartDate.Unix) $dayInSeconds)
         "location" .Site.Params.themes.event.location )
@@ -30,8 +32,14 @@
     {{ partial "sessions.html" . }}
 
 
-    <!-- speakers -->
-    {{ partial "speakers.html" . }}
+    <!-- judges -->
+    {{ partial "judges.html" . }}
 
-    {{- partial "sections/our-sponsors.html" (dict "sponsors" .Site.Params.themes.event.sponsors) -}}
+
+    <!-- sponsors -->
+    {{ partial "sections/our-sponsors.html" . }}
+
+
+    <!-- location -->
+    {{ partial "sections/location.html" }}
 {{- end }}

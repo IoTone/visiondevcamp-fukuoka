@@ -2,7 +2,7 @@
 {{ $pages := slice }}
 {{ $resources := slice }}
 
-{{ range $input.sessionize.speakers }}
+{{ range $input.sessionize.judges }}
     {{ $content := dict "mediaType" "text/markdown" "value" .bio }}
     {{ $sessionIds := apply .sessions "cast.ToString" "." }}
     {{ $sessions := where $input.sessionize.sessions "id" "in" $sessionIds }}
@@ -11,10 +11,10 @@
     {{ $companyUrl := (index (where .links "linkType" "eq" "Company_Website") 0).url }}
     {{ $params :=
         dict
-        "speakerId" .id
+        "judgeId" .id
         "tagLine" .tagLine
         "sessions" $sessions
-        "isTopSpeaker" .isTopSpeaker
+        "isTopjudge" .isTopjudge
         "xUrl" $xUrl
         "linkedinUrl" $linkedinUrl
         "companyUrl" $companyUrl
@@ -31,7 +31,7 @@
     }}
     {{ $pages = $pages | append $page }}
 
-    {{/* Store the speaker's profile picture. */}}
+    {{/* Store the judge's profile picture. */}}
     {{ $item := . }}
     {{ with $url := $item.profilePicture }}
         {{ with resources.GetRemote $url  | images.Filter (images.Process "q90 webp") }}

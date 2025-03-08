@@ -25,25 +25,25 @@ test(`Should display all relevant session information`, async ({ page }) => {
         fullName: 'John Jackson',
         bio: 'John is a seasoned software engineer with over 15 years of experience in the tech industry. He has worked with leading tech companies, contributing to innovative projects in AI, cloud computing, and cybersecurity. John is a passionate advocate for open-source software and has been an active contributor to several high-profile projects. He frequently speaks at international conferences, sharing his insights on emerging technologies and best practices in software development. In his free time, Joh',
         tagLine: 'Innovative Tech Leader and AI Enthusiast',
-        profileUrl: '/speakers/john-jackson-00000000-0000-0000-0000-000000000001/',
+        profileUrl: '/judges/john-jackson-00000000-0000-0000-0000-000000000001/',
     },
     {
         fullName: 'Sophia Test',
-        bio: "Sophia is a renowned software architect with over a decade of experience in developing scalable web applications. She has a deep passion for cloud computing and has led numerous successful projects in the tech industry. Sophia is also a prolific writer and speaker, known for her engaging presentations at major tech conferences around the world. When she's not coding, Sophia enjoys hiking, photography, and contributing to open-source projects.",
+        bio: "Sophia is a renowned software architect with over a decade of experience in developing scalable web applications. She has a deep passion for cloud computing and has led numerous successful projects in the tech industry. Sophia is also a prolific writer and judge, known for her engaging presentations at major tech conferences around the world. When she's not coding, Sophia enjoys hiking, photography, and contributing to open-source projects.",
         tagLine: 'CEO / Contoso',
-        profileUrl: '/speakers/sophia-test-00000000-0000-0000-0000-000000000000/',
+        profileUrl: '/judges/sophia-test-00000000-0000-0000-0000-000000000000/',
     },
 ].forEach(({ fullName, tagLine, bio, profileUrl }) => {
-    test(`Should display speaker of the session ${fullName}`, async ({ page }) => {
+    test(`Should display judge of the session ${fullName}`, async ({ page }) => {
         await page.goto('/sessions/mastering-personal-branding-in-the-digital-age-729571');
 
-        const sessionSpeakers = page.getByRole('region', { name: 'Speaker of the session' });
-        const speaker1 = sessionSpeakers.getByRole('listitem', { name: fullName });
-        await expect(speaker1).toBeVisible();
-        await expect(speaker1).toContainText(fullName);
-        await expect(speaker1).toContainText(tagLine);
-        await expect(speaker1).toContainText(bio);
-        const readMoreLink = speaker1.getByRole('link', { name: 'mehr erfahren' });
+        const sessionjudges = page.getByRole('region', { name: 'judge of the session' });
+        const judge1 = sessionjudges.getByRole('listitem', { name: fullName });
+        await expect(judge1).toBeVisible();
+        await expect(judge1).toContainText(fullName);
+        await expect(judge1).toContainText(tagLine);
+        await expect(judge1).toContainText(bio);
+        const readMoreLink = judge1.getByRole('link', { name: 'mehr erfahren' });
         await expect(readMoreLink).toBeVisible();
         await readMoreLink.click();
         await expect(page).toHaveURL(profileUrl);

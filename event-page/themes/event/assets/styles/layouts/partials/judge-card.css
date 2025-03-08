@@ -1,4 +1,4 @@
-.speaker-card {
+.judge-card {
     width: 16.875rem;
     height: 19.9375rem;
     box-sizing: border-box;
@@ -14,13 +14,7 @@
     transition: box-shadow 0.3s ease;
 }
 
-.speaker-card:hover {
-    box-shadow:
-        0 0 0 0.1875rem var(--color-primary),
-        0 0.0625rem 0.1875rem var(--color-shadow);
-}
-
-.speaker-card__link {
+.judge-card__link {
     all: unset;
     box-sizing: border-box;
     width: 100%;
@@ -33,14 +27,20 @@
     cursor: pointer;
 }
 
-.speaker-card__avatar {
+.judge-card__avatar {
     border-radius: 50%;
     width: 7.5rem;
     height: 7.5rem;
     object-fit: cover;
 }
 
-.speaker-card__description {
+.judge-card__link .judge-card__position {
+    margin: 0;
+    text-align: center;
+    font-size: 0.9rem;
+}
+
+.judge-card__description {
     all: unset;
     font-size: 1rem;
     height: 2.75rem;
@@ -54,12 +54,12 @@
     overflow: hidden;
 }
 
-.speaker-card__social-links {
+.judge-card__social-links {
     flex-shrink: 1;
     margin-bottom: 0.9375rem;
 }
 
-.speaker-card__social-link {
+.judge-card__social-link {
     color: var(--color-primary);
     font-size: 1.125rem;
     padding: 0.25rem;
@@ -68,7 +68,7 @@
     position: relative;
 }
 
-.speaker-card__social-link::before {
+.judge-card__social-link::before {
     content: '';
     position: absolute;
     top: 0;
@@ -80,11 +80,11 @@
     transition: border 0.3s ease;
 }
 
-.speaker-card__social-link:hover::before {
+.judge-card__social-link:hover::before {
     background-color: var(--color-primary-lighter);
     opacity: 0.2;
 }
 
-.speaker-card__social-link:hover {
+.judge-card__social-link:hover {
     opacity: 1;
 }

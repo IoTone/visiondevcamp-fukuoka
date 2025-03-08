@@ -1,32 +1,27 @@
-{{ $sponsors := .sponsors }}
-{{ $validSponsors := slice }}
-{{ range $sponsor := $sponsors }}
-    {{ if and $sponsor.logo $sponsor.url }}
-        {{ $validSponsors = $validSponsors | append $sponsor }}
-    {{ end }}
-{{- end }}
-
-{{ if gt (len $validSponsors) 0 }}
-    <div class="section-container">
-        <section class="section section--short our-sponsors">
-            <h1 class="heading heading--highlighted heading--centered">
-                {{ T "sponsors_section.heading" }}
-            </h1>
-            <h2 class="heading heading--2 heading--centered">
-                {{ T "sponsors_section.subheading" }}
-            </h2>
-            <ul class="our-sponsors__list">
-                {{ range $sponsor := $validSponsors }}
-                    <li class="our-sponsors__list-item">
-                        {{- partial "sponsor-card.html" (dict
-                            "companyUrl" $sponsor.url
-                            "logoResource" $sponsor.logo
-                            "name" $sponsor.name
-                            )
-                        }}
-                    </li>
-                {{- end }}
-            </ul>
-        </section>
-    </div>
-{{ end }}
+<div class="section-container section-container--dimmed">
+    <section class="section section--short our-sponsors">
+        <h1 class="heading heading--highlighted heading--centered">
+            {{ T "sponsors_section.heading" }}
+        </h1>
+        <h2 class="heading heading--2 heading--centered">
+            {{ T "sponsors_section.subheading" }}
+        </h2>
+        <ul class="our-sponsors__list">
+            {{ range where .Site.RegularPages "Section" "sponsors" }}
+                <li class="our-sponsors__list-item">
+                    <div class="sponsor">
+                        <a href="{{ .Params.companyUrl | safeURL }}" target="_blank">
+                            <img
+                                src="{{ .Params.logo | relURL }}"
+                                alt="{{ .Title }}"
+                                class="sponsor__logo"
+                                width="100"
+                                height="100" />
+                        </a>
+                        <p>{{ .Title }}</p>
+                    </div>
+                </li>
+            {{ end }}
+        </ul>
+    </section>
+</div>

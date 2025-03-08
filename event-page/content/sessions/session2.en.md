@@ -1,8 +1,8 @@
 ---
-title: 'session2 title'
-date: 2025-02-05T00:00:00
+title: 'Day 2'
+date: 2025-03-05T00:00:00
 isScheduled: true
-eventDate: '2025-04-11T14:00:00'
+eventDate: '2025-04-12T09:00:00'
 ---
 
-session2:English
+Hacking Session

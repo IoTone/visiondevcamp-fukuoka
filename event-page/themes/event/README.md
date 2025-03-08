@@ -5,13 +5,13 @@ This theme turns your event planned with
 creates various contents and offers the following features.
 
 -   Filterable Event schedule
--   Session and speaker pages
+-   Session and judge pages
 -   Responsive design
 -   Multilingual
 -   Eye-catching home page with:
     -   Countdown
     -   Key figures
-    -   Highlighted speakers and sessions
+    -   Highlighted judges and sessions
     -   Sponsors
 -   Eventbrite integration
 -   Map integration
@@ -79,7 +79,7 @@ with your menu configuration. All you need are the identifier and the slug
 | ----------------- | ------------------ | ---------------------------------------------------- |
 | `about`           | `/about`           | Information about the event organizers.              |
 | `sessions`        | `/sessions`        | A schedule of the event's sessions.                  |
-| `speakers`        | `/speakers`        | An overview of all speakers.                         |
+| `judges`          | `/judges`          | An overview of all judges.                           |
 | `location`        | `/location`        | A page with the event address, directions and a map. |
 | `sponsors`        | `/sponsors`        | A page displaying sponsors and partners.             |
 | `code_of_conduct` | `/code-of-conduct` | A page with the Berlin Code of Conduct.              |

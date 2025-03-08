@@ -1,4 +1,4 @@
-.speaker-avatar-container {
+.judge-avatar-container {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -8,7 +8,7 @@
     color: var(--color-primary); /* Colors the dotted shape */
 }
 
-.speaker-avatar-container__social-link {
+.judge-avatar-container__social-link {
     color: var(--color-primary);
     font-size: 1.125rem;
     padding: 0.25rem;
@@ -17,7 +17,7 @@
     position: relative;
 }
 
-.speaker-avatar-container__social-link::before {
+.judge-avatar-container__social-link::before {
     content: '';
     position: absolute;
     top: 0;
@@ -29,11 +29,11 @@
     transition: border 0.3s ease;
 }
 
-.speaker-avatar-container__social-link:hover::before {
+.judge-avatar-container__social-link:hover::before {
     background-color: var(--color-primary-lighter);
     opacity: 0.2;
 }
 
-.speaker-avatar-container__social-link:hover {
+.judge-avatar-container__social-link:hover {
     opacity: 1;
 }
