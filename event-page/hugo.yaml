@@ -37,11 +37,13 @@ languages:
                         VisionDevCamp is a non-profit developer event focused on application development for Apple Vision Pro and visionOS.
                         An experienced volunteer team supports developers, designers, entrepreneurs, and enthusiasts of Apple Vision Pro and visionOS.
                     directions: |
-                        #### By Public Transportation:
-                        Directions to the venue...
+                        5 minutes walk from Tenjin Subway Station / Get off at Nishitetsu Bus "Tenjin 4-chome"
 
-                        #### By Car:
-                        Parking...
+                        *There is no car or bicycle parking available. Please use public transportation.
+                    address:
+                        - Engineer Cafe - Hacker Space Fukuoka -
+                        - Red Brick Culture Center
+                        - 1-15-30 Tenjin, Chuo-ku, Fukuoka City
                     aboutUs: |
                         ### A Historic Hackathon Originating from Silicon Valley
                         With its origins in the release of the iPhone in 2007, it has a long history of 16 years.
@@ -88,11 +90,9 @@ languages:
                         VisionDevCampは、Apple Vision ProとvisionOS向けのアプリケーション開発に焦点を当てた、非営利の開発者向けイベントです。
                         経験豊富なボランティアチームがApple Vision ProとvisionOSの開発者、デザイナー、起業家、および愛好家の方々をサポートします。
                     directions: |
-                        #### 公共交通機関で:
-                        会場までの・・・
+                        地下鉄天神駅 徒歩5分 / 西鉄バス「天神4丁目」下車すぐ
 
-                        #### 車で:
-                        駐車場・・・
+                        ※駐車場、駐輪場は併設しておりません。公共機関をご利用ください。
 
                     aboutUs: |
                         ### シリコンバレー発祥の歴史あるハッカソン
@@ -120,11 +120,12 @@ params:
             startDate: 2025-04-11
             endDate: 2025-04-13
             address:
-                - Fukuoka
-                - 福岡市中央区天神
+                - Engineer Cafe - Hacker Space Fukuoka -
+                - 赤煉瓦文化館
+                - 福岡市中央区天神1丁目15番30号
             map:
-                embeddableMapUrl: //umap.openstreetmap.fr/en/map/medialesson-gmbh_1105977?scrollWheelZoom=false
-                viewLargerMapUrl: //umap.openstreetmap.fr/en/map/medialesson-gmbh_1105977
+                embeddableMapUrl: https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d415.4337164124496!2d130.4015388!3d33.5931147!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x354191926a7b3bcf%3A0xce06732ab1ee31b1!2z56aP5bKh5biC6LWk54WJ55Om5paH5YyW6aSo77yI5pen5pel5pys55Sf5ZG95Lmd5bee5pSv5bqX77yJ!5e0!3m2!1sja!2sjp!4v1741421198890!5m2!1sja!2sjp
+                viewLargerMapUrl: https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d415.4337164124496!2d130.4015388!3d33.5931147!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x354191926a7b3bcf%3A0xce06732ab1ee31b1!2z56aP5bKh5biC6LWk54WJ55Om5paH5YyW6aSo77yI5pen5pel5pys55Sf5ZG95Lmd5bee5pSv5bqX77yJ!5e0!3m2!1sja!2sjp!4v1741421198890!5m2!1sja!2sjp
                 # Link to edit the map: https://umap.openstreetmap.fr/en/map/anonymous-edit/1105977:HjtVVnbwCn6Yi3O02DTPnspzuyoHvP_Kn-M9rE53eE8
             callToAction:
                 other:
@@ -136,15 +137,7 @@ params:
             images:
                 logo: logos/visiondevcamp_fukuoka_logo_style2.png
                 titleBackground: images/visiondevcamp2025-group-photo.jpg
-                location: images/habermehlstr.webp
-            sponsors:
-                - logo: logos/medialesson-logo.svg
-                  url: https://www.media-lesson.com/
-                  name: 'Medialesson GmbH'
-            partners:
-                - logo: logos/medialesson-logo.svg
-                  url: https://www.media-lesson.com/
-                  name: 'Medialesson GmbH'
+                location: images/engineer-cafe.jpg
             organizers:
                 - '00000000-0000-0000-0000-000000000000'
                 - '00000000-0000-0000-0000-000000000001'

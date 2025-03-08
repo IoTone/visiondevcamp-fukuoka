@@ -33,7 +33,7 @@ secondary_menu.label: Secondary menu
 language_menu.label: Select language
 language_menu.ja: 日本語
 language_menu.en: English
-location_page.heading: Our Location
+location_page.heading: Location
 location_page.directions_heading: Directions
 location_page.map_frame: Interactive map showing the location of the event
 location_page.map_fullscreen: View larger map of the event location
