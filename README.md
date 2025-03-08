@@ -30,6 +30,8 @@ hugo
 
 ## How to add a new session(schedule)
 
+TODO: Write up how event sessions are sorted
+
 1. Create a new markdown file in the `event-page/content/sessions` directory.
 2. Add the session to the `isScheduled` parameter.
 3. Add the session to the `eventDate` parameter.
