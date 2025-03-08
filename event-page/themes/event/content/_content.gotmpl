@@ -14,20 +14,6 @@
 }}
 {{ .AddPage $page }}
 
-{{/* Create empty sponsors page (template: `layouts/miscellaneous/sponsors`). */}}
-{{ $content := dict
-    "mediaType" "text/markdown"
-}}
-{{ $page := dict
-    "content" $content
-    "kind" "page"
-    "path" "sponsors"
-    "title" "Sponsors & Partners"
-    "type" "miscellaneous"
-    "layout" "sponsors"
-}}
-{{ .AddPage $page }}
-
 {{/* Create empty sponsors page (template: `layouts/miscellaneous/location`). */}}
 {{ $content := dict
     "mediaType" "text/markdown"
