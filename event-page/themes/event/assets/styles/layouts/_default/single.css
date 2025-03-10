@@ -1,4 +1,10 @@
 .layout-single-default {
     max-width: 48.125rem;
     margin-bottom: 3.125rem;
+    max-width: 1200px;
+}
+
+.layout-single-default .heading--3 {
+    margin-top: 1.5rem;
+    margin-bottom: 1rem;
 }
