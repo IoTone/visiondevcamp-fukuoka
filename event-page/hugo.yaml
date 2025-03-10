@@ -171,77 +171,77 @@ languages:
                         2007年のiPhoneの発売を起源とし、16年の長い歴史を有しています。
                         iPhoneDevCamp (2007, 2008, 2009)から始まり、iPadDevCamp (2010)、iOSDevCamp (2010, 2011, 2012, 2013)と、規模と参加者を拡大していきました。
 
-                        ### Event Format
+                        ### イベント形式
 
-                        Detailed Format: https://visiondevcamp.org/hackathon/
+                        詳細な形式: https://visiondevcamp.org/hackathon/
 
-                        The event format has evolved over the years from its origins in iOSDevCamp. 
-                        What is different about this Hackathon vs other large events like MIT Reality Hack:
+                        イベント形式は、iOSDevCampの起源から年々進化してきました。
+                        MIT Reality Hackのような他の大規模イベントとこのハッカソンの違いは次のとおりです：
 
-                        - Focus is on collaboration!
-                        - Less emphasis on expertise ... other hackathons you have to qualify to join or be invited.
-                        - Being learner/beginner friendly, this hackathon offers in-event learning sessions
-                        - Competitition Judging categories are flexible.  Judges reserve the right to create new categories if they see something worth an award.
-                        - Participants can have a team size of 1-6, solo teams are fine, large teams are discouraged
-                        - Teams formation encourages people to work with new people, mix skills
-                        - Staff will support team formation, and work hard to make sure participants have a team if they desire
-                        - Participants are invited to join multiple teams
-                        - Teams are invited to support each other ... instead of intensive competition, Teams are allowed to share code or knowledge
-                        - Winners will enjoy social media validation and publicity
-                        - Small prizes are to be awarded after Judging
-                        - Hardware will be made available for participants (to share) during the event
+                        - 協力に焦点を当てています！
+                        - 専門知識の強調が少ない。他のハッカソンでは参加するために資格を得るか招待される必要があります。
+                        - 学習者/初心者に優しい。このハッカソンではイベント内で学習セッションを提供します。
+                        - コンペティションの審査カテゴリーは柔軟です。審査員は、賞に値するものを見つけた場合、新しいカテゴリーを作成する権利を有します。
+                        - 参加者は1〜6人のチームサイズが可能で、ソロチームも問題ありませんが、大きなチームは推奨されません。
+                        - チーム編成は新しい人々と協力し、スキルを混ぜることを奨励します。
+                        - スタッフはチーム編成をサポートし、参加者が望む場合はチームを持てるように努めます。
+                        - 参加者は複数のチームに参加することができます。
+                        - チームはお互いをサポートすることが奨励されます。激しい競争の代わりに、チームはコードや知識を共有することが許可されています。
+                        - 勝者はソーシャルメディアでの承認と宣伝を楽しむことができます。
+                        - 小さな賞品が審査後に授与されます。
+                        - イベント中に参加者が共有できるハードウェアが提供されます。
 
-                        ### Technology Tracks
+                        ### 技術トラック
 
-                        - Native/VisionOS/Reality Kit
+                        - ネイティブ/VisionOS/Reality Kit
                         - Unity / Spatial
-                        - XR / Browser
+                        - XR / ブラウザ
                         - Unreal Engine
 
-                        ### Judging Categories
+                        ### 審査カテゴリー
 
-                        -	Best Overall App
-                        -	Best Health/Medical App
-                        -	Best Game
-                        -	Best Networked App
-                        -	Best Spatial Experience
-                        -	Best Hardware Hack
-                        -	Best OSS Contribution
-                        -	Honorable mention  UI/UX/Design Experience
-                        -	Best Education App
-                        -	Best Utility App
-                        -	Best Styly App
-                        -	Best Student App Submission
-                        -	Honsorable Mention Team Effort
-                        -	Fukuoka Civic Engagement Award
-                        -	Honorable Mention Outdoor Spatial App
-                        -	Best Multiuser/Networked App
-                        -	Artistic Achievement Award Fukuoka
-                        -	Most Valuable Mentor
-                        -	Best Fukuoka 3D Spatial Asset Design OSS
+                        - ベスト総合アプリ
+                        - ベスト健康/医療アプリ
+                        - ベストゲーム
+                        - ベストネットワークアプリ
+                        - ベスト空間体験
+                        - ベストハードウェアハック
+                        - ベストOSS貢献
+                        - 特別賞 UI/UX/デザイン体験
+                        - ベスト教育アプリ
+                        - ベストユーティリティアプリ
+                        - ベストStylyアプリ
+                        - ベスト学生アプリ提出
+                        - 特別賞チーム努力
+                        - 福岡市民参加賞
+                        - 特別賞屋外空間アプリ
+                        - ベストマルチユーザー/ネットワークアプリ
+                        - 福岡芸術的功績賞
+                        - 最も価値のあるメンター
+                        - ベスト福岡3D空間資産デザインOSS
 
-                        ### 2024 VisionDevCamp Silicon Valley Demographics
+                        ### 2024 VisionDevCampシリコンバレーの人口統計
 
-                        121 attendees
+                        121名の参加者
 
-                        117 from the US
-                        Of those 117...
-                        94 from California
-                        4 from Missouri
-                        4 from New York
-                        3 from Nevada
-                        3 from Texas
-                        2 from Oregon
-                        2 from Utah
-                        2 from Washington
-                        1 from Georgia
-                        1 from North Carolina
-                        1 from Washington, DC
+                        117名がアメリカから
+                        そのうち117名の内訳...
+                        94名がカリフォルニアから
+                        4名がミズーリから
+                        4名がニューヨークから
+                        3名がネバダから
+                        3名がテキサスから
+                        2名がオレゴンから
+                        2名がユタから
+                        2名がワシントンから
+                        1名がジョージアから
+                        1名がノースカロライナから
+                        1名がワシントンD.C.から
 
-                        1 from Germany
-                        1 from Denmark
-                        1 from France
-                        1 from Japan
+                        1名がドイツから
+                        1名がデンマークから
+                        1名がフランスから
+                        1名が日本から
 
                         ### 多数の成功プロジェクトを輩出
                         開発者コミュニティにおけるインクルージョン、多様性、エンパワーメントを促進しており、毎年、何百人もの開発者、デザイナー、愛好家が集まり、iPhone、iPad、iOS向けのアプリを作成してきました。
