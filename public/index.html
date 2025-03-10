@@ -1,239 +1,317 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="ja">
     <head>
-	<meta name="generator" content="Hugo 0.135.0">
+        <meta name="generator" content="Hugo 0.135.0" />
         <meta charset="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <link rel="shortcut icon" href="https://visiondevcamp-fukuoka.pages.dev/favicon.ico" />
+        <link
+            rel="shortcut icon"
+            href="https://visiondevcamp-fukuoka.pages.dev/favicon.ico"
+        />
 
-        <title>
-            VisionDevCamp Fukuoka CC-BY-SA 2025
-        </title>
+        <title>VisionDevCamp Fukuoka CC-BY-SA 2025</title>
 
-        <meta name="description" content="VisionDevCampは、Apple Vision ProとvisionOS向けのアプリケーション開発に焦点を当てた、非営利の開発者向けイベントです。
-経験豊富なボランティアチームがApple Vision ProとvisionOSの開発者、デザイナー、起業家、および愛好家の方々をサポートします。" />
+        <meta
+            name="description"
+            content="VisionDevCampは、Apple Vision ProとvisionOS向けのアプリケーション開発に焦点を当てた、非営利の開発者向けイベントです。
+経験豊富なボランティアチームがApple Vision ProとvisionOSの開発者、デザイナー、起業家、および愛好家の方々をサポートします。"
+        />
 
-        
-            
-                <link rel="alternate" hreflang="en" href="https://visiondevcamp-fukuoka.pages.dev/en/" />
-            
-            <link rel="alternate" hreflang="ja" href="https://visiondevcamp-fukuoka.pages.dev/" />
-        
+        <link
+            rel="alternate"
+            hreflang="en"
+            href="https://visiondevcamp-fukuoka.pages.dev/en/"
+        />
 
-        <meta property="og:url" content="https://visiondevcamp-fukuoka.pages.dev/">
-  <meta property="og:description" content="静的ウェブサイトジェネレーターHUGOの「イベント」テーマの機能を紹介するデモウェブサイトです。">
-  <meta property="og:locale" content="ja">
-  <meta property="og:type" content="website">
-    <meta property="og:image" content="https://visiondevcamp-fukuoka.pages.dev/logos/medicon-512.jpg">
+        <link
+            rel="alternate"
+            hreflang="ja"
+            href="https://visiondevcamp-fukuoka.pages.dev/"
+        />
 
-        
-  <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:image" content="https://visiondevcamp-fukuoka.pages.dev/logos/medicon-512.jpg">
-  <meta name="twitter:description" content="静的ウェブサイトジェネレーターHUGOの「イベント」テーマの機能を紹介するデモウェブサイトです。">
+        <meta
+            property="og:url"
+            content="https://visiondevcamp-fukuoka.pages.dev/"
+        />
+        <meta
+            property="og:description"
+            content="静的ウェブサイトジェネレーターHUGOの「イベント」テーマの機能を紹介するデモウェブサイトです。"
+        />
+        <meta property="og:locale" content="ja" />
+        <meta property="og:type" content="website" />
+        <meta
+            property="og:image"
+            content="https://visiondevcamp-fukuoka.pages.dev/logos/medicon-512.jpg"
+        />
 
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta
+            name="twitter:image"
+            content="https://visiondevcamp-fukuoka.pages.dev/logos/medicon-512.jpg"
+        />
+        <meta
+            name="twitter:description"
+            content="静的ウェブサイトジェネレーターHUGOの「イベント」テーマの機能を紹介するデモウェブサイトです。"
+        />
 
-        
-            <link rel="stylesheet" href="/styles.min.85b28f0d56b0150c23bce557a67b6ef14474b1a8498a635ae85c278e8fc37373.css" type="text/css" media="screen" integrity="sha256-hbKPDVawFQwjvOVXpntu8UR0sahJimNa6Fwnjo/Dc3M=" />
-        
+        <link
+            rel="stylesheet"
+            href="/styles.min.85b28f0d56b0150c23bce557a67b6ef14474b1a8498a635ae85c278e8fc37373.css"
+            type="text/css"
+            media="screen"
+            integrity="sha256-hbKPDVawFQwjvOVXpntu8UR0sahJimNa6Fwnjo/Dc3M="
+        />
 
-    <style>
-      :root {
-        --color-primary-lighter:#5CB1E8;
-        --color-primary:#0d81be;
-        --color-primary-darker:#143e8b;
-        --color-primary-darkest:#111928;
-        --color-secondary:#f7f8fa;
-        --color-secondary-darker:#637381;
-        --color-track:#15B8CA;
-        --color-shadow:#a6afc366;
-      }
-    </style>
+        <style>
+            :root {
+                --color-primary-lighter: #5cb1e8;
+                --color-primary: #0d81be;
+                --color-primary-darker: #143e8b;
+                --color-primary-darkest: #111928;
+                --color-secondary: #f7f8fa;
+                --color-secondary-darker: #637381;
+                --color-track: #15b8ca;
+                --color-shadow: #a6afc366;
+            }
+        </style>
     </head>
 
     <body class="page-body">
-        <input type="checkbox" class="sidebar-toggle" id="sidebarToggle" /><div class="cta-banner" aria-hidden="true">
-    <span>今すぐチケットを入手！</span>
-</div>
-
-        
-
+        <input type="checkbox" class="sidebar-toggle" id="sidebarToggle" />
+        <div class="cta-banner" aria-hidden="true">
+            <span>今すぐチケットを入手！</span>
+        </div>
 
         <header class="section-container page-header" id="pageHeader">
-            <div class="section section--short page-header__content" id="pageHeaderContent">
-                <nav id="mainNavigation" class="page-header__navigation" aria-labelledby="main-navigation-label">
-                    
-                    <label id="main-navigation-label" class="sr-only">メインメニュー</label>
-                    <label class="page-header__toggle-sidebar-label" for="sidebarToggle"><svg width="28" height="16" viewBox="0 0 28 16" fill="none" xmlns="http://www.w3.org/2000/svg">
-    <rect width="22.4" height="1.33333" fill="black" />
-    <rect x="5.6001" y="7.33334" width="22.4" height="1.33333" fill="black" />
-    <rect y="14.6667" width="22.4" height="1.33333" fill="black" />
-</svg>
-
+            <div
+                class="section section--short page-header__content"
+                id="pageHeaderContent"
+            >
+                <nav
+                    id="mainNavigation"
+                    class="page-header__navigation"
+                    aria-labelledby="main-navigation-label"
+                >
+                    <label id="main-navigation-label" class="sr-only"
+                        >メインメニュー</label
+                    >
+                    <label
+                        class="page-header__toggle-sidebar-label"
+                        for="sidebarToggle"
+                        ><svg
+                            width="28"
+                            height="16"
+                            viewBox="0 0 28 16"
+                            fill="none"
+                            xmlns="http://www.w3.org/2000/svg"
+                        >
+                            <rect width="22.4" height="1.33333" fill="black" />
+                            <rect
+                                x="5.6001"
+                                y="7.33334"
+                                width="22.4"
+                                height="1.33333"
+                                fill="black"
+                            />
+                            <rect
+                                y="14.6667"
+                                width="22.4"
+                                height="1.33333"
+                                fill="black"
+                            />
+                        </svg>
                     </label>
                     <a class="page-header__title-link" href="/">
                         VisionDevCamp Fukuoka CC-BY-SA 2025
                     </a>
 
                     <div class="page-header__menu-container">
-                        <div id="pageHeaderMenuScriptValidator" style="display: none;">
+                        <div
+                            id="pageHeaderMenuScriptValidator"
+                            style="display: none"
+                        >
                             <script>
-                                
-                                pageHeaderMenuScriptValidator.style.display = 'inherit';
+                                pageHeaderMenuScriptValidator.style.display =
+                                    "inherit";
                             </script>
 
-
-<ul class="header-menu">
-    <li>
-        <a
-                class="header-menu__link header-menu__link--active"
-            href="/">
-            VisionDevCamp Fukuoka CC-BY-SA 2025
-        </a>
-    </li>
-        <li>
-            <a
-                href="/about/"
-                    class="header-menu__link">VisionDevCampについて
-            </a>
-        </li>
-        <li>
-            <a
-                href="/sessions/"
-                    class="header-menu__link">スケジュール
-            </a>
-        </li>
-        <li>
-            <a
-                href="/judges/"
-                    class="header-menu__link">審査員
-            </a>
-        </li>
-        <li>
-            <a
-                href="/location/"
-                    class="header-menu__link">場所
-            </a>
-        </li>
-        <li>
-            <a
-                href="/sponsors/"
-                    class="header-menu__link">スポンサー
-            </a>
-        </li>
-</ul>
-
+                            <ul class="header-menu">
+                                <li>
+                                    <a
+                                        class="header-menu__link header-menu__link--active"
+                                        href="/"
+                                    >
+                                        VisionDevCamp Fukuoka CC-BY-SA 2025
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="/about/" class="header-menu__link"
+                                        >VisionDevCampについて
+                                    </a>
+                                </li>
+                                <li>
+                                    <a
+                                        href="/sessions/"
+                                        class="header-menu__link"
+                                        >スケジュール
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="/judges/" class="header-menu__link"
+                                        >審査員
+                                    </a>
+                                </li>
+                                <li>
+                                    <a
+                                        href="/location/"
+                                        class="header-menu__link"
+                                        >場所
+                                    </a>
+                                </li>
+                                <li>
+                                    <a
+                                        href="/sponsors/"
+                                        class="header-menu__link"
+                                        >スポンサー
+                                    </a>
+                                </li>
+                            </ul>
                         </div>
                     </div>
 
-
-    
-    
-    <a class="button button--outlined" href="/" rel="noopener noreferrer" rel="external" target="_blank">
-        今すぐ登録！
-        
-    </a>
-
-
+                    <a
+                        class="button button--outlined"
+                        href="/"
+                        rel="noopener noreferrer"
+                        rel="external"
+                        target="_blank"
+                    >
+                        今すぐ登録！
+                    </a>
                 </nav>
             </div>
         </header>
 
         <aside class="page-sidebar">
-            <nav class="page-sidebar__navigation" aria-labelledby="main-navigation-label">
+            <nav
+                class="page-sidebar__navigation"
+                aria-labelledby="main-navigation-label"
+            >
                 <header class="page-sidebar__header">
                     <a class="page-sidebar__heading-link" href="/">
                         VisionDevCamp Fukuoka CC-BY-SA 2025
                     </a>
 
-                    <label class="page-sidebar__close-label" for="sidebarToggle"><svg width="17" height="17" viewBox="0 0 17 17" fill="none" xmlns="http://www.w3.org/2000/svg">
-    <rect x="0.943359" width="22.4" height="1.33333" transform="rotate(45 0.943359 0)" fill="white" />
-    <rect y="15.8392" width="22.4" height="1.33333" transform="rotate(-45 0 15.8392)" fill="white" />
-</svg>
-
+                    <label class="page-sidebar__close-label" for="sidebarToggle"
+                        ><svg
+                            width="17"
+                            height="17"
+                            viewBox="0 0 17 17"
+                            fill="none"
+                            xmlns="http://www.w3.org/2000/svg"
+                        >
+                            <rect
+                                x="0.943359"
+                                width="22.4"
+                                height="1.33333"
+                                transform="rotate(45 0.943359 0)"
+                                fill="white"
+                            />
+                            <rect
+                                y="15.8392"
+                                width="22.4"
+                                height="1.33333"
+                                transform="rotate(-45 0 15.8392)"
+                                fill="white"
+                            />
+                        </svg>
                     </label>
                 </header>
 
+                <a
+                    class="button button--outlined"
+                    href="/"
+                    rel="noopener noreferrer"
+                    rel="external"
+                    target="_blank"
+                >
+                    今すぐ登録！
+                </a>
 
-    
-    
-    <a class="button button--outlined" href="/" rel="noopener noreferrer" rel="external" target="_blank">
-        今すぐ登録！
-        
-    </a>
-
-
-
-
-<ul class="sidebar-menu">
-        <li class="sidebar-menu__item">
-            <a
-                href="/about/"
-                    class="sidebar-menu__link"
-                aria-label="">VisionDevCampについて
-            </a>
-        </li>
-        <li class="sidebar-menu__item">
-            <a
-                href="/sessions/"
-                    class="sidebar-menu__link"
-                aria-label="">スケジュール
-            </a>
-        </li>
-        <li class="sidebar-menu__item">
-            <a
-                href="/judges/"
-                    class="sidebar-menu__link"
-                aria-label="">審査員
-            </a>
-        </li>
-        <li class="sidebar-menu__item">
-            <a
-                href="/location/"
-                    class="sidebar-menu__link"
-                aria-label="">場所
-            </a>
-        </li>
-        <li class="sidebar-menu__item">
-            <a
-                href="/sponsors/"
-                    class="sidebar-menu__link"
-                aria-label="">スポンサー
-            </a>
-        </li>
-</ul>
-
-
+                <ul class="sidebar-menu">
+                    <li class="sidebar-menu__item">
+                        <a
+                            href="/about/"
+                            class="sidebar-menu__link"
+                            aria-label=""
+                            >VisionDevCampについて
+                        </a>
+                    </li>
+                    <li class="sidebar-menu__item">
+                        <a
+                            href="/sessions/"
+                            class="sidebar-menu__link"
+                            aria-label=""
+                            >スケジュール
+                        </a>
+                    </li>
+                    <li class="sidebar-menu__item">
+                        <a
+                            href="/judges/"
+                            class="sidebar-menu__link"
+                            aria-label=""
+                            >審査員
+                        </a>
+                    </li>
+                    <li class="sidebar-menu__item">
+                        <a
+                            href="/location/"
+                            class="sidebar-menu__link"
+                            aria-label=""
+                            >場所
+                        </a>
+                    </li>
+                    <li class="sidebar-menu__item">
+                        <a
+                            href="/sponsors/"
+                            class="sidebar-menu__link"
+                            aria-label=""
+                            >スポンサー
+                        </a>
+                    </li>
+                </ul>
 
                 <div class="page-sidebar__social-links">
+                    <label
+                        id="social-links-list-label-0"
+                        class="sr-only"
+                    ></label>
 
-
-
-
-<label id="social-links-list-label-0" class="sr-only"></label>
-
-<ul class="social-links" aria-labelledby="social-links-list-label-0">
-</ul>
-
+                    <ul
+                        class="social-links"
+                        aria-labelledby="social-links-list-label-0"
+                    ></ul>
                 </div>
 
-<small>&copy; VisionDevCamp Fukuoka 2025</small>
-
+                <small>&copy; VisionDevCamp Fukuoka 2025</small>
             </nav>
 
             <label class="page-sidebar__empty-space" for="sidebarToggle">
-                
             </label>
         </aside>
 
         <script>
-            const header = document.getElementById('pageHeader');
-            const intercept = document.createElement('div');
+            const header = document.getElementById("pageHeader");
+            const intercept = document.createElement("div");
 
-            intercept.setAttribute('data-observer-intercept', '');
+            intercept.setAttribute("data-observer-intercept", "");
             header.before(intercept);
 
             const observer = new IntersectionObserver(([entry]) => {
-                header.classList.toggle('page-header--scrolled', !entry.isIntersecting);
+                header.classList.toggle(
+                    "page-header--scrolled",
+                    !entry.isIntersecting
+                );
             });
 
             observer.observe(intercept);
@@ -241,9 +319,12 @@
 
         <script>
             function checkWhichMenuToUse() {
-                document.body.setAttribute('data-menu-mode', 'header');
-                if (pageHeaderContent.scrollWidth > pageHeaderContent.clientWidth) {
-                    document.body.setAttribute('data-menu-mode', 'sidebar');
+                document.body.setAttribute("data-menu-mode", "header");
+                if (
+                    pageHeaderContent.scrollWidth >
+                    pageHeaderContent.clientWidth
+                ) {
+                    document.body.setAttribute("data-menu-mode", "sidebar");
                 }
             }
 
@@ -251,767 +332,798 @@
         </script>
 
         <main class="page-main">
-            
-
-
-<section
-    class="event-title-section"
-        style="background-image: url('/images/visiondevcamp2025-group-photo.jpg');"
-    >
-    <div class="event-title-section__header">
-        <h1 class="event-title-section__heading">VisionDevCamp Fukuoka CC-BY-SA 2025
-        </h1>
-        <h2 class="event-title-section__subheading">4月11日
-                〜4月13日
-                <br />
-            @福岡
-        </h2>
-    </div>
-
-    <div class="event-title-section__footer">
-            
-
-
-<time class="counter" datetime="2025-04-11" style="display: none;">
-    <div class="counter__segment">
-        <span class="counter__value" id="countdown-days"></span>
-        <span class="counter__label">日</span>
-    </div>
-    <div class="counter__segment">
-        <span class="counter__value" id="countdown-hours"></span>
-        <span class="counter__label">時間</span>
-    </div>
-    <div class="counter__segment">
-        <span class="counter__value" id="countdown-minutes"></span>
-        <span class="counter__label">分</span>
-    </div>
-    <div class="counter__segment">
-        <span class="counter__value" id="countdown-seconds"></span>
-        <span class="counter__label">秒</span>
-    </div>
-</time>
-
-<script>
-  
-  for (const element of document.getElementsByClassName("counter")) {
-    element.style.display = "inherit";
-  }
-
-  const SECOND_IN_MILLISECONDS = 1000;
-  const MINUTE_IN_MILLISECONDS = SECOND_IN_MILLISECONDS * 60;
-  const HOUR_IN_MILLISECONDS = MINUTE_IN_MILLISECONDS * 60;
-  const DAY_IN_MILLISECONDS = HOUR_IN_MILLISECONDS * 24;
-
-  const daysElement = document.getElementById("countdown-days");
-  const hoursElement = document.getElementById("countdown-hours");
-  const minutesElement = document.getElementById("countdown-minutes");
-  const secondsElement = document.getElementById("countdown-seconds");
-
-  if (!daysElement || !hoursElement || !minutesElement || !secondsElement) {
-    throw Error("Countdown elements not found.");
-  }
-
-  const end = new Date("2025-04-11");
-  let timer;
-
-  function renderCounter() {
-    const now = new Date();
-    let distance = end - now;
-    if (distance < 0) {
-      distance = 0;
-      clearInterval(timer);
-    }
-
-    const days = Math.floor(distance / DAY_IN_MILLISECONDS);
-    const hours = Math.floor(
-            (distance % DAY_IN_MILLISECONDS) / HOUR_IN_MILLISECONDS
-    );
-    const minutes = Math.floor(
-            (distance % HOUR_IN_MILLISECONDS) / MINUTE_IN_MILLISECONDS
-    );
-    const seconds = Math.floor(
-            (distance % MINUTE_IN_MILLISECONDS) / SECOND_IN_MILLISECONDS
-    );
-
-    daysElement.innerHTML = days.toString();
-    hoursElement.innerHTML = hours.toString();
-    minutesElement.innerHTML = minutes.toString();
-    secondsElement.innerHTML = seconds.toString();
-  }
-
-  renderCounter();
-  timer = setInterval(renderCounter, 1000);
-</script>
-
-
-
-    
-    
-    <a class="button button--outlined" href="/" rel="noopener noreferrer" rel="external" target="_blank">
-        今すぐ登録！
-        
-    </a>
-
-
-    </div>
-</section>
-
-
-    
-    
-    
-    
-
-
-<div class="section-container">
-    <section class="section section--long event-highlights-section">
-        <header class="event-highlights-section__header">
-                <img
-                    class="event-highlights-section__logo"
-                    src="/logos/visiondevcamp_fukuoka_logo_style2.png"
-                    
-                        width="800" height="800"
-                     />
-            
-            <article class="event-highlights-section__description">
-                <h1 class="heading heading--highlighted">
-                    VisionDevCamp Fukuoka CC-BY-SA 2025
-                </h1>
-                <h2 class="heading heading--2">
-                    シリコンバレーの2007年より続く歴史あるハッカソンが初めての福岡開催！
-                </h2>
-
-                <p class="paragraph event-highlights-section__paragraph">VisionDevCampは、Apple Vision ProとvisionOS向けのアプリケーション開発に焦点を当てた、非営利の開発者向けイベントです。
-経験豊富なボランティアチームがApple Vision ProとvisionOSの開発者、デザイナー、起業家、および愛好家の方々をサポートします。</p>
-            </article>
-        </header>
-
-        
-    </section>
-</div>
-
-
-
-    
-    <div class="section-container section-container--dimmed">
-    <section class="section session-day-section">
-        <h1 class="heading heading--highlighted heading--centered">
-            スケジュール
-        </h1>
-        <h2 class="heading heading--2 heading--centered">
-            イベントスケジュール
-        </h2>
-        
-            
-                <div class="session-list">
-                    <h3 class="heading heading--highlighted">
-                        19:00-19:30 MIXER
-                        
-                            -4月11日
-                            
-                        
-                    </h3>
-                    <ul class="session-day-section__session-menu">
-                        <li>
-                            <div class="event-row event-row--service-session"><p>Mixer + Food</p>
-</div>
-                        </li>
-                    </ul>
+            <section
+                class="event-title-section"
+                style="
+                    background-image: url('/images/visiondevcamp2025-group-photo.jpg');
+                "
+            >
+                <div class="event-title-section__header">
+                    <h1 class="event-title-section__heading">
+                        VisionDevCamp Fukuoka CC-BY-SA 2025
+                    </h1>
+                    <h2 class="event-title-section__subheading">
+                        4月11日 〜4月13日
+                        <br />
+                        @福岡
+                    </h2>
                 </div>
-            
-        
-            
-                <div class="session-list">
-                    <h3 class="heading heading--highlighted">
-                        19:30-20:30 Keynote
-                        
-                            -4月11日
-                            
-                        
-                    </h3>
-                    <ul class="session-day-section__session-menu">
-                        <li>
-                            <div class="event-row event-row--service-session"><p>Tokyo/Fukuoka simulcast</p>
-</div>
-                        </li>
-                    </ul>
+
+                <div class="event-title-section__footer">
+                    <time
+                        class="counter"
+                        datetime="2025-04-11"
+                        style="display: none"
+                    >
+                        <div class="counter__segment">
+                            <span
+                                class="counter__value"
+                                id="countdown-days"
+                            ></span>
+                            <span class="counter__label">日</span>
+                        </div>
+                        <div class="counter__segment">
+                            <span
+                                class="counter__value"
+                                id="countdown-hours"
+                            ></span>
+                            <span class="counter__label">時間</span>
+                        </div>
+                        <div class="counter__segment">
+                            <span
+                                class="counter__value"
+                                id="countdown-minutes"
+                            ></span>
+                            <span class="counter__label">分</span>
+                        </div>
+                        <div class="counter__segment">
+                            <span
+                                class="counter__value"
+                                id="countdown-seconds"
+                            ></span>
+                            <span class="counter__label">秒</span>
+                        </div>
+                    </time>
+
+                    <script>
+                        for (const element of document.getElementsByClassName(
+                            "counter"
+                        )) {
+                            element.style.display = "inherit";
+                        }
+
+                        const SECOND_IN_MILLISECONDS = 1000;
+                        const MINUTE_IN_MILLISECONDS =
+                            SECOND_IN_MILLISECONDS * 60;
+                        const HOUR_IN_MILLISECONDS =
+                            MINUTE_IN_MILLISECONDS * 60;
+                        const DAY_IN_MILLISECONDS = HOUR_IN_MILLISECONDS * 24;
+
+                        const daysElement =
+                            document.getElementById("countdown-days");
+                        const hoursElement =
+                            document.getElementById("countdown-hours");
+                        const minutesElement =
+                            document.getElementById("countdown-minutes");
+                        const secondsElement =
+                            document.getElementById("countdown-seconds");
+
+                        if (
+                            !daysElement ||
+                            !hoursElement ||
+                            !minutesElement ||
+                            !secondsElement
+                        ) {
+                            throw Error("Countdown elements not found.");
+                        }
+
+                        const end = new Date("2025-04-11");
+                        let timer;
+
+                        function renderCounter() {
+                            const now = new Date();
+                            let distance = end - now;
+                            if (distance < 0) {
+                                distance = 0;
+                                clearInterval(timer);
+                            }
+
+                            const days = Math.floor(
+                                distance / DAY_IN_MILLISECONDS
+                            );
+                            const hours = Math.floor(
+                                (distance % DAY_IN_MILLISECONDS) /
+                                    HOUR_IN_MILLISECONDS
+                            );
+                            const minutes = Math.floor(
+                                (distance % HOUR_IN_MILLISECONDS) /
+                                    MINUTE_IN_MILLISECONDS
+                            );
+                            const seconds = Math.floor(
+                                (distance % MINUTE_IN_MILLISECONDS) /
+                                    SECOND_IN_MILLISECONDS
+                            );
+
+                            daysElement.innerHTML = days.toString();
+                            hoursElement.innerHTML = hours.toString();
+                            minutesElement.innerHTML = minutes.toString();
+                            secondsElement.innerHTML = seconds.toString();
+                        }
+
+                        renderCounter();
+                        timer = setInterval(renderCounter, 1000);
+                    </script>
+
+                    <a
+                        class="button button--outlined"
+                        href="/"
+                        rel="noopener noreferrer"
+                        rel="external"
+                        target="_blank"
+                    >
+                        今すぐ登録！
+                    </a>
                 </div>
-            
-        
-            
-                <div class="session-list">
-                    <h3 class="heading heading--highlighted">
-                        20:30-22:30 Pitch Round/Intro/Team Formation
-                        
-                            -4月11日
-                            
-                        
-                    </h3>
-                    <ul class="session-day-section__session-menu">
-                        <li>
-                            <div class="event-row event-row--service-session"><p>This is a chance to speak to the group and pitch an idea, ask for help, look for a team.  We will spend most of our time on this !  Please attend in person.</p>
-</div>
-                        </li>
-                    </ul>
-                </div>
-            
-        
-            
-                <div class="session-list">
-                    <h3 class="heading heading--highlighted">
-                        22:30 Fukuoka Evening Closing Remarks/Next Place
-                        
-                            -4月11日
-                            
-                        
-                    </h3>
-                    <ul class="session-day-section__session-menu">
-                        <li>
-                            <div class="event-row event-row--service-session"><p>We will offer closing remarks, and give everyone an opportunity to gather to go grab a quick bite outside in Tenjin and possibly wander off to &ldquo;the next place&rdquo;.  Depending on access, it may be possible to work late on site.</p>
-</div>
-                        </li>
-                    </ul>
-                </div>
-            
-        
-            
-                <div class="session-list">
-                    <h3 class="heading heading--highlighted">
-                        Day 1
-                        
-                            -4月11日
-                            
-                        
-                    </h3>
-                    <ul class="session-day-section__session-menu">
-                        <li>
-                            <div class="event-row event-row--service-session"><p>チームビルディング</p>
-</div>
-                        </li>
-                    </ul>
-                </div>
-            
-        
-            
-                <div class="session-list">
-                    <h3 class="heading heading--highlighted">
-                        9:30 Opening Remarks
-                        
-                            -4月12日
-                            
-                        
-                    </h3>
-                    <ul class="session-day-section__session-menu">
-                        <li>
-                            <div class="event-row event-row--service-session"><p>Opening Remarks.</p>
-</div>
-                        </li>
-                    </ul>
-                </div>
-            
-        
-            
-                <div class="session-list">
-                    <h3 class="heading heading--highlighted">
-                        Day 2
-                        
-                            -4月12日
-                            
-                        
-                    </h3>
-                    <ul class="session-day-section__session-menu">
-                        <li>
-                            <div class="event-row event-row--service-session"><p>ハッカソン本番</p>
-</div>
-                        </li>
-                    </ul>
-                </div>
-            
-        
-            
-                <div class="session-list">
-                    <h3 class="heading heading--highlighted">
-                        Fukuoka Saturday Evening Closing Remarks/Next Place 22:30
-                        
-                            -4月12日
-                            
-                        
-                    </h3>
-                    <ul class="session-day-section__session-menu">
-                        <li>
-                            <div class="event-row event-row--service-session"><p>We will offer closing remarks, and give everyone an opportunity to gather to go grab a quick bite outside in Tenjin and possibly wander off to &ldquo;the next place&rdquo;.  Depending on access, it may be possible to work late on site.</p>
-</div>
-                        </li>
-                    </ul>
-                </div>
-            
-        
-            
-                <div class="session-list">
-                    <h3 class="heading heading--highlighted">
-                        Hacking @ 10:00 -&gt; Lunch (13:00) -&gt; Dinner (19:00)
-                        
-                            -4月12日
-                            
-                        
-                    </h3>
-                    <ul class="session-day-section__session-menu">
-                        <li>
-                            <div class="event-row event-row--service-session"><p>Open Hacking Session.  Lunch at 1PM.  Dinner at 17:00.  Some people will lead groups to go out for food or drink during the dinner hour if you prefer outside food.</p>
-</div>
-                        </li>
-                    </ul>
-                </div>
-            
-        
-            
-                <div class="session-list">
-                    <h3 class="heading heading--highlighted">
-                        Day 3
-                        
-                            -4月13日
-                            
-                        
-                    </h3>
-                    <ul class="session-day-section__session-menu">
-                        <li>
-                            <div class="event-row event-row--service-session"><p>ハッカソン本番</p>
-</div>
-                        </li>
-                    </ul>
-                </div>
-            
-        
-            
-                <div class="session-list">
-                    <h3 class="heading heading--highlighted">
-                        Judging/Hackathon Demos
-                        
-                            -4月13日
-                            
-                        
-                    </h3>
-                    <ul class="session-day-section__session-menu">
-                        <li>
-                            <div class="event-row event-row--service-session"><p>Judges will convene.  All participant teams will demo their submissions.  Please use a real AVP for the demos.</p>
-</div>
-                        </li>
-                    </ul>
-                </div>
-            
-        
-            
-                <div class="session-list">
-                    <h3 class="heading heading--highlighted">
-                        Winners Circle/Awards Ceremony
-                        
-                            -4月13日
-                            
-                        
-                    </h3>
-                    <ul class="session-day-section__session-menu">
-                        <li>
-                            <div class="event-row event-row--service-session"><p>16:00 After judging, Awards will be announced.  Tune in online or in person.</p>
-</div>
-                        </li>
-                    </ul>
-                </div>
-            
-        
-            
-                <div class="session-list">
-                    <h3 class="heading heading--highlighted">
-                        zzz Celebrate Dinner/Post Party
-                        
-                            -4月13日
-                            
-                        
-                    </h3>
-                    <ul class="session-day-section__session-menu">
-                        <li>
-                            <div class="event-row event-row--service-session"><p>After awards, teams are free to go home or head out to dinner together.  A post party will be sponsored at 20:30 in Tenjin.  Participants will be offered free drinks until 22:00, sponsored by IoTone Japan.  Location TBA.</p>
-</div>
-                        </li>
-                    </ul>
-                </div>
-            
-        
-    </section>
-</div>
+            </section>
 
+            <div class="section-container">
+                <section class="section section--long event-highlights-section">
+                    <header class="event-highlights-section__header">
+                        <img
+                            class="event-highlights-section__logo"
+                            src="/logos/visiondevcamp_fukuoka_logo_style2.png"
+                            width="800"
+                            height="800"
+                        />
 
+                        <article class="event-highlights-section__description">
+                            <h1 class="heading heading--highlighted">
+                                VisionDevCamp Fukuoka CC-BY-SA 2025
+                            </h1>
+                            <h2 class="heading heading--2">
+                                シリコンバレーの2007年より続く歴史あるハッカソンが初めての福岡開催！
+                            </h2>
 
-    
-    <section class="judge-list">
-    <div class="section">
-        <h1 class="heading heading--highlighted heading--centered">
-            業界の専門家
-        </h1>
-        <h2 class="heading heading--2 heading--centered">
-            審査員
-        </h2>
-        <menu class="judge-list__menu">
-            
-                <li class="judge-list__item">
+                            <p
+                                class="paragraph event-highlights-section__paragraph"
+                            >
+                                VisionDevCampは、Apple Vision
+                                ProとvisionOS向けのアプリケーション開発に焦点を当てた、非営利の開発者向けイベントです。
+                                経験豊富なボランティアチームがApple Vision
+                                ProとvisionOSの開発者、デザイナー、起業家、および愛好家の方々をサポートします。
+                            </p>
+                        </article>
+                    </header>
+                </section>
+            </div>
 
+            <div class="section-container section-container--dimmed">
+                <section class="section session-day-section">
+                    <h1 class="heading heading--highlighted heading--centered">
+                        スケジュール
+                    </h1>
+                    <h2 class="heading heading--2 heading--centered">
+                        イベントスケジュール
+                    </h2>
 
-<div class="judge-card">
-    <a class="judge-card__link" href="/judges/satoshi-hattori/" aria-label="服部 智">
-        <img
-            class="judge-card__avatar"
-            src="/images/judges/satoshi-san-profile-image.png"
-            alt="服部 智"
-            width=""
-            height="" />
-        <h1 class="heading">服部 智</h1>
-        <p class="judge-card__position">
-            
-                Cyber AI Productions
-                <br />
-            
-            
-                XR エンジニア
-            
-        </p>
-        
-    </a>
-    <div class="judge-card__social-links">
-        
-
-
-
-
-<label id="social-links-list-label-1" class="sr-only">服部 智 のソーシャルメディアリンク</label>
-
-<ul class="social-links" aria-labelledby="social-links-list-label-1">
-        <li class="social-links__menu-item">
-            <a
-                href="https://x.com/shmdevelop"
-                aria-label="X (Twitter)"
-                rel="external"
-                class="social-links__link judge-card__social-link"><svg width="100%" height="100%" viewBox="0 0 26 27" xmlns="http://www.w3.org/2000/svg">
-    <path
-        d="M15.4451 11.5357L25.0011 0.666504H22.7369L14.4357 10.1021L7.81031 0.666504H0.166992L10.1881 14.9361L0.166992 26.3332H2.43116L11.1921 16.3665L18.1903 26.3332H25.8337L15.4451 11.5357ZM12.3429 15.0614L11.326 13.6396L3.24768 2.33672H6.72591L13.2473 11.4619L14.2599 12.8837L22.7358 24.7443H19.2576L12.3429 15.0614Z"
-        fill="currentColor" />
-</svg>
-
-            </a>
-        </li>
-    
-        <li class="social-links__menu-item">
-            <a
-                href="https://github.com/satoshi0212"
-                aria-label="GitHub"
-                rel="external"
-                class="social-links__link judge-card__social-link"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 512" fill="#0d81be">
-    
-    <path
-        d="M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3 .3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6zm-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5 .3-6.2 2.3zm44.2-1.7c-2.9 .7-4.9 2.6-4.6 4.9 .3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9zM244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8zM97.2 352.9c-1.3 1-1 3.3 .7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1zm-10.8-8.1c-.7 1.3 .3 2.9 2.3 3.9 1.6 1 3.6 .7 4.3-.7 .7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3 .7zm32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3 .7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1zm-11.4-14.7c-1.6 1-1.6 3.6 0 5.9 1.6 2.3 4.3 3.3 5.6 2.3 1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2z" />
-</svg>
-
-            </a>
-        </li>
-    
-</ul>
-
-    </div>
-</div>
-
-                </li>
-            
-                <li class="judge-list__item">
-
-
-<div class="judge-card">
-    <a class="judge-card__link" href="/judges/aimi-sekiguchi/" aria-label="せきぐちあいみ">
-        <img
-            class="judge-card__avatar"
-            src="/images/judges/aimi-sekiguchi-400-400.png"
-            alt="せきぐちあいみ"
-            width=""
-            height="" />
-        <h1 class="heading">せきぐちあいみ</h1>
-        <p class="judge-card__position">
-            
-            
-                XR / Spatial Artist
-            
-        </p>
-        
-    </a>
-    <div class="judge-card__social-links">
-        
-
-
-
-
-<label id="social-links-list-label-2" class="sr-only">せきぐちあいみ のソーシャルメディアリンク</label>
-
-<ul class="social-links" aria-labelledby="social-links-list-label-2">
-        <li class="social-links__menu-item">
-            <a
-                href="https://x.com/sekiguchiaimi"
-                aria-label="X (Twitter)"
-                rel="external"
-                class="social-links__link judge-card__social-link"><svg width="100%" height="100%" viewBox="0 0 26 27" xmlns="http://www.w3.org/2000/svg">
-    <path
-        d="M15.4451 11.5357L25.0011 0.666504H22.7369L14.4357 10.1021L7.81031 0.666504H0.166992L10.1881 14.9361L0.166992 26.3332H2.43116L11.1921 16.3665L18.1903 26.3332H25.8337L15.4451 11.5357ZM12.3429 15.0614L11.326 13.6396L3.24768 2.33672H6.72591L13.2473 11.4619L14.2599 12.8837L22.7358 24.7443H19.2576L12.3429 15.0614Z"
-        fill="currentColor" />
-</svg>
-
-            </a>
-        </li>
-    
-</ul>
-
-    </div>
-</div>
-
-                </li>
-            
-                <li class="judge-list__item">
-
-
-<div class="judge-card">
-    <a class="judge-card__link" href="/judges/junichiro-koyama/" aria-label="コヤ所長">
-        <img
-            class="judge-card__avatar"
-            src="/images/judges/koyama-san-profile-image.png"
-            alt="コヤ所長"
-            width=""
-            height="" />
-        <h1 class="heading">コヤ所長</h1>
-        <p class="judge-card__position">
-            
-                ホットスタッフ・プロモーション
-                <br />
-            
-            
-                エグゼクティブプロデューサー
-            
-        </p>
-        
-    </a>
-    <div class="judge-card__social-links">
-        
-
-
-
-
-<label id="social-links-list-label-3" class="sr-only">コヤ所長 のソーシャルメディアリンク</label>
-
-<ul class="social-links" aria-labelledby="social-links-list-label-3">
-        <li class="social-links__menu-item">
-            <a
-                href="https://bandainamco-am.co.jp/others/vrzone-portal/"
-                aria-label="X (Twitter)"
-                rel="external"
-                class="social-links__link judge-card__social-link"><svg width="100%" height="100%" viewBox="0 0 26 27" xmlns="http://www.w3.org/2000/svg">
-    <path
-        d="M15.4451 11.5357L25.0011 0.666504H22.7369L14.4357 10.1021L7.81031 0.666504H0.166992L10.1881 14.9361L0.166992 26.3332H2.43116L11.1921 16.3665L18.1903 26.3332H25.8337L15.4451 11.5357ZM12.3429 15.0614L11.326 13.6396L3.24768 2.33672H6.72591L13.2473 11.4619L14.2599 12.8837L22.7358 24.7443H19.2576L12.3429 15.0614Z"
-        fill="currentColor" />
-</svg>
-
-            </a>
-        </li>
-    
-        <li class="social-links__menu-item">
-            <a
-                href="https://x.com/mayanmoyan"
-                aria-label="GitHub"
-                rel="external"
-                class="social-links__link judge-card__social-link"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 512" fill="#0d81be">
-    
-    <path
-        d="M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3 .3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6zm-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5 .3-6.2 2.3zm44.2-1.7c-2.9 .7-4.9 2.6-4.6 4.9 .3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9zM244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8zM97.2 352.9c-1.3 1-1 3.3 .7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1zm-10.8-8.1c-.7 1.3 .3 2.9 2.3 3.9 1.6 1 3.6 .7 4.3-.7 .7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3 .7zm32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3 .7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1zm-11.4-14.7c-1.6 1-1.6 3.6 0 5.9 1.6 2.3 4.3 3.3 5.6 2.3 1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2z" />
-</svg>
-
-            </a>
-        </li>
-    
-</ul>
-
-    </div>
-</div>
-
-                </li>
-            
-                <li class="judge-list__item">
-
-
-<div class="judge-card">
-    <a class="judge-card__link" href="/judges/shinobu-takahashi/" aria-label="高橋 忍">
-        <img
-            class="judge-card__avatar"
-            src="/images/judges/shinobu-takahashi-icon.png"
-            alt="高橋 忍"
-            width=""
-            height="" />
-        <h1 class="heading">高橋 忍</h1>
-        <p class="judge-card__position">
-            
-                Unity Technologies Japan
-                <br />
-            
-            
-                Solution Architect
-            
-        </p>
-        
-    </a>
-    <div class="judge-card__social-links">
-        
-
-
-
-
-<label id="social-links-list-label-4" class="sr-only">高橋 忍 のソーシャルメディアリンク</label>
-
-<ul class="social-links" aria-labelledby="social-links-list-label-4">
-        <li class="social-links__menu-item">
-            <a
-                href="https://unity3d.jp/"
-                aria-label="X (Twitter)"
-                rel="external"
-                class="social-links__link judge-card__social-link"><svg width="100%" height="100%" viewBox="0 0 26 27" xmlns="http://www.w3.org/2000/svg">
-    <path
-        d="M15.4451 11.5357L25.0011 0.666504H22.7369L14.4357 10.1021L7.81031 0.666504H0.166992L10.1881 14.9361L0.166992 26.3332H2.43116L11.1921 16.3665L18.1903 26.3332H25.8337L15.4451 11.5357ZM12.3429 15.0614L11.326 13.6396L3.24768 2.33672H6.72591L13.2473 11.4619L14.2599 12.8837L22.7358 24.7443H19.2576L12.3429 15.0614Z"
-        fill="currentColor" />
-</svg>
-
-            </a>
-        </li>
-    
-</ul>
-
-    </div>
-</div>
-
-                </li>
-            
-        </menu>
-    </div>
-</section>
-
-
-
-    
-    <div class="section-container section-container--dimmed">
-    <section class="section section--short our-sponsors">
-        <h1 class="heading heading--highlighted heading--centered">
-            私たちのスポンサー
-        </h1>
-        <h2 class="heading heading--2 heading--centered">
-            サポーターの皆様に大きな感謝を！
-        </h2>
-        <ul class="our-sponsors__list">
-            
-                <li class="our-sponsors__list-item">
-                    <div class="sponsor">
-                        <a href="https://engineercafe.jp/ja" target="_blank">
-                            <img
-                                src="/images/sponsors/logo.113540ce.svg"
-                                alt="アイオートーンジャパン 様"
-                                class="sponsor__logo"
-                                width="100"
-                                height="100" />
-                        </a>
-                        <p>アイオートーンジャパン 様</p>
+                    <div class="session-list">
+                        <h3 class="heading heading--highlighted">
+                            19:00-19:30 MIXER -4月11日
+                        </h3>
+                        <ul class="session-day-section__session-menu">
+                            <li>
+                                <div
+                                    class="event-row event-row--service-session"
+                                >
+                                    <p>Mixer + Food</p>
+                                </div>
+                            </li>
+                        </ul>
                     </div>
-                </li>
-            
-                <li class="our-sponsors__list-item">
-                    <div class="sponsor">
-                        <a href="https://iotoneai.site/" target="_blank">
-                            <img
-                                src="/images/sponsors/IoToneFontIcon_transparent.png"
-                                alt="アイオートーンジャパン 様"
-                                class="sponsor__logo"
-                                width="100"
-                                height="100" />
-                        </a>
-                        <p>アイオートーンジャパン 様</p>
+
+                    <div class="session-list">
+                        <h3 class="heading heading--highlighted">
+                            19:30-20:30 Keynote -4月11日
+                        </h3>
+                        <ul class="session-day-section__session-menu">
+                            <li>
+                                <div
+                                    class="event-row event-row--service-session"
+                                >
+                                    <p>Tokyo/Fukuoka simulcast</p>
+                                </div>
+                            </li>
+                        </ul>
                     </div>
-                </li>
-            
-                <li class="our-sponsors__list-item">
-                    <div class="sponsor">
-                        <a href="https://unity3d.jp/" target="_blank">
-                            <img
-                                src="/images/sponsors/unity-logo-black.png"
-                                alt="ユニティ・テクノロジーズ・ジャパン株式会社"
-                                class="sponsor__logo"
-                                width="100"
-                                height="100" />
-                        </a>
-                        <p>ユニティ・テクノロジーズ・ジャパン株式会社</p>
+
+                    <div class="session-list">
+                        <h3 class="heading heading--highlighted">
+                            20:30-22:30 Pitch Round/Intro/Team Formation
+                            -4月11日
+                        </h3>
+                        <ul class="session-day-section__session-menu">
+                            <li>
+                                <div
+                                    class="event-row event-row--service-session"
+                                >
+                                    <p>
+                                        This is a chance to speak to the group
+                                        and pitch an idea, ask for help, look
+                                        for a team. We will spend most of our
+                                        time on this ! Please attend in person.
+                                    </p>
+                                </div>
+                            </li>
+                        </ul>
                     </div>
-                </li>
-            
-                <li class="our-sponsors__list-item">
-                    <div class="sponsor">
-                        <a href="https://styly.inc/" target="_blank">
-                            <img
-                                src="/images/sponsors/styly-logo.png"
-                                alt="株式会社STYLY"
-                                class="sponsor__logo"
-                                width="100"
-                                height="100" />
-                        </a>
-                        <p>株式会社STYLY</p>
+
+                    <div class="session-list">
+                        <h3 class="heading heading--highlighted">
+                            22:30 Fukuoka Evening Closing Remarks/Next Place
+                            -4月11日
+                        </h3>
+                        <ul class="session-day-section__session-menu">
+                            <li>
+                                <div
+                                    class="event-row event-row--service-session"
+                                >
+                                    <p>
+                                        We will offer closing remarks, and give
+                                        everyone an opportunity to gather to go
+                                        grab a quick bite outside in Tenjin and
+                                        possibly wander off to &ldquo;the next
+                                        place&rdquo;. Depending on access, it
+                                        may be possible to work late on site.
+                                    </p>
+                                </div>
+                            </li>
+                        </ul>
                     </div>
-                </li>
-            
-        </ul>
-    </section>
-</div>
 
+                    <div class="session-list">
+                        <h3 class="heading heading--highlighted">
+                            Day 1 -4月11日
+                        </h3>
+                        <ul class="session-day-section__session-menu">
+                            <li>
+                                <div
+                                    class="event-row event-row--service-session"
+                                >
+                                    <p>チームビルディング</p>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
 
+                    <div class="session-list">
+                        <h3 class="heading heading--highlighted">
+                            9:30 Opening Remarks -4月12日
+                        </h3>
+                        <ul class="session-day-section__session-menu">
+                            <li>
+                                <div
+                                    class="event-row event-row--service-session"
+                                >
+                                    <p>Opening Remarks.</p>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
 
-    
-    
+                    <div class="session-list">
+                        <h3 class="heading heading--highlighted">
+                            Day 2 -4月12日
+                        </h3>
+                        <ul class="session-day-section__session-menu">
+                            <li>
+                                <div
+                                    class="event-row event-row--service-session"
+                                >
+                                    <p>ハッカソン本番</p>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
 
+                    <div class="session-list">
+                        <h3 class="heading heading--highlighted">
+                            Fukuoka Saturday Evening Closing Remarks/Next Place
+                            22:30 -4月12日
+                        </h3>
+                        <ul class="session-day-section__session-menu">
+                            <li>
+                                <div
+                                    class="event-row event-row--service-session"
+                                >
+                                    <p>
+                                        We will offer closing remarks, and give
+                                        everyone an opportunity to gather to go
+                                        grab a quick bite outside in Tenjin and
+                                        possibly wander off to &ldquo;the next
+                                        place&rdquo;. Depending on access, it
+                                        may be possible to work late on site.
+                                    </p>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="session-list">
+                        <h3 class="heading heading--highlighted">
+                            Hacking @ 10:00 -&gt; Lunch (13:00) -&gt; Dinner
+                            (19:00) -4月12日
+                        </h3>
+                        <ul class="session-day-section__session-menu">
+                            <li>
+                                <div
+                                    class="event-row event-row--service-session"
+                                >
+                                    <p>
+                                        Open Hacking Session. Lunch at 1PM.
+                                        Dinner at 17:00. Some people will lead
+                                        groups to go out for food or drink
+                                        during the dinner hour if you prefer
+                                        outside food.
+                                    </p>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="session-list">
+                        <h3 class="heading heading--highlighted">
+                            Day 3 -4月13日
+                        </h3>
+                        <ul class="session-day-section__session-menu">
+                            <li>
+                                <div
+                                    class="event-row event-row--service-session"
+                                >
+                                    <p>ハッカソン本番</p>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="session-list">
+                        <h3 class="heading heading--highlighted">
+                            Judging/Hackathon Demos -4月13日
+                        </h3>
+                        <ul class="session-day-section__session-menu">
+                            <li>
+                                <div
+                                    class="event-row event-row--service-session"
+                                >
+                                    <p>
+                                        Judges will convene. All participant
+                                        teams will demo their submissions.
+                                        Please use a real AVP for the demos.
+                                    </p>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="session-list">
+                        <h3 class="heading heading--highlighted">
+                            Winners Circle/Awards Ceremony -4月13日
+                        </h3>
+                        <ul class="session-day-section__session-menu">
+                            <li>
+                                <div
+                                    class="event-row event-row--service-session"
+                                >
+                                    <p>
+                                        16:00 After judging, Awards will be
+                                        announced. Tune in online or in person.
+                                    </p>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="session-list">
+                        <h3 class="heading heading--highlighted">
+                            zzz Celebrate Dinner/Post Party -4月13日
+                        </h3>
+                        <ul class="session-day-section__session-menu">
+                            <li>
+                                <div
+                                    class="event-row event-row--service-session"
+                                >
+                                    <p>
+                                        After awards, teams are free to go home
+                                        or head out to dinner together. A post
+                                        party will be sponsored at 20:30 in
+                                        Tenjin. Participants will be offered
+                                        free drinks until 22:00, sponsored by
+                                        IoTone Japan. Location TBA.
+                                    </p>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </section>
+            </div>
+
+            <section class="judge-list">
+                <div class="section">
+                    <h1 class="heading heading--highlighted heading--centered">
+                        業界の専門家
+                    </h1>
+                    <h2 class="heading heading--2 heading--centered">審査員</h2>
+                    <menu class="judge-list__menu">
+                        <li class="judge-list__item">
+                            <div class="judge-card">
+                                <a
+                                    class="judge-card__link"
+                                    href="/judges/satoshi-hattori/"
+                                    aria-label="服部 智"
+                                >
+                                    <img
+                                        class="judge-card__avatar"
+                                        src="/images/judges/satoshi-san-profile-image.png"
+                                        alt="服部 智"
+                                        width=""
+                                        height=""
+                                    />
+                                    <h1 class="heading">服部 智</h1>
+                                    <p class="judge-card__position">
+                                        Cyber AI Productions
+                                        <br />
+
+                                        XR エンジニア
+                                    </p>
+                                </a>
+                                <div class="judge-card__social-links">
+                                    <label
+                                        id="social-links-list-label-1"
+                                        class="sr-only"
+                                        >服部 智
+                                        のソーシャルメディアリンク</label
+                                    >
+
+                                    <ul
+                                        class="social-links"
+                                        aria-labelledby="social-links-list-label-1"
+                                    >
+                                        <li class="social-links__menu-item">
+                                            <a
+                                                href="https://x.com/shmdevelop"
+                                                aria-label="X (Twitter)"
+                                                rel="external"
+                                                class="social-links__link judge-card__social-link"
+                                                ><svg
+                                                    width="100%"
+                                                    height="100%"
+                                                    viewBox="0 0 26 27"
+                                                    xmlns="http://www.w3.org/2000/svg"
+                                                >
+                                                    <path
+                                                        d="M15.4451 11.5357L25.0011 0.666504H22.7369L14.4357 10.1021L7.81031 0.666504H0.166992L10.1881 14.9361L0.166992 26.3332H2.43116L11.1921 16.3665L18.1903 26.3332H25.8337L15.4451 11.5357ZM12.3429 15.0614L11.326 13.6396L3.24768 2.33672H6.72591L13.2473 11.4619L14.2599 12.8837L22.7358 24.7443H19.2576L12.3429 15.0614Z"
+                                                        fill="currentColor"
+                                                    />
+                                                </svg>
+                                            </a>
+                                        </li>
+
+                                        <li class="social-links__menu-item">
+                                            <a
+                                                href="https://github.com/satoshi0212"
+                                                aria-label="GitHub"
+                                                rel="external"
+                                                class="social-links__link judge-card__social-link"
+                                                ><svg
+                                                    xmlns="http://www.w3.org/2000/svg"
+                                                    viewBox="0 0 496 512"
+                                                    fill="#0d81be"
+                                                >
+                                                    <path
+                                                        d="M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3 .3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6zm-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5 .3-6.2 2.3zm44.2-1.7c-2.9 .7-4.9 2.6-4.6 4.9 .3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9zM244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8zM97.2 352.9c-1.3 1-1 3.3 .7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1zm-10.8-8.1c-.7 1.3 .3 2.9 2.3 3.9 1.6 1 3.6 .7 4.3-.7 .7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3 .7zm32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3 .7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1zm-11.4-14.7c-1.6 1-1.6 3.6 0 5.9 1.6 2.3 4.3 3.3 5.6 2.3 1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2z"
+                                                    />
+                                                </svg>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </li>
+
+                        <li class="judge-list__item">
+                            <div class="judge-card">
+                                <a
+                                    class="judge-card__link"
+                                    href="/judges/aimi-sekiguchi/"
+                                    aria-label="せきぐちあいみ"
+                                >
+                                    <img
+                                        class="judge-card__avatar"
+                                        src="/images/judges/aimi-sekiguchi-400-400.png"
+                                        alt="せきぐちあいみ"
+                                        width=""
+                                        height=""
+                                    />
+                                    <h1 class="heading">せきぐちあいみ</h1>
+                                    <p class="judge-card__position">
+                                        XR / Spatial Artist
+                                    </p>
+                                </a>
+                                <div class="judge-card__social-links">
+                                    <label
+                                        id="social-links-list-label-2"
+                                        class="sr-only"
+                                        >せきぐちあいみ
+                                        のソーシャルメディアリンク</label
+                                    >
+
+                                    <ul
+                                        class="social-links"
+                                        aria-labelledby="social-links-list-label-2"
+                                    >
+                                        <li class="social-links__menu-item">
+                                            <a
+                                                href="https://x.com/sekiguchiaimi"
+                                                aria-label="X (Twitter)"
+                                                rel="external"
+                                                class="social-links__link judge-card__social-link"
+                                                ><svg
+                                                    width="100%"
+                                                    height="100%"
+                                                    viewBox="0 0 26 27"
+                                                    xmlns="http://www.w3.org/2000/svg"
+                                                >
+                                                    <path
+                                                        d="M15.4451 11.5357L25.0011 0.666504H22.7369L14.4357 10.1021L7.81031 0.666504H0.166992L10.1881 14.9361L0.166992 26.3332H2.43116L11.1921 16.3665L18.1903 26.3332H25.8337L15.4451 11.5357ZM12.3429 15.0614L11.326 13.6396L3.24768 2.33672H6.72591L13.2473 11.4619L14.2599 12.8837L22.7358 24.7443H19.2576L12.3429 15.0614Z"
+                                                        fill="currentColor"
+                                                    />
+                                                </svg>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </li>
+
+                        <li class="judge-list__item">
+                            <div class="judge-card">
+                                <a
+                                    class="judge-card__link"
+                                    href="/judges/junichiro-koyama/"
+                                    aria-label="コヤ所長"
+                                >
+                                    <img
+                                        class="judge-card__avatar"
+                                        src="/images/judges/koyama-san-profile-image.png"
+                                        alt="コヤ所長"
+                                        width=""
+                                        height=""
+                                    />
+                                    <h1 class="heading">コヤ所長</h1>
+                                    <p class="judge-card__position">
+                                        ホットスタッフ・プロモーション
+                                        <br />
+
+                                        エグゼクティブプロデューサー
+                                    </p>
+                                </a>
+                                <div class="judge-card__social-links">
+                                    <label
+                                        id="social-links-list-label-3"
+                                        class="sr-only"
+                                        >コヤ所長
+                                        のソーシャルメディアリンク</label
+                                    >
+
+                                    <ul
+                                        class="social-links"
+                                        aria-labelledby="social-links-list-label-3"
+                                    >
+                                        <li class="social-links__menu-item">
+                                            <a
+                                                href="https://bandainamco-am.co.jp/others/vrzone-portal/"
+                                                aria-label="X (Twitter)"
+                                                rel="external"
+                                                class="social-links__link judge-card__social-link"
+                                                ><svg
+                                                    width="100%"
+                                                    height="100%"
+                                                    viewBox="0 0 26 27"
+                                                    xmlns="http://www.w3.org/2000/svg"
+                                                >
+                                                    <path
+                                                        d="M15.4451 11.5357L25.0011 0.666504H22.7369L14.4357 10.1021L7.81031 0.666504H0.166992L10.1881 14.9361L0.166992 26.3332H2.43116L11.1921 16.3665L18.1903 26.3332H25.8337L15.4451 11.5357ZM12.3429 15.0614L11.326 13.6396L3.24768 2.33672H6.72591L13.2473 11.4619L14.2599 12.8837L22.7358 24.7443H19.2576L12.3429 15.0614Z"
+                                                        fill="currentColor"
+                                                    />
+                                                </svg>
+                                            </a>
+                                        </li>
+
+                                        <li class="social-links__menu-item">
+                                            <a
+                                                href="https://x.com/mayanmoyan"
+                                                aria-label="GitHub"
+                                                rel="external"
+                                                class="social-links__link judge-card__social-link"
+                                                ><svg
+                                                    xmlns="http://www.w3.org/2000/svg"
+                                                    viewBox="0 0 496 512"
+                                                    fill="#0d81be"
+                                                >
+                                                    <path
+                                                        d="M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3 .3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6zm-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5 .3-6.2 2.3zm44.2-1.7c-2.9 .7-4.9 2.6-4.6 4.9 .3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9zM244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8zM97.2 352.9c-1.3 1-1 3.3 .7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1zm-10.8-8.1c-.7 1.3 .3 2.9 2.3 3.9 1.6 1 3.6 .7 4.3-.7 .7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3 .7zm32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3 .7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1zm-11.4-14.7c-1.6 1-1.6 3.6 0 5.9 1.6 2.3 4.3 3.3 5.6 2.3 1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2z"
+                                                    />
+                                                </svg>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </li>
+
+                        <li class="judge-list__item">
+                            <div class="judge-card">
+                                <a
+                                    class="judge-card__link"
+                                    href="/judges/shinobu-takahashi/"
+                                    aria-label="高橋 忍"
+                                >
+                                    <img
+                                        class="judge-card__avatar"
+                                        src="/images/judges/shinobu-takahashi-icon.png"
+                                        alt="高橋 忍"
+                                        width=""
+                                        height=""
+                                    />
+                                    <h1 class="heading">高橋 忍</h1>
+                                    <p class="judge-card__position">
+                                        Unity Technologies Japan
+                                        <br />
+
+                                        Solution Architect
+                                    </p>
+                                </a>
+                                <div class="judge-card__social-links">
+                                    <label
+                                        id="social-links-list-label-4"
+                                        class="sr-only"
+                                        >高橋 忍
+                                        のソーシャルメディアリンク</label
+                                    >
+
+                                    <ul
+                                        class="social-links"
+                                        aria-labelledby="social-links-list-label-4"
+                                    >
+                                        <li class="social-links__menu-item">
+                                            <a
+                                                href="https://unity3d.jp/"
+                                                aria-label="X (Twitter)"
+                                                rel="external"
+                                                class="social-links__link judge-card__social-link"
+                                                ><svg
+                                                    width="100%"
+                                                    height="100%"
+                                                    viewBox="0 0 26 27"
+                                                    xmlns="http://www.w3.org/2000/svg"
+                                                >
+                                                    <path
+                                                        d="M15.4451 11.5357L25.0011 0.666504H22.7369L14.4357 10.1021L7.81031 0.666504H0.166992L10.1881 14.9361L0.166992 26.3332H2.43116L11.1921 16.3665L18.1903 26.3332H25.8337L15.4451 11.5357ZM12.3429 15.0614L11.326 13.6396L3.24768 2.33672H6.72591L13.2473 11.4619L14.2599 12.8837L22.7358 24.7443H19.2576L12.3429 15.0614Z"
+                                                        fill="currentColor"
+                                                    />
+                                                </svg>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </li>
+                    </menu>
+                </div>
+            </section>
+
+            <div class="section-container section-container--dimmed">
+                <section class="section section--short our-sponsors">
+                    <h1 class="heading heading--highlighted heading--centered">
+                        私たちのスポンサー
+                    </h1>
+                    <h2 class="heading heading--2 heading--centered">
+                        サポーターの皆様に大きな感謝を！
+                    </h2>
+                    <ul class="our-sponsors__list">
+                        <li class="our-sponsors__list-item">
+                            <div class="sponsor">
+                                <a
+                                    href="https://engineercafe.jp/ja"
+                                    target="_blank"
+                                >
+                                    <img
+                                        src="/images/sponsors/logo.113540ce.svg"
+                                        alt="アイオートーンジャパン 様"
+                                        class="sponsor__logo"
+                                        width="200"
+                                        height="200"
+                                    />
+                                </a>
+                                <p>アイオートーンジャパン 様</p>
+                            </div>
+                        </li>
+
+                        <li class="our-sponsors__list-item">
+                            <div class="sponsor">
+                                <a
+                                    href="https://iotoneai.site/"
+                                    target="_blank"
+                                >
+                                    <img
+                                        src="/images/sponsors/IoToneFontIcon_transparent.png"
+                                        alt="アイオートーンジャパン 様"
+                                        class="sponsor__logo"
+                                        width="100"
+                                        height="100"
+                                    />
+                                </a>
+                                <p>アイオートーンジャパン 様</p>
+                            </div>
+                        </li>
+
+                        <li class="our-sponsors__list-item">
+                            <div class="sponsor">
+                                <a href="https://unity3d.jp/" target="_blank">
+                                    <img
+                                        src="/images/sponsors/unity-logo-black.png"
+                                        alt="ユニティ・テクノロジーズ・ジャパン株式会社"
+                                        class="sponsor__logo"
+                                        width="100"
+                                        height="100"
+                                    />
+                                </a>
+                                <p>
+                                    ユニティ・テクノロジーズ・ジャパン株式会社
+                                </p>
+                            </div>
+                        </li>
+
+                        <li class="our-sponsors__list-item">
+                            <div class="sponsor">
+                                <a href="https://styly.inc/" target="_blank">
+                                    <img
+                                        src="/images/sponsors/styly-logo.png"
+                                        alt="株式会社STYLY"
+                                        class="sponsor__logo"
+                                        width="100"
+                                        height="100"
+                                    />
+                                </a>
+                                <p>株式会社STYLY</p>
+                            </div>
+                        </li>
+                    </ul>
+                </section>
+            </div>
         </main>
-
 
         <footer class="section-container">
             <section class="section section--short page-footer-section">
                 <div class="page-footer-section__start">
-                    
-                    <label for="language-select" class="sr-only">言語を選択</label>
-                    <select id="language-select" class="select" name="language" onchange="location = this.value;">
-                        
-                            <option
-                                value="/"
-                                
-                                    selected
-                                >
-                                
-                                    Japanese
-                                
-                            </option>
-                        
-                            <option
-                                value="/en/"
-                                >
-                                
-                                    English
-                                
-                            </option>
-                        
+                    <label for="language-select" class="sr-only"
+                        >言語を選択</label
+                    >
+                    <select
+                        id="language-select"
+                        class="select"
+                        name="language"
+                        onchange="location = this.value;"
+                    >
+                        <option value="/" selected>Japanese</option>
+
+                        <option value="/en/">English</option>
                     </select>
                 </div>
 
-
-<ul class="footer-menu">
-</ul>
-
-
+                <ul class="footer-menu"></ul>
 
                 <div class="page-footer-section__end">
-
-<small>&copy; VisionDevCamp Fukuoka 2025</small>
-
+                    <small>&copy; VisionDevCamp Fukuoka 2025</small>
                 </div>
             </section>
         </footer>
