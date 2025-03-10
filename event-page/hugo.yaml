@@ -52,7 +52,7 @@ languages:
                         ### Event Format
 
                         Detailed Format: https://visiondevcamp.org/hackathon/
-                        
+
                         The event format has evolved over the years from its origins in iOSDevCamp. 
                         What is different about this Hackathon vs other large events like MIT Reality Hack:
 
@@ -255,10 +255,9 @@ languages:
 params:
     # Open Graph / X (Twitter) Cards
     images:
-        - logos/medicon-512.jpg
+        - logos/visiondevcamp_fukuoka_logo_style2.png
     themes:
         event:
-            sessionizeId: 67poir7q
             title: VisionDevCamp Fukuoka CC-BY-SA 2025
             shortTitle:
             startDate: 2025-04-11

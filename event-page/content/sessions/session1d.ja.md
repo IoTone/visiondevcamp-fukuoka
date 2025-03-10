@@ -1,8 +1,8 @@
 ---
-title: '20:30-22:30 Pitch Round/Intro/Team Formation'
+title: '20:30-22:30 ピッチラウンド/イントロ/チーム形成'
 date: 2025-03-06T10:00:00
 isScheduled: true
 eventDate: '2025-04-11T20:30:00'
 ---
 
-This is a chance to speak to the group and pitch an idea, ask for help, look for a team.  We will spend most of our time on this !  Please attend in person.
+グループに向けてアイデアを提案したり、助けを求めたり、チームを探したりするための絶好のチャンスです。私たちはこの部分にほとんどの時間を割く予定です。ぜひ直接会場にお越しください。

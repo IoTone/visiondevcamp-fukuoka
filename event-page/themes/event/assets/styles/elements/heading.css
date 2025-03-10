@@ -52,6 +52,12 @@
     margin-bottom: 0;
 }
 
+.heading--day {
+    font-size: 1.5rem;
+    line-height: 2rem;
+    margin-bottom: 1.5rem;
+}
+
 @media screen and (width < 768px) {
     .heading--1 {
         font-size: 2.5rem;

@@ -1,8 +1,8 @@
 ---
-title: 'zzz Celebrate Dinner/Post Party'
+title: '祝賀ディナー/ポストパーティー'
 date: 2025-03-04T00:00:00
 isScheduled: true
 eventDate: '2025-04-13T16:00:00'
 ---
 
-After awards, teams are free to go home or head out to dinner together.  A post party will be sponsored at 20:30 in Tenjin.  Participants will be offered free drinks until 22:00, sponsored by IoTone Japan.  Location TBA.
+表彰式の後、チームは帰宅するか、一緒にディナーに出かけることができます。20:30から天神でポストパーティーが開催されます。参加者には22:00まで無料の飲み物が提供されます（IoTone Japan提供）。場所は未定です。
