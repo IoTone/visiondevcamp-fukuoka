@@ -119,19 +119,6 @@
                 href="https://visiondevcamp-fukuoka.pages.dev/sessions/session2b/"
                 />
   </url><url>
-    <loc>https://visiondevcamp-fukuoka.pages.dev/organizers/</loc>
-    <lastmod>2025-03-05T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://visiondevcamp-fukuoka.pages.dev/en/organizers/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="ja"
-                href="https://visiondevcamp-fukuoka.pages.dev/organizers/"
-                />
-  </url><url>
     <loc>https://visiondevcamp-fukuoka.pages.dev/organizers/organizer1/</loc>
     <lastmod>2025-03-05T00:00:00+00:00</lastmod>
     <xhtml:link
@@ -143,6 +130,19 @@
                 rel="alternate"
                 hreflang="ja"
                 href="https://visiondevcamp-fukuoka.pages.dev/organizers/organizer1/"
+                />
+  </url><url>
+    <loc>https://visiondevcamp-fukuoka.pages.dev/organizers/</loc>
+    <lastmod>2025-03-05T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://visiondevcamp-fukuoka.pages.dev/en/organizers/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="ja"
+                href="https://visiondevcamp-fukuoka.pages.dev/organizers/"
                 />
   </url><url>
     <loc>https://visiondevcamp-fukuoka.pages.dev/sessions/session5/</loc>
