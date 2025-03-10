@@ -25,7 +25,10 @@ languages:
                 - identifier: organizers
                   pageRef: /organizers
                   weight: 60
-            footer: []
+            footer:
+                - identifier: contact
+                  pageRef: /contact
+                  weight: 70
             secondary: []
         params:
             # Open Graph / X (Twitter) Cards
@@ -68,7 +71,10 @@ languages:
                 - identifier: organizers
                   pageRef: /organizers
                   weight: 60
-            footer: []
+            footer:
+                - identifier: contact
+                  pageRef: /contact
+                  weight: 70
             secondary: []
         params:
             # Open Graph / X (Twitter) Cards
