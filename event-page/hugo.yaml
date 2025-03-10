@@ -30,8 +30,7 @@ languages:
         params:
             # Open Graph / X (Twitter) Cards
             description: |
-                A demo website to showcase the features of the "Event" theme for the
-                static website generator HUGO.
+                VisionDevCamp Fukuoka is a non-profit developer event focused on application development for Apple Vision Pro and visionOS.
             themes:
                 event:
                     slogan: A historic hackathon from Silicon Valley since 2007 is coming to Fukuoka for the first time!
@@ -159,7 +158,7 @@ languages:
         params:
             # Open Graph / X (Twitter) Cards
             description: |
-                静的ウェブサイトジェネレーターHUGOの「イベント」テーマの機能を紹介するデモウェブサイトです。
+                VisionDevCamp Fukuokaは、Apple Vision ProとvisionOS向けのアプリケーション開発に焦点を当てた、非営利の開発者向けイベントです。
             themes:
                 event:
                     slogan: シリコンバレーの2007年より続く歴史あるハッカソンが初めての福岡開催！
