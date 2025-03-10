@@ -20,6 +20,9 @@ sessions_page.room: Room
 sessions_page.read_more: read more
 sessions_page.heading_no_sessions: No sessions scheduled yet
 sessions_page.heading_come_back_soon: Come back soon or follow us on social media
+organizers_page.heading: Organizers
+organizers_page.subheading: Event Organizers
+organizers_page.social_links: '{{ . }} social media links'
 menu.code_of_conduct: Code of Conduct
 menu.about: About
 menu.history: History

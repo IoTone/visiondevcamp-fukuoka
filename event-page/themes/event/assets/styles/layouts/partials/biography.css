@@ -1,21 +1,21 @@
-.judge-biography {
+.biography {
     display: flex;
     flex-direction: column;
     justify-content: start;
 }
 
-.judge-biography__name {
+.biography__name {
     font-size: 2.25rem;
     margin-bottom: 0.75rem;
 }
 
-.judge-biography__slogan {
+.biography__slogan {
     all: unset;
     font-weight: 400;
     font-size: 1rem;
 }
 
-.judge-biography__description {
+.biography__description {
     all: unset;
     font-weight: 400;
     font-size: 1rem;

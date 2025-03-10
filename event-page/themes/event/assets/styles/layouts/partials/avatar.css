@@ -1,4 +1,4 @@
-.judge-avatar-container {
+.avatar-container {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -8,7 +8,7 @@
     color: var(--color-primary); /* Colors the dotted shape */
 }
 
-.judge-avatar-container__social-link {
+.avatar-container__social-link {
     color: var(--color-primary);
     font-size: 1.125rem;
     padding: 0.25rem;
@@ -17,7 +17,7 @@
     position: relative;
 }
 
-.judge-avatar-container__social-link::before {
+.avatar-container__social-link::before {
     content: '';
     position: absolute;
     top: 0;
@@ -29,11 +29,11 @@
     transition: border 0.3s ease;
 }
 
-.judge-avatar-container__social-link:hover::before {
+.avatar-container__social-link:hover::before {
     background-color: var(--color-primary-lighter);
     opacity: 0.2;
 }
 
-.judge-avatar-container__social-link:hover {
+.avatar-container__social-link:hover {
     opacity: 1;
 }

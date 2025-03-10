@@ -22,6 +22,9 @@ languages:
                 - identifier: sponsors
                   pageRef: /sponsors
                   weight: 50
+                - identifier: organizers
+                  pageRef: /organizers
+                  weight: 60
             footer: []
             secondary: []
         params:
@@ -148,6 +151,9 @@ languages:
                 - identifier: sponsors
                   pageRef: /sponsors
                   weight: 50
+                - identifier: organizers
+                  pageRef: /organizers
+                  weight: 60
             footer: []
             secondary: []
         params:
@@ -281,15 +287,6 @@ params:
                 logo: logos/visiondevcamp_fukuoka_logo_style2.png
                 titleBackground: images/visiondevcamp2025-group-photo.jpg
                 location: images/engineer-cafe.jpg
-            organizers:
-                - '00000000-0000-0000-0000-000000000000'
-                - '00000000-0000-0000-0000-000000000001'
-                - '00000000-0000-0000-0000-000000000004'
-                - '00000000-0000-0000-0000-000000000002'
-            featuredSessions:
-                - '729572'
-                - '729576'
-                - '729579'
             colors:
                 primaryLighter: '#5CB1E8'
                 primary: '#0d81be'

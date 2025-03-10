@@ -1,8 +1,8 @@
 {{ define "main" }}
     <div class="section-container">
-        <section class="section single-judge-section">
-            <div class="single-judge-section__avatar">
-                {{ $ariaLabel := T "judges_page.social_links" page.Title }}
+        <section class="section single-organizer-section">
+            <div class="single-organizer-section__avatar">
+                {{ $ariaLabel := T "organizers_page.social_links" page.Title }}
 
                 {{- partial "avatar.html" (
                     dict
@@ -15,7 +15,7 @@
                 }}
             </div>
 
-            <div class="single-judge-section__biography">
+            <div class="single-organizer-section__biography">
                 {{- partial "biography.html" (
                     dict
                     "name" page.Title

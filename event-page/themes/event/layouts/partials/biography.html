@@ -1,0 +1,12 @@
+{{ $input := . }}
+
+
+<article class="biography">
+    <h1 class="h1 biography__name">{{- $input.name }}</h1>
+    <h2 class="biography__slogan">
+        {{- $input.position }}
+        <br />
+        {{- $input.expertise }}
+    </h2>
+    <p class="biography__description">{{- $input.description }}</p>
+</article>
