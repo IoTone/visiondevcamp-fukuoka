@@ -3,7 +3,7 @@
         <div class="section">
             <h1 class="heading heading--1">{{ T "judges_page.heading" }}</h1>
             <menu class="judge-list__menu">
-                {{ range .Pages }}
+                {{ range sort (where .Site.RegularPages "Section" "judges") "Title" }}
                     <li class="judge-list__item">
                         {{- partial "judge-card.html" (
                             dict

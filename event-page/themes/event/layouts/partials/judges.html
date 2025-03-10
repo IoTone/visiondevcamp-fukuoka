@@ -7,7 +7,7 @@
             {{ T "judge.subheading" }}
         </h2>
         <menu class="judge-list__menu">
-            {{ range where .Site.RegularPages "Section" "judges" }}
+            {{ range sort (where .Site.RegularPages "Section" "judges") "Title" }}
                 <li class="judge-list__item">
                     {{- partial "judge-card.html" (
                         dict

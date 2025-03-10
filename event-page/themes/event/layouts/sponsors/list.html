@@ -8,7 +8,7 @@
                 {{ T "sponsors_section.subheading" }}
             </h2>
             <ul class="our-sponsors__list">
-                {{ range where .Site.RegularPages "Section" "sponsors" }}
+                {{ range sort (where .Site.RegularPages "Section" "sponsors") "Title" }}
                     <li class="our-sponsors__list-item">
                         <div class="sponsor">
                             <a href="{{ .Params.companyUrl | safeURL }}" target="_blank">
