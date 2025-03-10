@@ -1,8 +1,8 @@
 ---
-title: 'Hacking @ 10:00 -> Lunch (13:00) -> Dinner (19:00)'
+title: 'ハッキング @ 10:00 -> 昼食 (13:00) -> 夕食 (19:00)'
 date: 2025-03-05T00:00:00
 isScheduled: true
 eventDate: '2025-04-12T10:00:00'
 ---
 
-Open Hacking Session.  Lunch at 1PM.  Dinner at 17:00.  Some people will lead groups to go out for food or drink during the dinner hour if you prefer outside food.
+オープンハッキングセッション。ランチは13時、ディナーは17時に予定しています。外食を希望する方のために、ディナーの時間帯には外で食事やドリンクを楽しめるようグループを案内してもらう予定です。

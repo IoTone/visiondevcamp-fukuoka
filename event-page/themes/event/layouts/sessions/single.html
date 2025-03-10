@@ -40,7 +40,7 @@
                             role="listitem"
                             aria-label="{{ $judgePage.Title }}">
                             <div class="single-session-judge-list__avatar">
-                                {{- partial "judge-avatar.html" (
+                                {{- partial "avatar.html" (
                                     dict
                                     "avatarResource" ($judgePage.Resources.GetMatch "avatar.*")
                                     "avatarAlt" $judgePage.Title

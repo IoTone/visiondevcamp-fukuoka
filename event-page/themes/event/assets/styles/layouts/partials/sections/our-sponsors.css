@@ -10,7 +10,7 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    align-items: flex-start;
+    align-items: center;
     list-style: none;
     padding: 0;
     margin: 0;
@@ -19,15 +19,15 @@
 }
 
 .our-sponsors__list-item {
-    width: calc(50% - 1.4rem);
+    width: calc(25% - 1.4rem);
     margin-bottom: 1.875rem;
     box-sizing: border-box;
     text-align: center;
 }
 
 .our-sponsors__list-item .sponsor__logo {
-    width: auto;
-    height: 150px;
+    max-width: 100%;
+    height: auto;
     display: block;
     margin: 0 auto;
 }

@@ -6,17 +6,28 @@
         <h2 class="heading heading--2 heading--centered">
             {{ T "schedule.subheading" }}
         </h2>
-        {{ range where .Site.RegularPages "Section" "sessions" }}
+        {{ $sessions := where .Site.RegularPages "Section" "sessions" }}
+        {{ $sortedSessions := sort $sessions "Params.eventDate" }}
+        {{ $currentDay := "" }}
+        {{ $baseDate := time "2025-04-11" }}
+        {{ range $sortedSessions }}
             {{ if .Params.isScheduled }}
+                {{ $day := .Params.eventDate | time.Format "2006-01-02" }}
+                {{ if ne $currentDay $day }}
+                    {{ $currentDay = $day }}
+                    {{ $dayNumber := add 1 (div (sub (time $day).Unix $baseDate.Unix) 86400) }}
+                    <h3 class="heading heading--day">
+                        Day
+                        {{ $dayNumber }}
+                        {{ if .Params.eventDate }}
+                            -
+                            {{ .Params.eventDate | time.Format (i18n "schedule_date") }}
+                        {{ end }}
+                    </h3>
+                {{ end }}
                 <div class="session-list">
                     <h3 class="heading heading--highlighted">
                         {{ .Title }}
-                        {{ if .Params.eventDate }}
-                            -{{ .Params.eventDate | time.Format (i18n "schedule_date") }}
-                            <!-- {{ .Params.eventDate | time.Format (i18n "schedule_time") }} -->
-                        {{ else }}
-                            {{ .Date.Format (i18n "schedule_date") }}
-                        {{ end }}
                     </h3>
                     <ul class="session-day-section__session-menu">
                         <li>

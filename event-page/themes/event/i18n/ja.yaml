@@ -13,6 +13,9 @@ cta_section.message: |
 header_featured_judges: 注目の審査員
 judges_page.heading: 審査員
 judges_page.social_links: '{{ . }} のソーシャルメディアリンク'
+organizers_page.heading: 主催者
+organizers_page.subheading: イベントの主催者
+organizers_page.social_links: '{{ . }} のソーシャルメディアリンク'
 sessions_page.heading: スケジュール
 sessions_page.day: 日 {{ . }}
 sessions_page.heading_day_filter: 日付
@@ -29,6 +32,7 @@ menu.sessions: スケジュール
 menu.judges: 審査員
 menu.location: 場所
 menu.sponsors: スポンサー
+menu.organizers: 主催者
 main_menu.label: メインメニュー
 social-links_list.label: ソーシャルメディアリンク
 secondary_menu.label: セカンダリーメニュー

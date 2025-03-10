@@ -40,3 +40,20 @@
 .judge-sessions-section__hashtag {
     font-weight: 900;
 }
+
+/* Organizers */
+
+.single-organizer-section {
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    gap: 2.625rem;
+}
+
+@media screen and (width < 768px) {
+    .single-organizer-section {
+        flex-direction: column;
+        align-items: center;
+        gap: 0;
+    }
+}

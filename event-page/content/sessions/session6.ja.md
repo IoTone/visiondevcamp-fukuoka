@@ -1,8 +1,8 @@
 ---
-title: 'Fukuoka Saturday Evening Closing Remarks/Next Place 22:30'
+title: '福岡土曜夜の閉会の辞/次の場所 22:30'
 date: 2025-03-05T00:00:00
 isScheduled: true
 eventDate: '2025-04-12T22:30:00'
 ---
 
-We will offer closing remarks, and give everyone an opportunity to gather to go grab a quick bite outside in Tenjin and possibly wander off to "the next place".  Depending on access, it may be possible to work late on site.
+閉会の辞を述べ、天神で軽食を取る機会を提供し、その後他の場所へと移動する可能性があります。アクセス次第では、現地で遅くまで作業することが可能かもしれません。

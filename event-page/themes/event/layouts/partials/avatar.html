@@ -1,7 +1,7 @@
 {{ $input := . }}
 
 
-<article class="judge-avatar-container">
+<article class="avatar-container">
     {{- partial "shaped-image.html" (
         dict
         "imageResource" $input.avatarResource
@@ -17,7 +17,7 @@
             "githubUrl" $input.githubUrl
             "xUrl" $input.xUrl
             "companyUrl" $input.companyUrl
-            "linkClass" "judge-avatar-container__social-link"
+            "linkClass" "avatar-container__social-link"
             )
         }}
     {{- end }}

@@ -1,0 +1,26 @@
+{{ define "main" }}
+    <section class="organizer-list">
+        <div class="section">
+            <h1 class="heading heading--1">{{ T "organizers_page.heading" }}</h1>
+            <menu class="organizer-list__menu">
+                {{ range .Pages }}
+                    <li class="organizer-list__item">
+                        {{- partial "organizer-card.html" (
+                            dict
+                            "profileUrl" .RelPermalink
+                            "avatarResource" .Params.avatarResource
+                            "name" .Title
+                            "position" .Params.position
+                            "expertise" .Params.expertise
+                            "description" .Params.description
+                            "githubUrl" .Params.githubUrl
+                            "xUrl" .Params.xUrl
+                            "companyUrl" .Params.company
+                            )
+                        }}
+                    </li>
+                {{ end }}
+            </menu>
+        </div>
+    </section>
+{{ end }}

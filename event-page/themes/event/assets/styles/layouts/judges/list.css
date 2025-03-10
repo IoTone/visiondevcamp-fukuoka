@@ -20,3 +20,26 @@
     width: 100%;
     max-width: 16.875rem; /* Matches the width of the judge card */
 }
+
+.organizer-list {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 3.75rem;
+}
+
+.organizer-list__menu {
+    all: unset;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    list-style: none;
+    gap: 1.875rem;
+}
+
+.organizer-list__item {
+    width: 100%;
+    max-width: 16.875rem; /* Matches the width of the judge card */
+}

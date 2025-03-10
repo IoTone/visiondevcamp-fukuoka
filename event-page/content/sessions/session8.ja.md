@@ -1,8 +1,8 @@
 ---
-title: 'Judging/Hackathon Demos'
+title: '審査/ハッカソンデモ'
 date: 2025-03-04T00:00:00
 isScheduled: true
 eventDate: '2025-04-13T14:00:00'
 ---
 
-Judges will convene.  All participant teams will demo their submissions.  Please use a real AVP for the demos.
+審査員が集まります。すべての参加チームが提出物をデモします。デモには実際のAVPを使用してください。
