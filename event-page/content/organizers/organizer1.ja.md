@@ -1,10 +1,10 @@
 ---
-title: 'オーガナイザー名'
+title: 'David J Kordsmeier'
 date: 2025-03-05
-position: 'オーガナイザーの役職'
-expertise: '専門分野'
-avatarResource: 'images/judges/aimi-sekiguchi-400-400.png'
-description: 'オーガナイザーの詳細な説明をここに記述します。'
-xUrl: 'https://x.com/organizer'
-companyUrl: 'https://organizer-company.com/'
+position: 'Founder/CEO'
+expertise: 'Mobile/Embedded/IoT'
+avatarResource: 'images/organizer/dk_profile.jpg'
+description: ''
+xUrl: 'https://x.com/dkords'
+companyUrl: 'https://iotoneai.site'
 ---
