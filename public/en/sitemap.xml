@@ -2,408 +2,395 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>/en/</loc>
-    <lastmod>2025-03-10T10:00:00+09:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="ja"
-                href="/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="/en/"
-                />
-  </url><url>
-    <loc>/en/about/</loc>
-    <lastmod>2025-03-10T10:00:00+09:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="ja"
-                href="/about/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="/en/about/"
-                />
-  </url><url>
-    <loc>/en/contact/</loc>
-    <lastmod>2025-03-10T10:00:00+09:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="ja"
-                href="/contact/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="/en/contact/"
-                />
-  </url><url>
-    <loc>/en/sessions/session1/</loc>
+    <loc>https://visiondevcamp-fukuoka.pages.dev/en/</loc>
     <lastmod>2025-03-06T10:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="ja"
-                href="/sessions/session1/"
+                href="https://visiondevcamp-fukuoka.pages.dev/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="/en/sessions/session1/"
+                href="https://visiondevcamp-fukuoka.pages.dev/en/"
                 />
   </url><url>
-    <loc>/en/sessions/session1b/</loc>
+    <loc>https://visiondevcamp-fukuoka.pages.dev/en/sessions/session1/</loc>
     <lastmod>2025-03-06T10:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="ja"
-                href="/sessions/session1b/"
+                href="https://visiondevcamp-fukuoka.pages.dev/sessions/session1/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="/en/sessions/session1b/"
+                href="https://visiondevcamp-fukuoka.pages.dev/en/sessions/session1/"
                 />
   </url><url>
-    <loc>/en/sessions/session1c/</loc>
+    <loc>https://visiondevcamp-fukuoka.pages.dev/en/sessions/session1b/</loc>
     <lastmod>2025-03-06T10:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="ja"
-                href="/sessions/session1c/"
+                href="https://visiondevcamp-fukuoka.pages.dev/sessions/session1b/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="/en/sessions/session1c/"
+                href="https://visiondevcamp-fukuoka.pages.dev/en/sessions/session1b/"
                 />
   </url><url>
-    <loc>/en/sessions/session1d/</loc>
+    <loc>https://visiondevcamp-fukuoka.pages.dev/en/sessions/session1c/</loc>
     <lastmod>2025-03-06T10:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="ja"
-                href="/sessions/session1d/"
+                href="https://visiondevcamp-fukuoka.pages.dev/sessions/session1c/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="/en/sessions/session1d/"
+                href="https://visiondevcamp-fukuoka.pages.dev/en/sessions/session1c/"
                 />
   </url><url>
-    <loc>/en/sessions/session1e/</loc>
+    <loc>https://visiondevcamp-fukuoka.pages.dev/en/sessions/session1d/</loc>
     <lastmod>2025-03-06T10:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="ja"
-                href="/sessions/session1e/"
+                href="https://visiondevcamp-fukuoka.pages.dev/sessions/session1d/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="/en/sessions/session1e/"
+                href="https://visiondevcamp-fukuoka.pages.dev/en/sessions/session1d/"
                 />
   </url><url>
-    <loc>/en/sessions/</loc>
+    <loc>https://visiondevcamp-fukuoka.pages.dev/en/sessions/session1e/</loc>
     <lastmod>2025-03-06T10:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="ja"
-                href="/sessions/"
+                href="https://visiondevcamp-fukuoka.pages.dev/sessions/session1e/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="/en/sessions/"
+                href="https://visiondevcamp-fukuoka.pages.dev/en/sessions/session1e/"
                 />
   </url><url>
-    <loc>/en/sessions/session2/</loc>
+    <loc>https://visiondevcamp-fukuoka.pages.dev/en/sessions/</loc>
+    <lastmod>2025-03-06T10:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="ja"
+                href="https://visiondevcamp-fukuoka.pages.dev/sessions/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://visiondevcamp-fukuoka.pages.dev/en/sessions/"
+                />
+  </url><url>
+    <loc>https://visiondevcamp-fukuoka.pages.dev/en/sessions/session2/</loc>
     <lastmod>2025-03-05T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="ja"
-                href="/sessions/session2/"
+                href="https://visiondevcamp-fukuoka.pages.dev/sessions/session2/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="/en/sessions/session2/"
+                href="https://visiondevcamp-fukuoka.pages.dev/en/sessions/session2/"
                 />
   </url><url>
-    <loc>/en/sessions/session2b/</loc>
+    <loc>https://visiondevcamp-fukuoka.pages.dev/en/sessions/session2b/</loc>
     <lastmod>2025-03-05T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="ja"
-                href="/sessions/session2b/"
+                href="https://visiondevcamp-fukuoka.pages.dev/sessions/session2b/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="/en/sessions/session2b/"
+                href="https://visiondevcamp-fukuoka.pages.dev/en/sessions/session2b/"
                 />
   </url><url>
-    <loc>/en/organizers/organizer1/</loc>
+    <loc>https://visiondevcamp-fukuoka.pages.dev/en/organizers/organizer1/</loc>
     <lastmod>2025-03-05T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="ja"
-                href="/organizers/organizer1/"
+                href="https://visiondevcamp-fukuoka.pages.dev/organizers/organizer1/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="/en/organizers/organizer1/"
+                href="https://visiondevcamp-fukuoka.pages.dev/en/organizers/organizer1/"
                 />
   </url><url>
-    <loc>/en/sessions/session6/</loc>
+    <loc>https://visiondevcamp-fukuoka.pages.dev/en/sessions/session6/</loc>
     <lastmod>2025-03-05T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="ja"
-                href="/sessions/session6/"
+                href="https://visiondevcamp-fukuoka.pages.dev/sessions/session6/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="/en/sessions/session6/"
+                href="https://visiondevcamp-fukuoka.pages.dev/en/sessions/session6/"
                 />
   </url><url>
-    <loc>/en/sessions/session5/</loc>
+    <loc>https://visiondevcamp-fukuoka.pages.dev/en/sessions/session5/</loc>
     <lastmod>2025-03-05T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="ja"
-                href="/sessions/session5/"
+                href="https://visiondevcamp-fukuoka.pages.dev/sessions/session5/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="/en/sessions/session5/"
+                href="https://visiondevcamp-fukuoka.pages.dev/en/sessions/session5/"
                 />
   </url><url>
-    <loc>/en/organizers/</loc>
+    <loc>https://visiondevcamp-fukuoka.pages.dev/en/organizers/</loc>
     <lastmod>2025-03-05T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="ja"
-                href="/organizers/"
+                href="https://visiondevcamp-fukuoka.pages.dev/organizers/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="/en/organizers/"
+                href="https://visiondevcamp-fukuoka.pages.dev/en/organizers/"
                 />
   </url><url>
-    <loc>/en/sessions/session7/</loc>
+    <loc>https://visiondevcamp-fukuoka.pages.dev/en/sessions/session7/</loc>
     <lastmod>2025-03-04T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="ja"
-                href="/sessions/session7/"
+                href="https://visiondevcamp-fukuoka.pages.dev/sessions/session7/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="/en/sessions/session7/"
+                href="https://visiondevcamp-fukuoka.pages.dev/en/sessions/session7/"
                 />
   </url><url>
-    <loc>/en/judges/</loc>
+    <loc>https://visiondevcamp-fukuoka.pages.dev/en/judges/</loc>
     <lastmod>2025-03-04T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="ja"
-                href="/judges/"
+                href="https://visiondevcamp-fukuoka.pages.dev/judges/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="/en/judges/"
+                href="https://visiondevcamp-fukuoka.pages.dev/en/judges/"
                 />
   </url><url>
-    <loc>/en/sessions/session8/</loc>
+    <loc>https://visiondevcamp-fukuoka.pages.dev/en/sessions/session8/</loc>
     <lastmod>2025-03-04T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="ja"
-                href="/sessions/session8/"
+                href="https://visiondevcamp-fukuoka.pages.dev/sessions/session8/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="/en/sessions/session8/"
+                href="https://visiondevcamp-fukuoka.pages.dev/en/sessions/session8/"
                 />
   </url><url>
-    <loc>/en/judges/satoshi-hattori/</loc>
+    <loc>https://visiondevcamp-fukuoka.pages.dev/en/judges/satoshi-hattori/</loc>
     <lastmod>2025-03-04T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="ja"
-                href="/judges/satoshi-hattori/"
+                href="https://visiondevcamp-fukuoka.pages.dev/judges/satoshi-hattori/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="/en/judges/satoshi-hattori/"
+                href="https://visiondevcamp-fukuoka.pages.dev/en/judges/satoshi-hattori/"
                 />
   </url><url>
-    <loc>/en/sessions/session9/</loc>
+    <loc>https://visiondevcamp-fukuoka.pages.dev/en/sessions/session9/</loc>
     <lastmod>2025-03-04T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="ja"
-                href="/sessions/session9/"
+                href="https://visiondevcamp-fukuoka.pages.dev/sessions/session9/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="/en/sessions/session9/"
+                href="https://visiondevcamp-fukuoka.pages.dev/en/sessions/session9/"
                 />
   </url><url>
-    <loc>/en/sessions/session10/</loc>
+    <loc>https://visiondevcamp-fukuoka.pages.dev/en/sessions/session10/</loc>
     <lastmod>2025-03-04T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="ja"
-                href="/sessions/session10/"
+                href="https://visiondevcamp-fukuoka.pages.dev/sessions/session10/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="/en/sessions/session10/"
+                href="https://visiondevcamp-fukuoka.pages.dev/en/sessions/session10/"
                 />
   </url><url>
-    <loc>/en/judges/aimi-sekiguchi/</loc>
+    <loc>https://visiondevcamp-fukuoka.pages.dev/en/judges/aimi-sekiguchi/</loc>
     <lastmod>2025-03-03T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="ja"
-                href="/judges/aimi-sekiguchi/"
+                href="https://visiondevcamp-fukuoka.pages.dev/judges/aimi-sekiguchi/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="/en/judges/aimi-sekiguchi/"
+                href="https://visiondevcamp-fukuoka.pages.dev/en/judges/aimi-sekiguchi/"
                 />
   </url><url>
-    <loc>/en/sponsors/engineercafe/</loc>
+    <loc>https://visiondevcamp-fukuoka.pages.dev/en/sponsors/engineercafe/</loc>
     <lastmod>2025-03-03T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/en/sponsors/iotone-japan/</loc>
-    <lastmod>2025-03-03T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="ja"
-                href="/sponsors/iotone-japan/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="/en/sponsors/iotone-japan/"
-                />
-  </url><url>
-    <loc>/en/sponsors/</loc>
+    <loc>https://visiondevcamp-fukuoka.pages.dev/en/sponsors/iotone-japan/</loc>
     <lastmod>2025-03-03T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="ja"
-                href="/sponsors/"
+                href="https://visiondevcamp-fukuoka.pages.dev/sponsors/iotone-japan/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="/en/sponsors/"
+                href="https://visiondevcamp-fukuoka.pages.dev/en/sponsors/iotone-japan/"
                 />
   </url><url>
-    <loc>/en/sponsors/unity-technologies-japan/</loc>
+    <loc>https://visiondevcamp-fukuoka.pages.dev/en/sponsors/</loc>
     <lastmod>2025-03-03T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="ja"
-                href="/sponsors/unity-technologies-japan/"
+                href="https://visiondevcamp-fukuoka.pages.dev/sponsors/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="/en/sponsors/unity-technologies-japan/"
+                href="https://visiondevcamp-fukuoka.pages.dev/en/sponsors/"
                 />
   </url><url>
-    <loc>/en/judges/junichiro-koyama/</loc>
+    <loc>https://visiondevcamp-fukuoka.pages.dev/en/sponsors/unity-technologies-japan/</loc>
+    <lastmod>2025-03-03T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="ja"
+                href="https://visiondevcamp-fukuoka.pages.dev/sponsors/unity-technologies-japan/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://visiondevcamp-fukuoka.pages.dev/en/sponsors/unity-technologies-japan/"
+                />
+  </url><url>
+    <loc>https://visiondevcamp-fukuoka.pages.dev/en/judges/junichiro-koyama/</loc>
     <lastmod>2025-03-02T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="ja"
-                href="/judges/junichiro-koyama/"
+                href="https://visiondevcamp-fukuoka.pages.dev/judges/junichiro-koyama/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="/en/judges/junichiro-koyama/"
+                href="https://visiondevcamp-fukuoka.pages.dev/en/judges/junichiro-koyama/"
                 />
   </url><url>
-    <loc>/en/sponsors/styly/</loc>
+    <loc>https://visiondevcamp-fukuoka.pages.dev/en/sponsors/styly/</loc>
     <lastmod>2025-03-02T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="ja"
-                href="/sponsors/styly/"
+                href="https://visiondevcamp-fukuoka.pages.dev/sponsors/styly/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="/en/sponsors/styly/"
+                href="https://visiondevcamp-fukuoka.pages.dev/en/sponsors/styly/"
                 />
   </url><url>
-    <loc>/en/judges/shinobu-takahashi/</loc>
+    <loc>https://visiondevcamp-fukuoka.pages.dev/en/judges/shinobu-takahashi/</loc>
     <lastmod>2025-03-01T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="ja"
-                href="/judges/shinobu-takahashi/"
+                href="https://visiondevcamp-fukuoka.pages.dev/judges/shinobu-takahashi/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="/en/judges/shinobu-takahashi/"
+                href="https://visiondevcamp-fukuoka.pages.dev/en/judges/shinobu-takahashi/"
                 />
   </url><url>
-    <loc>/en/categories/</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="ja"
-                href="/categories/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="/en/categories/"
-                />
-  </url><url>
-    <loc>/en/location/</loc>
+    <loc>https://visiondevcamp-fukuoka.pages.dev/en/about/</loc>
     <priority>0</priority>
     <xhtml:link
                 rel="alternate"
                 hreflang="ja"
-                href="/location/"
+                href="https://visiondevcamp-fukuoka.pages.dev/about/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="/en/location/"
+                href="https://visiondevcamp-fukuoka.pages.dev/en/about/"
                 />
   </url><url>
-    <loc>/en/tags/</loc>
+    <loc>https://visiondevcamp-fukuoka.pages.dev/en/categories/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="ja"
-                href="/tags/"
+                href="https://visiondevcamp-fukuoka.pages.dev/categories/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="/en/tags/"
+                href="https://visiondevcamp-fukuoka.pages.dev/en/categories/"
+                />
+  </url><url>
+    <loc>https://visiondevcamp-fukuoka.pages.dev/en/location/</loc>
+    <priority>0</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="ja"
+                href="https://visiondevcamp-fukuoka.pages.dev/location/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://visiondevcamp-fukuoka.pages.dev/en/location/"
+                />
+  </url><url>
+    <loc>https://visiondevcamp-fukuoka.pages.dev/en/tags/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="ja"
+                href="https://visiondevcamp-fukuoka.pages.dev/tags/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://visiondevcamp-fukuoka.pages.dev/en/tags/"
                 />
   </url>
 </urlset>

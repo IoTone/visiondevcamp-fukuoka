@@ -2,10 +2,10 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Categories on </title>
-    <link>/en/categories/</link>
+    <link>https://visiondevcamp-fukuoka.pages.dev/en/categories/</link>
     <description>Recent content in Categories on </description>
     <generator>Hugo</generator>
     <language>en</language>
-    <atom:link href="/en/categories/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://visiondevcamp-fukuoka.pages.dev/en/categories/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>
