@@ -7,7 +7,7 @@
             {{ T "organizers_page.subheading" }}
         </h2>
         <menu class="organizer-list__menu">
-            {{ range where .Site.RegularPages "Section" "organizers" }}
+            {{ range sort (where .Site.RegularPages "Section" "organizers") "Title" }}
                 <li class="organizer-list__item">
                     {{- partial "organizer-card.html" (
                         dict
