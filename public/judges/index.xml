@@ -2,38 +2,38 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Judges on </title>
-    <link>https://visiondevcamp-fukuoka.pages.dev/judges/</link>
+    <link>/judges/</link>
     <description>Recent content in Judges on </description>
     <generator>Hugo</generator>
     <language>ja</language>
     <lastBuildDate>Tue, 04 Mar 2025 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://visiondevcamp-fukuoka.pages.dev/judges/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="/judges/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>服部 智</title>
-      <link>https://visiondevcamp-fukuoka.pages.dev/judges/satoshi-hattori/</link>
+      <link>/judges/satoshi-hattori/</link>
       <pubDate>Tue, 04 Mar 2025 00:00:00 +0000</pubDate>
-      <guid>https://visiondevcamp-fukuoka.pages.dev/judges/satoshi-hattori/</guid>
+      <guid>/judges/satoshi-hattori/</guid>
       <description></description>
     </item>
     <item>
       <title>せきぐちあいみ</title>
-      <link>https://visiondevcamp-fukuoka.pages.dev/judges/aimi-sekiguchi/</link>
+      <link>/judges/aimi-sekiguchi/</link>
       <pubDate>Mon, 03 Mar 2025 00:00:00 +0000</pubDate>
-      <guid>https://visiondevcamp-fukuoka.pages.dev/judges/aimi-sekiguchi/</guid>
+      <guid>/judges/aimi-sekiguchi/</guid>
       <description></description>
     </item>
     <item>
       <title>コヤ所長</title>
-      <link>https://visiondevcamp-fukuoka.pages.dev/judges/junichiro-koyama/</link>
+      <link>/judges/junichiro-koyama/</link>
       <pubDate>Sun, 02 Mar 2025 00:00:00 +0000</pubDate>
-      <guid>https://visiondevcamp-fukuoka.pages.dev/judges/junichiro-koyama/</guid>
+      <guid>/judges/junichiro-koyama/</guid>
       <description></description>
     </item>
     <item>
       <title>高橋 忍</title>
-      <link>https://visiondevcamp-fukuoka.pages.dev/judges/shinobu-takahashi/</link>
+      <link>/judges/shinobu-takahashi/</link>
       <pubDate>Sat, 01 Mar 2025 00:00:00 +0000</pubDate>
-      <guid>https://visiondevcamp-fukuoka.pages.dev/judges/shinobu-takahashi/</guid>
+      <guid>/judges/shinobu-takahashi/</guid>
       <description></description>
     </item>
   </channel>

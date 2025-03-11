@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Organizers on </title>
-    <link>https://visiondevcamp-fukuoka.pages.dev/organizers/</link>
+    <link>/organizers/</link>
     <description>Recent content in Organizers on </description>
     <generator>Hugo</generator>
     <language>ja</language>
     <lastBuildDate>Wed, 05 Mar 2025 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://visiondevcamp-fukuoka.pages.dev/organizers/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="/organizers/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>David J Kordsmeier</title>
-      <link>https://visiondevcamp-fukuoka.pages.dev/organizers/organizer1/</link>
+      <link>/organizers/organizer1/</link>
       <pubDate>Wed, 05 Mar 2025 00:00:00 +0000</pubDate>
-      <guid>https://visiondevcamp-fukuoka.pages.dev/organizers/organizer1/</guid>
+      <guid>/organizers/organizer1/</guid>
       <description></description>
     </item>
   </channel>

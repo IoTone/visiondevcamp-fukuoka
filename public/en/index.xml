@@ -2,185 +2,185 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title></title>
-    <link>https://visiondevcamp-fukuoka.pages.dev/en/</link>
+    <link>/en/</link>
     <description>Recent content on </description>
     <generator>Hugo</generator>
     <language>en</language>
     <lastBuildDate>Mon, 10 Mar 2025 10:00:00 +0900</lastBuildDate>
-    <atom:link href="https://visiondevcamp-fukuoka.pages.dev/en/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="/en/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>About VisionDevCamp</title>
-      <link>https://visiondevcamp-fukuoka.pages.dev/en/about/</link>
+      <link>/en/about/</link>
       <pubDate>Mon, 10 Mar 2025 10:00:00 +0900</pubDate>
-      <guid>https://visiondevcamp-fukuoka.pages.dev/en/about/</guid>
+      <guid>/en/about/</guid>
       <description>&lt;h3 class=&#34;heading heading--3&#34; id=&#34;a-historic-hackathon-originating-from-silicon-valley&#34;&gt;A Historic Hackathon Originating from Silicon Valley&lt;/h3&gt;&lt;p&gt;With its origins in the release of the iPhone in 2007, it has a long history of 16 years.&#xA;Starting with iPhoneDevCamp (2007, 2008, 2009), it expanded in scale and participants to iPadDevCamp (2010) and iOSDevCamp (2010, 2011, 2012, 2013).&lt;/p&gt;&#xA;&#xA;&lt;h3 class=&#34;heading heading--3&#34; id=&#34;event-format&#34;&gt;Event Format&lt;/h3&gt;&lt;p&gt;Detailed Format: &lt;a&#xA;  class=&#34;link&#34;&#xA;  href=&#34;https://visiondevcamp.org/hackathon/&#34;rel=&#34;external&#34;&gt;https://visiondevcamp.org/hackathon/&lt;/a&gt;&#xA;&lt;/p&gt;&#xA;&lt;p&gt;The event format has evolved over the years from its origins in iOSDevCamp.&#xA;What is different about this Hackathon vs other large events like MIT Reality Hack:&lt;/p&gt;</description>
     </item>
     <item>
       <title>Contact</title>
-      <link>https://visiondevcamp-fukuoka.pages.dev/en/contact/</link>
+      <link>/en/contact/</link>
       <pubDate>Mon, 10 Mar 2025 10:00:00 +0900</pubDate>
-      <guid>https://visiondevcamp-fukuoka.pages.dev/en/contact/</guid>
+      <guid>/en/contact/</guid>
       <description>&lt;p&gt;Please use the following form to contact us.&#xA;&lt;a&#xA;  class=&#34;link&#34;&#xA;  href=&#34;https://forms.gle/zsmehx2MSNxWu7Pm6&#34;rel=&#34;external&#34;&gt;Contact Form&lt;/a&gt;&#xA;&lt;/p&gt;</description>
     </item>
     <item>
       <title>17:00-19:00 REGISTRATION</title>
-      <link>https://visiondevcamp-fukuoka.pages.dev/en/sessions/session1/</link>
+      <link>/en/sessions/session1/</link>
       <pubDate>Thu, 06 Mar 2025 10:00:00 +0000</pubDate>
-      <guid>https://visiondevcamp-fukuoka.pages.dev/en/sessions/session1/</guid>
+      <guid>/en/sessions/session1/</guid>
       <description>&lt;p&gt;Signin/Registration/Spatial Mingle&lt;/p&gt;</description>
     </item>
     <item>
       <title>19:00-19:30 MIXER</title>
-      <link>https://visiondevcamp-fukuoka.pages.dev/en/sessions/session1b/</link>
+      <link>/en/sessions/session1b/</link>
       <pubDate>Thu, 06 Mar 2025 10:00:00 +0000</pubDate>
-      <guid>https://visiondevcamp-fukuoka.pages.dev/en/sessions/session1b/</guid>
+      <guid>/en/sessions/session1b/</guid>
       <description>&lt;p&gt;Mixer + Food&lt;/p&gt;</description>
     </item>
     <item>
       <title>19:30-20:30 Keynote</title>
-      <link>https://visiondevcamp-fukuoka.pages.dev/en/sessions/session1c/</link>
+      <link>/en/sessions/session1c/</link>
       <pubDate>Thu, 06 Mar 2025 10:00:00 +0000</pubDate>
-      <guid>https://visiondevcamp-fukuoka.pages.dev/en/sessions/session1c/</guid>
+      <guid>/en/sessions/session1c/</guid>
       <description>&lt;p&gt;Tokyo/Fukuoka simulcast&lt;/p&gt;</description>
     </item>
     <item>
       <title>20:30-22:30 Pitch Round/Intro/Team Formation</title>
-      <link>https://visiondevcamp-fukuoka.pages.dev/en/sessions/session1d/</link>
+      <link>/en/sessions/session1d/</link>
       <pubDate>Thu, 06 Mar 2025 10:00:00 +0000</pubDate>
-      <guid>https://visiondevcamp-fukuoka.pages.dev/en/sessions/session1d/</guid>
+      <guid>/en/sessions/session1d/</guid>
       <description>&lt;p&gt;This is a chance to speak to the group and pitch an idea, ask for help, look for a team.  We will spend most of our time on this !  Please attend in person.&lt;/p&gt;</description>
     </item>
     <item>
       <title>22:30 Fukuoka Evening Closing Remarks/Next Place</title>
-      <link>https://visiondevcamp-fukuoka.pages.dev/en/sessions/session1e/</link>
+      <link>/en/sessions/session1e/</link>
       <pubDate>Thu, 06 Mar 2025 10:00:00 +0000</pubDate>
-      <guid>https://visiondevcamp-fukuoka.pages.dev/en/sessions/session1e/</guid>
+      <guid>/en/sessions/session1e/</guid>
       <description>&lt;p&gt;We will offer closing remarks, and give everyone an opportunity to gather to go grab a quick bite outside in Tenjin and possibly wander off to &amp;ldquo;the next place&amp;rdquo;.  Depending on access, it may be possible to work late on site.&lt;/p&gt;</description>
     </item>
     <item>
       <title>9:00 Breakfast</title>
-      <link>https://visiondevcamp-fukuoka.pages.dev/en/sessions/session2/</link>
+      <link>/en/sessions/session2/</link>
       <pubDate>Wed, 05 Mar 2025 00:00:00 +0000</pubDate>
-      <guid>https://visiondevcamp-fukuoka.pages.dev/en/sessions/session2/</guid>
+      <guid>/en/sessions/session2/</guid>
       <description>&lt;p&gt;Japanese Breakfast.  Coffee Available at the Cafe or nearby Convenience Store.&lt;/p&gt;</description>
     </item>
     <item>
       <title>9:30 Opening Remarks</title>
-      <link>https://visiondevcamp-fukuoka.pages.dev/en/sessions/session2b/</link>
+      <link>/en/sessions/session2b/</link>
       <pubDate>Wed, 05 Mar 2025 00:00:00 +0000</pubDate>
-      <guid>https://visiondevcamp-fukuoka.pages.dev/en/sessions/session2b/</guid>
+      <guid>/en/sessions/session2b/</guid>
       <description>&lt;p&gt;Opening Remarks.&lt;/p&gt;</description>
     </item>
     <item>
       <title>David J Kordsmeier</title>
-      <link>https://visiondevcamp-fukuoka.pages.dev/en/organizers/organizer1/</link>
+      <link>/en/organizers/organizer1/</link>
       <pubDate>Wed, 05 Mar 2025 00:00:00 +0000</pubDate>
-      <guid>https://visiondevcamp-fukuoka.pages.dev/en/organizers/organizer1/</guid>
+      <guid>/en/organizers/organizer1/</guid>
       <description></description>
     </item>
     <item>
       <title>Fukuoka Saturday Evening Closing Remarks/Next Place 22:30</title>
-      <link>https://visiondevcamp-fukuoka.pages.dev/en/sessions/session6/</link>
+      <link>/en/sessions/session6/</link>
       <pubDate>Wed, 05 Mar 2025 00:00:00 +0000</pubDate>
-      <guid>https://visiondevcamp-fukuoka.pages.dev/en/sessions/session6/</guid>
+      <guid>/en/sessions/session6/</guid>
       <description>&lt;p&gt;We will offer closing remarks, and give everyone an opportunity to gather to go grab a quick bite outside in Tenjin and possibly wander off to &amp;ldquo;the next place&amp;rdquo;.  Depending on access, it may be possible to work late on site.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Hacking @ 10:00 -&gt; Lunch (13:00) -&gt; Dinner (19:00)</title>
-      <link>https://visiondevcamp-fukuoka.pages.dev/en/sessions/session5/</link>
+      <link>/en/sessions/session5/</link>
       <pubDate>Wed, 05 Mar 2025 00:00:00 +0000</pubDate>
-      <guid>https://visiondevcamp-fukuoka.pages.dev/en/sessions/session5/</guid>
+      <guid>/en/sessions/session5/</guid>
       <description>&lt;p&gt;Open Hacking Session.  Lunch at 1PM.  Dinner at 17:00.  Some people will lead groups to go out for food or drink during the dinner hour if you prefer outside food.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Hacking Wrap Up</title>
-      <link>https://visiondevcamp-fukuoka.pages.dev/en/sessions/session7/</link>
+      <link>/en/sessions/session7/</link>
       <pubDate>Tue, 04 Mar 2025 00:00:00 +0000</pubDate>
-      <guid>https://visiondevcamp-fukuoka.pages.dev/en/sessions/session7/</guid>
+      <guid>/en/sessions/session7/</guid>
       <description>&lt;p&gt;Hacking Session and wrap up your projects and submit by 14:00!!!&lt;/p&gt;</description>
     </item>
     <item>
       <title>Judging/Hackathon Demos</title>
-      <link>https://visiondevcamp-fukuoka.pages.dev/en/sessions/session8/</link>
+      <link>/en/sessions/session8/</link>
       <pubDate>Tue, 04 Mar 2025 00:00:00 +0000</pubDate>
-      <guid>https://visiondevcamp-fukuoka.pages.dev/en/sessions/session8/</guid>
+      <guid>/en/sessions/session8/</guid>
       <description>&lt;p&gt;Judges will convene.  All participant teams will demo their submissions.  Please use a real AVP for the demos.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Satoshi Hattori</title>
-      <link>https://visiondevcamp-fukuoka.pages.dev/en/judges/satoshi-hattori/</link>
+      <link>/en/judges/satoshi-hattori/</link>
       <pubDate>Tue, 04 Mar 2025 00:00:00 +0000</pubDate>
-      <guid>https://visiondevcamp-fukuoka.pages.dev/en/judges/satoshi-hattori/</guid>
+      <guid>/en/judges/satoshi-hattori/</guid>
       <description></description>
     </item>
     <item>
       <title>Winners Circle/Awards Ceremony</title>
-      <link>https://visiondevcamp-fukuoka.pages.dev/en/sessions/session9/</link>
+      <link>/en/sessions/session9/</link>
       <pubDate>Tue, 04 Mar 2025 00:00:00 +0000</pubDate>
-      <guid>https://visiondevcamp-fukuoka.pages.dev/en/sessions/session9/</guid>
+      <guid>/en/sessions/session9/</guid>
       <description>&lt;p&gt;16:00 After judging, Awards will be announced.  Tune in online or in person.&lt;/p&gt;</description>
     </item>
     <item>
       <title>zzz Celebrate Dinner/Post Party</title>
-      <link>https://visiondevcamp-fukuoka.pages.dev/en/sessions/session10/</link>
+      <link>/en/sessions/session10/</link>
       <pubDate>Tue, 04 Mar 2025 00:00:00 +0000</pubDate>
-      <guid>https://visiondevcamp-fukuoka.pages.dev/en/sessions/session10/</guid>
+      <guid>/en/sessions/session10/</guid>
       <description>&lt;p&gt;After awards, teams are free to go home or head out to dinner together.  A post party will be sponsored at 20:30 in Tenjin.  Participants will be offered free drinks until 22:00.  Location TBA.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Aimi Sekiguchi</title>
-      <link>https://visiondevcamp-fukuoka.pages.dev/en/judges/aimi-sekiguchi/</link>
+      <link>/en/judges/aimi-sekiguchi/</link>
       <pubDate>Mon, 03 Mar 2025 00:00:00 +0000</pubDate>
-      <guid>https://visiondevcamp-fukuoka.pages.dev/en/judges/aimi-sekiguchi/</guid>
+      <guid>/en/judges/aimi-sekiguchi/</guid>
       <description></description>
     </item>
     <item>
       <title>Engineer Cafe</title>
-      <link>https://visiondevcamp-fukuoka.pages.dev/en/sponsors/engineercafe/</link>
+      <link>/en/sponsors/engineercafe/</link>
       <pubDate>Mon, 03 Mar 2025 00:00:00 +0000</pubDate>
-      <guid>https://visiondevcamp-fukuoka.pages.dev/en/sponsors/engineercafe/</guid>
+      <guid>/en/sponsors/engineercafe/</guid>
       <description></description>
     </item>
     <item>
       <title>IoTone Japan</title>
-      <link>https://visiondevcamp-fukuoka.pages.dev/en/sponsors/iotone-japan/</link>
+      <link>/en/sponsors/iotone-japan/</link>
       <pubDate>Mon, 03 Mar 2025 00:00:00 +0000</pubDate>
-      <guid>https://visiondevcamp-fukuoka.pages.dev/en/sponsors/iotone-japan/</guid>
+      <guid>/en/sponsors/iotone-japan/</guid>
       <description></description>
     </item>
     <item>
       <title>Unity Technologies Japan</title>
-      <link>https://visiondevcamp-fukuoka.pages.dev/en/sponsors/unity-technologies-japan/</link>
+      <link>/en/sponsors/unity-technologies-japan/</link>
       <pubDate>Mon, 03 Mar 2025 00:00:00 +0000</pubDate>
-      <guid>https://visiondevcamp-fukuoka.pages.dev/en/sponsors/unity-technologies-japan/</guid>
+      <guid>/en/sponsors/unity-technologies-japan/</guid>
       <description></description>
     </item>
     <item>
       <title>Junichiro Koyama</title>
-      <link>https://visiondevcamp-fukuoka.pages.dev/en/judges/junichiro-koyama/</link>
+      <link>/en/judges/junichiro-koyama/</link>
       <pubDate>Sun, 02 Mar 2025 00:00:00 +0000</pubDate>
-      <guid>https://visiondevcamp-fukuoka.pages.dev/en/judges/junichiro-koyama/</guid>
+      <guid>/en/judges/junichiro-koyama/</guid>
       <description></description>
     </item>
     <item>
       <title>Styly</title>
-      <link>https://visiondevcamp-fukuoka.pages.dev/en/sponsors/styly/</link>
+      <link>/en/sponsors/styly/</link>
       <pubDate>Sun, 02 Mar 2025 00:00:00 +0000</pubDate>
-      <guid>https://visiondevcamp-fukuoka.pages.dev/en/sponsors/styly/</guid>
+      <guid>/en/sponsors/styly/</guid>
       <description></description>
     </item>
     <item>
       <title>Shinobu Takahashi</title>
-      <link>https://visiondevcamp-fukuoka.pages.dev/en/judges/shinobu-takahashi/</link>
+      <link>/en/judges/shinobu-takahashi/</link>
       <pubDate>Sat, 01 Mar 2025 00:00:00 +0000</pubDate>
-      <guid>https://visiondevcamp-fukuoka.pages.dev/en/judges/shinobu-takahashi/</guid>
+      <guid>/en/judges/shinobu-takahashi/</guid>
       <description></description>
     </item>
     <item>
       <title>Location</title>
-      <link>https://visiondevcamp-fukuoka.pages.dev/en/location/</link>
+      <link>/en/location/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://visiondevcamp-fukuoka.pages.dev/en/location/</guid>
+      <guid>/en/location/</guid>
       <description></description>
     </item>
   </channel>

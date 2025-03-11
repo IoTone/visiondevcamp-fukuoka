@@ -2,38 +2,38 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Judges on </title>
-    <link>https://visiondevcamp-fukuoka.pages.dev/en/judges/</link>
+    <link>/en/judges/</link>
     <description>Recent content in Judges on </description>
     <generator>Hugo</generator>
     <language>en</language>
     <lastBuildDate>Tue, 04 Mar 2025 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://visiondevcamp-fukuoka.pages.dev/en/judges/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="/en/judges/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Satoshi Hattori</title>
-      <link>https://visiondevcamp-fukuoka.pages.dev/en/judges/satoshi-hattori/</link>
+      <link>/en/judges/satoshi-hattori/</link>
       <pubDate>Tue, 04 Mar 2025 00:00:00 +0000</pubDate>
-      <guid>https://visiondevcamp-fukuoka.pages.dev/en/judges/satoshi-hattori/</guid>
+      <guid>/en/judges/satoshi-hattori/</guid>
       <description></description>
     </item>
     <item>
       <title>Aimi Sekiguchi</title>
-      <link>https://visiondevcamp-fukuoka.pages.dev/en/judges/aimi-sekiguchi/</link>
+      <link>/en/judges/aimi-sekiguchi/</link>
       <pubDate>Mon, 03 Mar 2025 00:00:00 +0000</pubDate>
-      <guid>https://visiondevcamp-fukuoka.pages.dev/en/judges/aimi-sekiguchi/</guid>
+      <guid>/en/judges/aimi-sekiguchi/</guid>
       <description></description>
     </item>
     <item>
       <title>Junichiro Koyama</title>
-      <link>https://visiondevcamp-fukuoka.pages.dev/en/judges/junichiro-koyama/</link>
+      <link>/en/judges/junichiro-koyama/</link>
       <pubDate>Sun, 02 Mar 2025 00:00:00 +0000</pubDate>
-      <guid>https://visiondevcamp-fukuoka.pages.dev/en/judges/junichiro-koyama/</guid>
+      <guid>/en/judges/junichiro-koyama/</guid>
       <description></description>
     </item>
     <item>
       <title>Shinobu Takahashi</title>
-      <link>https://visiondevcamp-fukuoka.pages.dev/en/judges/shinobu-takahashi/</link>
+      <link>/en/judges/shinobu-takahashi/</link>
       <pubDate>Sat, 01 Mar 2025 00:00:00 +0000</pubDate>
-      <guid>https://visiondevcamp-fukuoka.pages.dev/en/judges/shinobu-takahashi/</guid>
+      <guid>/en/judges/shinobu-takahashi/</guid>
       <description></description>
     </item>
   </channel>
