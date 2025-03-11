@@ -6,8 +6,22 @@
     <description>Recent content on </description>
     <generator>Hugo</generator>
     <language>en</language>
-    <lastBuildDate>Thu, 06 Mar 2025 10:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 10 Mar 2025 10:00:00 +0900</lastBuildDate>
     <atom:link href="https://visiondevcamp-fukuoka.pages.dev/en/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>About VisionDevCamp</title>
+      <link>https://visiondevcamp-fukuoka.pages.dev/en/about/</link>
+      <pubDate>Mon, 10 Mar 2025 10:00:00 +0900</pubDate>
+      <guid>https://visiondevcamp-fukuoka.pages.dev/en/about/</guid>
+      <description>&lt;h3 class=&#34;heading heading--3&#34; id=&#34;a-historic-hackathon-originating-from-silicon-valley&#34;&gt;A Historic Hackathon Originating from Silicon Valley&lt;/h3&gt;&lt;p&gt;With its origins in the release of the iPhone in 2007, it has a long history of 16 years.&#xA;Starting with iPhoneDevCamp (2007, 2008, 2009), it expanded in scale and participants to iPadDevCamp (2010) and iOSDevCamp (2010, 2011, 2012, 2013).&lt;/p&gt;&#xA;&#xA;&lt;h3 class=&#34;heading heading--3&#34; id=&#34;event-format&#34;&gt;Event Format&lt;/h3&gt;&lt;p&gt;Detailed Format: &lt;a&#xA;  class=&#34;link&#34;&#xA;  href=&#34;https://visiondevcamp.org/hackathon/&#34;rel=&#34;external&#34;&gt;https://visiondevcamp.org/hackathon/&lt;/a&gt;&#xA;&lt;/p&gt;&#xA;&lt;p&gt;The event format has evolved over the years from its origins in iOSDevCamp.&#xA;What is different about this Hackathon vs other large events like MIT Reality Hack:&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Contact</title>
+      <link>https://visiondevcamp-fukuoka.pages.dev/en/contact/</link>
+      <pubDate>Mon, 10 Mar 2025 10:00:00 +0900</pubDate>
+      <guid>https://visiondevcamp-fukuoka.pages.dev/en/contact/</guid>
+      <description>&lt;p&gt;Please use the following form to contact us.&#xA;&lt;a&#xA;  class=&#34;link&#34;&#xA;  href=&#34;https://forms.gle/zsmehx2MSNxWu7Pm6&#34;rel=&#34;external&#34;&gt;Contact Form&lt;/a&gt;&#xA;&lt;/p&gt;</description>
+    </item>
     <item>
       <title>17:00-19:00 REGISTRATION</title>
       <link>https://visiondevcamp-fukuoka.pages.dev/en/sessions/session1/</link>
@@ -160,13 +174,6 @@
       <link>https://visiondevcamp-fukuoka.pages.dev/en/judges/shinobu-takahashi/</link>
       <pubDate>Sat, 01 Mar 2025 00:00:00 +0000</pubDate>
       <guid>https://visiondevcamp-fukuoka.pages.dev/en/judges/shinobu-takahashi/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>About</title>
-      <link>https://visiondevcamp-fukuoka.pages.dev/en/about/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://visiondevcamp-fukuoka.pages.dev/en/about/</guid>
       <description></description>
     </item>
     <item>
