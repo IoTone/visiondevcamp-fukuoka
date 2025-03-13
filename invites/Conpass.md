@@ -1,4 +1,4 @@
-※​For English description, please scroll down.
+※For English description, please scroll down.
 
 # VisionDevCamp とは?
 
@@ -16,7 +16,7 @@ VisionDevCamp は、2007 年に iPhone のリリースとともにシリコン�
 
 # スケジュール
 
-3 月 11 日 (金) - ハッカソン登録、基調講演、チームビルディング、交流会
+3 月 11 日 (金) - ハッカソン登録、講演、チームビルディング、交流会
 
 3 月 12 日 (土) - ワークショップとハッキング
 
@@ -39,6 +39,20 @@ VisionPro のアプリを共同制作する学習型ハッカソンです。 他
 -   当イベントは東京でも同時に開催されており、イベントのスピーカーによる講演や会話を通じて、週末を通して人々が学ぶ機会があります。
 -   コンテストのカテゴリー: 審査員賞と、設定されたカテゴリーの優勝者の両方を授与します。技術系と非技術系のカテゴリーがあります。カテゴリーの全リストはイベントのウェブサイトで確認できます。
 -   賞品: 非営利イベントなので、大きな賞金はありません。ただし、賞金 (ギフトカード) は用意します。
+
+## 持ち物
+
+参加者は、プロトタイピングに使用したいデバイスを持参してください。VisionPro があれば最高です。Meta Quest 2 または 3 でも動作します。
+
+開発には下記が必要です。
+
+-   MacBook
+-   Xcode がインストールされていること
+-   Apple ADC アカウント
+
+上記があればその後は、開発者としての道のりをサポートできます。
+
+---
 
 # What is VisionDevCamp?
 
@@ -79,3 +93,15 @@ What we do differently:
 -   Our event is simultaneously happening in Tokyo and we will have opportunities throughout the weekend for people to learn, through talks and conversations by event speakers.
 -   Competition Categories: We will award both "judges choice" awards and winners for set categories. We have technical and non-technical categories. A full list of categories can be found on the event website.
 -   Prizes: we don't have a big purse to give away. This is a non-profit event. However, we will provide some monetary prizes (gift cards)
+
+## What to bring
+
+Participants should bring any devices you want to use for prototyping. VisionPro would be great. Meta Quest 2 or.3 will work.
+
+For development, you will need the following
+
+-   MacBook
+-   Xcode installed
+-   An Apple ADC account
+
+Once you have the above, we can then help you on your way as a developer.
