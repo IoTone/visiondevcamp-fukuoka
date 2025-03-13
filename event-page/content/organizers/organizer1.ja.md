@@ -8,4 +8,5 @@ description: 'David Kordsmeier 氏はソフトウェア開発者で、キャリ�
 xUrl: 'https://x.com/dkords'
 companyUrl: 'https://iotoneai.site'
 githubUrl: 'https://github.com/truedat101'
+linkedinUrl: 'https://www.linkedin.com/in/dkords/'
 ---

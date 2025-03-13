@@ -8,4 +8,5 @@ description: 'She is a member of Roku inc. and is based in Fukuoka, where she de
 xUrl: ''
 companyUrl: '6-inc.com'
 githubUrl: ''
+linkedinUrl: 'www.linkedin.com/in/kanako-nagiri-387791295'
 ---

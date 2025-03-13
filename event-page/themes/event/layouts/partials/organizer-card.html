@@ -23,13 +23,14 @@
     </a>
     <div class="organizer-card__social-links">
         {{ $ariaLabel := T "organizers_page.social_links" $input.name }}
-        {{- $hasSocialLinks := or $input.linkedinUrl $input.xUrl $input.companyUrl }}
+        {{- $hasSocialLinks := or $input.linkedinUrl $input.xUrl $input.companyUrl $input.githubUrl $input.xUrl }}
 
         {{- if $hasSocialLinks }}
             {{- partial "social-links.html" (
                 dict
                 "githubUrl" $input.githubUrl
                 "xUrl" $input.xUrl
+                "linkedinUrl" $input.linkedinUrl
                 "companyUrl" $input.companyUrl
                 "linkClass" "organizer-card__social-link"
                 "ariaLabel" $ariaLabel

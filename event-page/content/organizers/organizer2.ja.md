@@ -8,4 +8,5 @@ description: '株式会社六に所属し、福岡を拠点にWebアプリケー
 xUrl: ''
 companyUrl: '6-inc.com'
 githubUrl: ''
+linkedinUrl: 'www.linkedin.com/in/kanako-nagiri-387791295'
 ---
