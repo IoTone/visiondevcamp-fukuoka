@@ -10,9 +10,9 @@ VisionDevCamp は、2007 年に iPhone のリリースとともにシリコン�
 
 プロジェクトのために何をハックしたらいいのかアイデアがありませんか？大丈夫です。私たちはアイデアを掲載し、特定のプロジェクトのアイデアには「報奨金」の報酬も提供します。
 
-より詳しいイベント情報: (https://visiondevcamp-fukuoka.pages.dev/)[https://visiondevcamp-fukuoka.pages.dev/]
+より詳しいイベント情報: [https://visiondevcamp-fukuoka.pages.dev/](https://visiondevcamp-fukuoka.pages.dev/)
 
-英語: (https://visiondevcamp-fukuoka.pages.dev/en/)[https://visiondevcamp-fukuoka.pages.dev/en/]
+英語: [https://visiondevcamp-fukuoka.pages.dev/en/](https://visiondevcamp-fukuoka.pages.dev/en/)
 
 # スケジュール
 
@@ -22,7 +22,7 @@ VisionDevCamp は、2007 年に iPhone のリリースとともにシリコン�
 
 3 月 13 日 (日) - さらなるハッキング、審査、賞品
 
-より詳しいスケジュール情報: (https://visiondevcamp-fukuoka.pages.dev/sessions/)[https://visiondevcamp-fukuoka.pages.dev/sessions/]
+より詳しいスケジュール情報: [https://visiondevcamp-fukuoka.pages.dev/sessions/](https://visiondevcamp-fukuoka.pages.dev/sessions/)
 
 ## イベント形式
 
@@ -64,9 +64,9 @@ This is a free event, but registration is required. We strongly recommend you at
 
 Don't have ideas for what to hack for a project? It's ok, we will post ideas, and even offer "bounty" rewards for specific project ideas.
 
-More detailed event information: (https://visiondevcamp-fukuoka.pages.dev/en/)[https://visiondevcamp-fukuoka.pages.dev/en/]
+More detailed event information: [https://visiondevcamp-fukuoka.pages.dev/en/](https://visiondevcamp-fukuoka.pages.dev/en/)
 
-日本語: (https://visiondevcamp-fukuoka.pages.dev)[https://visiondevcamp-fukuoka.pages.dev]
+日本語: [https://visiondevcamp-fukuoka.pages.dev](https://visiondevcamp-fukuoka.pages.dev)
 
 # Schedule
 
@@ -76,7 +76,7 @@ Saturday 12th March - Workshops and hacking
 
 Sunday 13th March - More hacking, judging and prizes
 
-More detailed schedule information: (https://visiondevcamp-fukuoka.pages.dev/en/sessions/)[https://visiondevcamp-fukuoka.pages.dev/en/sessions/]
+More detailed schedule information: [https://visiondevcamp-fukuoka.pages.dev/en/sessions/](https://visiondevcamp-fukuoka.pages.dev/en/sessions/)
 
 ## Event Format
 
