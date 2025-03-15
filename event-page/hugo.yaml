@@ -98,7 +98,7 @@ params:
         - logos/visiondevcamp_fukuoka_logo_style2.png
     themes:
         event:
-            title: VisionDevCamp Fukuoka CC-BY-SA 2025
+            title: VisionDevCamp Fukuoka
             shortTitle:
             startDate: 2025-04-11
             endDate: 2025-04-13
