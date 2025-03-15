@@ -50,6 +50,16 @@
     gap: 2.625rem;
 }
 
+.single-organizer-section__avatar {
+    color: var(--color-primary);
+    max-width: 50%;
+}
+
+.single-organizer-section__biography {
+    flex-grow: 1;
+    flex-basis: 16.375rem;
+}
+
 @media screen and (width < 768px) {
     .single-organizer-section {
         flex-direction: column;

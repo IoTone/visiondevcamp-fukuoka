@@ -13,14 +13,13 @@
     justify-content: space-around;
     align-items: center;
     list-style: none;
-    gap: 1.875rem;
+    gap: 3rem;
 }
 
 .judge-list__item {
     width: 100%;
-    max-width: 16.875rem; /* Matches the width of the judge card */
+    max-width: 16.875rem;
 }
-
 .organizer-list {
     width: 100%;
     display: flex;

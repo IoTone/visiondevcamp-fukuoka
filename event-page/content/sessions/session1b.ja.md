@@ -5,4 +5,4 @@ isScheduled: true
 eventDate: '2025-04-11T19:30:00'
 ---
 
-交流会 + 食事
+食事 + 交流会

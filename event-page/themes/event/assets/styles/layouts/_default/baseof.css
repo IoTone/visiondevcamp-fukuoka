@@ -212,3 +212,11 @@
 .page-footer-section__made-by-link {
     color: #0000004d;
 }
+
+.footer-info {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 0.625rem;
+    color: var(--color-secondary-darker);
+}
