@@ -20,6 +20,9 @@
         "title" .Site.Params.themes.event.title
         "subtitle" .Site.Params.themes.event.slogan
         "description" .Site.Params.themes.event.description
+        "tokyoEvent" .Site.Params.themes.event.tokyoEvent
+        "tokyoEventMessage" .Site.Params.themes.event.tokyoEvent.message
+        "tokyoEventUrl" .Site.Params.themes.event.tokyoEvent.url
         "logo" .Site.Params.themes.event.images.logo
         "numberOfjudges" ((where .Site.RegularPages "Section" "judges") | len)
         "numberOfSessions" (where (where .Site.RegularPages "Section" "sessions") "Params.isServiceSession" false | len)

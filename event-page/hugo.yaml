@@ -41,6 +41,9 @@ languages:
                     description: |
                         VisionDevCamp is a non-profit developer event focused on application development for Apple Vision Pro and visionOS.
                         An experienced volunteer team supports developers, designers, entrepreneurs, and enthusiasts of Apple Vision Pro and visionOS.
+                    tokyoEvent:
+                        message: Also held in Tokyo!
+                        url: https://www.vdctokyo.org/en
                     directions: |
                         5 minutes walk from Tenjin Subway Station / Get off at Nishitetsu Bus "Tenjin 4-chome"
 
@@ -91,6 +94,9 @@ languages:
                         地下鉄天神駅 徒歩5分 / 西鉄バス「天神4丁目」下車すぐ
 
                         ※駐車場、駐輪場は併設しておりません。公共機関をご利用ください。
+                    tokyoEvent:
+                        message: 東京でも開催しています!
+                        url: https://www.vdctokyo.org/
 
 params:
     # Open Graph / X (Twitter) Cards

@@ -21,6 +21,12 @@
                 </h2>
 
                 <p class="paragraph event-highlights-section__paragraph">{{ $input.description | markdownify }}</p>
+                {{- with $input.tokyoEvent }}
+                    <div class="event-highlights-section__tokyo-info">
+                        <p class="paragraph event-highlights-section__paragraph">{{ $input.tokyoEventMessage }}</p>
+                        <a href="{{ $input.tokyoEventUrl }}" class="button button--primary">VisionDevCamp Tokyo</a>
+                    </div>
+                {{- end }}
             </article>
         </header>
 

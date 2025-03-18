@@ -43,3 +43,22 @@
     color: var(--color-secondary-darker);
     line-height: 1.5rem;
 }
+
+.event-highlights-section__tokyo-info {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 1.875rem;
+    background-color: #f0f0f0;
+    padding: 1.875rem;
+    border-radius: 0.5rem;
+}
+
+.event-highlights-section__tokyo-info .button {
+    display: block;
+}
+
+.event-highlights-section__tokyo-info .paragraph {
+    margin: 0;
+}
