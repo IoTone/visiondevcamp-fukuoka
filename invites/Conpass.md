@@ -8,7 +8,7 @@ VisionDevCamp は、2007 年に iPhone のリリースとともにシリコン�
 
 このイベントは無料ですが、登録が必要です。ハッカソンの形式を理解し、チームを組むために、金曜日の夜のセッションに参加することを強くお勧めします。直接参加してチーム間で協力することを推奨します。空間デザインの専門家、ネイティブ Swift 開発、ストーリーテリング/ナラティブの専門家、スタートアップ起業家が参加し、経験を共有します。
 
-プロジェクトのために何をハックしたらいいのかアイデアがありませんか？大丈夫です。私たちはアイデアを掲載し、特定のプロジェクトのアイデアには「報奨金」の報酬も提供します。
+プロジェクトのためにアイデアがありませんか？大丈夫です。私たちはアイデアを掲載し、特定のプロジェクトのアイデアには報奨金としての報酬も提供します。
 
 より詳しいイベント情報: [https://visiondevcamp-fukuoka.pages.dev/](https://visiondevcamp-fukuoka.pages.dev/)
 
@@ -16,11 +16,11 @@ VisionDevCamp は、2007 年に iPhone のリリースとともにシリコン�
 
 # スケジュール
 
-3 月 11 日 (金) - ハッカソン登録、講演、チームビルディング、交流会
+4 月 11 日 (金) - ハッカソン登録、講演、チームビルディング、交流会
 
-3 月 12 日 (土) - ワークショップとハッキング
+4 月 12 日 (土) - ワークショップとハッキング
 
-3 月 13 日 (日) - さらなるハッキング、審査、賞品
+4 月 13 日 (日) - さらなるハッキング、審査、賞品
 
 より詳しいスケジュール情報: [https://visiondevcamp-fukuoka.pages.dev/sessions/](https://visiondevcamp-fukuoka.pages.dev/sessions/)
 
@@ -35,22 +35,26 @@ VisionPro のアプリを共同制作する学習型ハッカソンです。 他
 -   複数のチームに参加できます
 -   これは VisionPro イベントですが、XR などの他のエコシステムを歓迎します。XR の観点から AVP 向けに開発することも可能です。審査は、空間コンピューティングの設計と使用に基づいて行われます。
 -   チーム メンバーがチーム間で互いにサポートし合うことを奨励しています。真のシリコンバレーの精神では、オープンなコラボレーションがより大きな成果につながります。
--   スポンサーの Styly を通じて、イベント用のデバイスを提供します。チームに 1 時間単位でデバイスをチェックアウトしてもらい、チーム間でデバイスを正常に共有できるようにします。
+-   スポンサーである STYLY を通じて、イベント用のデバイスを提供します。チームに 1 時間単位でデバイスをチェックアウトしてもらい、チーム間でデバイスを正常に共有できるようにします。
 -   当イベントは東京でも同時に開催されており、イベントのスピーカーによる講演や会話を通じて、週末を通して人々が学ぶ機会があります。
 -   コンテストのカテゴリー: 審査員賞と、設定されたカテゴリーの優勝者の両方を授与します。技術系と非技術系のカテゴリーがあります。カテゴリーの全リストはイベントのウェブサイトで確認できます。
 -   賞品: 非営利イベントなので、大きな賞金はありません。ただし、賞金 (ギフトカード) は用意します。
 
 ## 持ち物
 
-参加者は、プロトタイピングに使用したいデバイスを持参してください。VisionPro があれば最高です。Meta Quest 2 または 3 でも動作します。
+参加者は、プロトタイピングに使用したいデバイスの持参を推奨します。
+VisionPro があれば最高です。Meta Quest 2 または 3 でも動作します。
 
-開発には下記が必要です。
+開発に下記があるとより良いです。
 
 -   MacBook
 -   Xcode がインストールされていること
--   Apple ADC アカウント
+-   (Apple ADC アカウント)[https://appleid.apple.com/account?appId=632&returnUrl=https%3A%2F%2Fdeveloper.apple.com%2Faccount%2F]
 
-上記があればその後は、開発者としての道のりをサポートできます。
+上記は必須ではありません。
+経験豊富な開発者でも、初めての開発者でも、上記を持っていてもいなくてもハッカソンに参加できます。
+
+みなさまのアイデアをお待ちしています。
 
 ---
 
@@ -70,11 +74,11 @@ More detailed event information: [https://visiondevcamp-fukuoka.pages.dev/en/](h
 
 # Schedule
 
-Friday 11 March - Hackathon signup, keynote, team building and mingle
+Friday 11 April - Hackathon signup, keynote, team building and mingle
 
-Saturday 12th March - Workshops and hacking
+Saturday 12th April - Workshops and hacking
 
-Sunday 13th March - More hacking, judging and prizes
+Sunday 13th April - More hacking, judging and prizes
 
 More detailed schedule information: [https://visiondevcamp-fukuoka.pages.dev/en/sessions/](https://visiondevcamp-fukuoka.pages.dev/en/sessions/)
 
@@ -102,6 +106,11 @@ For development, you will need the following
 
 -   MacBook
 -   Xcode installed
--   An Apple ADC account
+-   (An Apple ADC account)[https://appleid.apple.com/account?appId=632&returnUrl=https%3A%2F%2Fdeveloper.apple.com%2Faccount%2F]
 
 Once you have the above, we can then help you on your way as a developer.
+
+The above is not required.
+You can participate in the Hackathon whether you are an experienced developer or a first-time developer, with or without the above.
+
+We look forward to hearing your ideas.
