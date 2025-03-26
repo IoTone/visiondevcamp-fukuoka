@@ -85,3 +85,8 @@ sns_share_image_generator_page.label_comment: Comment
 sns_share_image_generator_page.button_generate: Generate Image
 sns_share_image_generator_page.button_download: Download
 sns_share_image_generator_page.button_share: Share
+sns_share_image_generator_page.button_X: Share on X
+sns_share_image_generator_page.button_facebook: Share on Facebook
+sns_share_image_generator_page.button_linkedin: Share on LinkedIn
+sns_share_image_generator_page.message: Declare your participation in the event and share the generated image on social media!
+sns_share_image_generator_page.share_text: I'm attending Vision Dev Camp! #VisionDevCamp #VisionDevCamp2025 #visionpro

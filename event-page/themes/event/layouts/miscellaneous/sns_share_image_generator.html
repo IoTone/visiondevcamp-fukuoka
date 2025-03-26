@@ -3,27 +3,67 @@
 
 
     <style>
-        body {
-            font-family: sans-serif;
-            margin: 20px;
-        }
         .input-row {
             margin-bottom: 1rem;
+            display: flex;
+            align-items: center;
         }
         label {
             display: inline-block;
-            width: 80px;
+            width: 100px;
+            font-weight: bold;
+        }
+        input[type='text'],
+        input[type='file'] {
+            flex: 1;
+            padding: 8px;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+        }
+        .button-container {
+            display: flex;
+            justify-content: center;
+            gap: 10px;
+        }
+        button {
+            margin-top: 10px;
+            padding: 10px 20px;
+            background-color: #0073e6;
+            color: #fff;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+        button:disabled {
+            background-color: #ccc;
+            cursor: not-allowed;
+        }
+        button:hover:not(:disabled) {
+            background-color: #005bb5;
         }
         .preview-container {
             margin-top: 20px;
+            text-align: center;
         }
         #previewCanvas {
             border: 1px solid #ddd;
             width: 100%;
-            max-width: 500px; /* ブラウザで小さく見せる用 */
+            max-width: 500px;
         }
-        button {
-            margin-right: 10px;
+        .social-buttons {
+            margin-top: 20px;
+            text-align: center;
+        }
+        .social-buttons button {
+            margin: 5px;
+            background-color: #1da1f2; /* Twitter Blue */
+        }
+        .social-buttons button.facebook {
+            background-color: #3b5998; /* Facebook Blue */
+        }
+        .social-buttons button.linkedin {
+            background-color: #0077b5; /* LinkedIn Blue */
         }
     </style>
 
@@ -32,6 +72,7 @@
             <h1 class="heading heading--1">
                 {{- T "sns_share_image_generator_page.heading" }}
             </h1>
+            <p>{{- T "sns_share_image_generator_page.message" }}</p>
 
             <!-- 人物写真アップロード -->
             <div class="input-row">
@@ -42,24 +83,37 @@
             <!-- 名前 -->
             <div class="input-row">
                 <label for="nameText">{{- T "sns_share_image_generator_page.label_name" }}</label>
-                <input type="text" id="nameText" placeholder="Taro Yamada" style="width: 240px" />
+                <input type="text" id="nameText" placeholder="Taro Yamada" />
             </div>
 
-            <!-- 役職・肩書き -->
+            <!-- コメント -->
             <div class="input-row">
                 <label for="roleText">{{- T "sns_share_image_generator_page.label_comment" }}</label>
-                <input type="text" id="roleText" style="width: 240px" />
+                <input type="text" id="roleText" />
             </div>
 
             <!-- 合成＆ダウンロードボタン -->
-            <button id="generateBtn">{{- T "sns_share_image_generator_page.button_generate" }}</button>
-            <button id="downloadBtn" disabled>{{- T "sns_share_image_generator_page.button_download" }}</button>
-            <!-- Web Share APIを使ったシェアボタン（画像＋テキスト）-->
-            <button id="shareBtn" disabled>{{- T "sns_share_image_generator_page.button_share" }}</button>
+            <div class="button-container">
+                <button id="generateBtn">{{- T "sns_share_image_generator_page.button_generate" }}</button>
+                <button id="downloadBtn" disabled>{{- T "sns_share_image_generator_page.button_download" }}</button>
+                <!-- Web Share APIを使ったシェアボタン（画像＋テキスト）-->
+                <button id="shareBtn" disabled>{{- T "sns_share_image_generator_page.button_share" }}</button>
+            </div>
 
             <!-- キャンバス（1200x628）表示エリア -->
             <div class="preview-container">
                 <canvas id="previewCanvas" width="1200" height="628"></canvas>
+            </div>
+
+            <!-- SNSシェアボタン -->
+            <div class="social-buttons">
+                <button class="twitter" onclick="shareOnX()">{{- T "sns_share_image_generator_page.button_X" }}</button>
+                <button class="facebook" onclick="shareOnFacebook()">
+                    {{- T "sns_share_image_generator_page.button_facebook" }}
+                </button>
+                <button class="linkedin" onclick="shareOnLinkedIn()">
+                    {{- T "sns_share_image_generator_page.button_linkedin" }}
+                </button>
             </div>
         </section>
     </div>
@@ -188,7 +242,7 @@
                 alert('画像ファイルのシェアに対応していない環境です。');
                 return;
             }
-            const shareText = `【Webinar参加】\n${nameInput.value} - ${roleInput.value}`;
+            const shareText = '{{- T "sns_share_image_generator_page.share_text" }}';
             try {
                 await navigator.share({
                     text: shareText,
@@ -198,6 +252,23 @@
                 console.error('共有に失敗:', err);
             }
         });
+
+        // SNSシェア機能
+        function shareOnX() {
+            const text = encodeURIComponent('{{- T "sns_share_image_generator_page.share_text" }}');
+            const url = 'https://visiondevcamp-fukuoka.pages.dev/';
+            window.open(`https://twitter.com/intent/tweet?text=${text}&url=${url}`, '_blank');
+        }
+
+        function shareOnFacebook() {
+            const url = encodeURIComponent('https://visiondevcamp-fukuoka.pages.dev/');
+            window.open(`https://www.facebook.com/sharer/sharer.php?u=${url}`, '_blank');
+        }
+
+        function shareOnLinkedIn() {
+            const url = encodeURIComponent('https://visiondevcamp-fukuoka.pages.dev/');
+            window.open(`https://www.linkedin.com/shareArticle?mini=true&url=${url}`, '_blank');
+        }
 
         /********************************************
          * ユーティリティ関数
