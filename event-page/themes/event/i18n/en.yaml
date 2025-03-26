@@ -78,3 +78,10 @@ carousel.button_previous: Previous item
 session_categories.label: Session Categories
 schedule_date: 'January 2'
 schedule_time: '15:04'
+sns_share_image_generator_page.heading: SNS Share Image Generator
+sns_share_image_generator_page.label_photo: Icon
+sns_share_image_generator_page.label_name: Name
+sns_share_image_generator_page.label_comment: Comment
+sns_share_image_generator_page.button_generate: Generate Image
+sns_share_image_generator_page.button_download: Download
+sns_share_image_generator_page.button_share: Share

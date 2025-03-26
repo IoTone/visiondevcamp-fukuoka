@@ -83,3 +83,10 @@ schedule_time: '15:04'
 judge:
     title: 'ジャッジ'
     description: 'ジャッジの詳細'
+sns_share_image_generator_page.heading: SNSシェア画像生成
+sns_share_image_generator_page.label_photo: アイコン
+sns_share_image_generator_page.label_name: 名前
+sns_share_image_generator_page.label_comment: 一言
+sns_share_image_generator_page.button_generate: 画像を生成する
+sns_share_image_generator_page.button_download: ダウンロード
+sns_share_image_generator_page.button_share: 画像をシェア

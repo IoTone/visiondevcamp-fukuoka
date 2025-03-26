@@ -14,3 +14,17 @@
     "layout" "location"
 }}
 {{ .AddPage $page }}
+
+{{/* Create empty sponsors page (template: `layouts/miscellaneous/sns_share_image_generator`). */}}
+{{ $content := dict
+    "mediaType" "text/markdown"
+}}
+{{ $page := dict
+    "content" $content
+    "kind" "page"
+    "path" "sns_share_image_generator"
+    "title" "SNS Share Image Generator"
+    "type" "miscellaneous"
+    "layout" "sns_share_image_generator"
+}}
+{{ .AddPage $page }}
