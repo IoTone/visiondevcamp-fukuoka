@@ -446,6 +446,19 @@
                 href="https://visiondevcamp-fukuoka.pages.dev/location/"
                 />
   </url><url>
+    <loc>https://visiondevcamp-fukuoka.pages.dev/sns_share_image_generator/</loc>
+    <priority>0</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://visiondevcamp-fukuoka.pages.dev/en/sns_share_image_generator/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="ja"
+                href="https://visiondevcamp-fukuoka.pages.dev/sns_share_image_generator/"
+                />
+  </url><url>
     <loc>https://visiondevcamp-fukuoka.pages.dev/tags/</loc>
     <xhtml:link
                 rel="alternate"

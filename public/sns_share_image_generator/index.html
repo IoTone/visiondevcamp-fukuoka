@@ -5,7 +5,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <link rel="shortcut icon" href="https://visiondevcamp-fukuoka.pages.dev/favicon.ico" />
 
-        <title>審査/ハッカソンデモ -
+        <title>SNS Share Image Generator -
             VisionDevCamp Fukuoka
         </title>
 
@@ -14,26 +14,23 @@
 
         
             
-                <link rel="alternate" hreflang="en" href="https://visiondevcamp-fukuoka.pages.dev/en/sessions/session8/" />
+                <link rel="alternate" hreflang="en" href="https://visiondevcamp-fukuoka.pages.dev/en/sns_share_image_generator/" />
             
-            <link rel="alternate" hreflang="ja" href="https://visiondevcamp-fukuoka.pages.dev/sessions/session8/" />
+            <link rel="alternate" hreflang="ja" href="https://visiondevcamp-fukuoka.pages.dev/sns_share_image_generator/" />
         
 
-        <meta property="og:url" content="https://visiondevcamp-fukuoka.pages.dev/sessions/session8/">
-  <meta property="og:title" content="審査/ハッカソンデモ">
-  <meta property="og:description" content="審査員が集まります。すべての参加チームが提出物をデモします。デモには実際のAVPを使用してください。">
+        <meta property="og:url" content="https://visiondevcamp-fukuoka.pages.dev/sns_share_image_generator/">
+  <meta property="og:title" content="SNS Share Image Generator">
+  <meta property="og:description" content="VisionDevCamp Fukuokaは、Apple Vision ProとvisionOS向けのアプリケーション開発に焦点を当てた、非営利の開発者向けイベントです。">
   <meta property="og:locale" content="ja">
   <meta property="og:type" content="article">
-    <meta property="article:section" content="sessions">
-    <meta property="article:published_time" content="2025-03-04T00:00:00+00:00">
-    <meta property="article:modified_time" content="2025-03-04T00:00:00+00:00">
     <meta property="og:image" content="https://visiondevcamp-fukuoka.pages.dev/logos/visiondevcamp_fukuoka_logo_style2.png">
 
         
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:image" content="https://visiondevcamp-fukuoka.pages.dev/logos/visiondevcamp_fukuoka_logo_style2.png">
-  <meta name="twitter:title" content="審査/ハッカソンデモ">
-  <meta name="twitter:description" content="審査員が集まります。すべての参加チームが提出物をデモします。デモには実際のAVPを使用してください。">
+  <meta name="twitter:title" content="SNS Share Image Generator">
+  <meta name="twitter:description" content="VisionDevCamp Fukuokaは、Apple Vision ProとvisionOS向けのアプリケーション開発に焦点を当てた、非営利の開発者向けイベントです。">
 
 
         
@@ -103,7 +100,7 @@
         <li>
             <a
                 href="/sessions/"
-                    class="header-menu__link header-menu__link--active" aria-current="page">スケジュール
+                    class="header-menu__link">スケジュール
             </a>
         </li>
         <li>
@@ -185,7 +182,7 @@
         <li class="sidebar-menu__item">
             <a
                 href="/sessions/"
-                    class="sidebar-menu__link sidebar-menu__link--active" aria-current="page"
+                    class="sidebar-menu__link"
                 aria-label="Sessions">スケジュール
             </a>
         </li>
@@ -286,95 +283,315 @@
 
         <main class="page-main">
             
+    
+
+
+    <style>
+        .input-row {
+            margin-bottom: 1rem;
+            display: flex;
+            align-items: center;
+        }
+        label {
+            display: inline-block;
+            width: 100px;
+            font-weight: bold;
+        }
+        input[type='text'],
+        input[type='file'] {
+            flex: 1;
+            padding: 8px;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+        }
+        .button-container {
+            display: flex;
+            justify-content: center;
+            gap: 10px;
+        }
+        button {
+            margin-top: 10px;
+            padding: 10px 20px;
+            background-color: #0073e6;
+            color: #fff;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+        button:disabled {
+            background-color: #ccc;
+            cursor: not-allowed;
+        }
+        button:hover:not(:disabled) {
+            background-color: #005bb5;
+        }
+        .preview-container {
+            margin-top: 20px;
+            text-align: center;
+        }
+        #previewCanvas {
+            border: 1px solid #ddd;
+            width: 100%;
+            max-width: 500px;
+        }
+        .social-buttons {
+            margin-top: 20px;
+            text-align: center;
+        }
+        .social-buttons button {
+            margin: 5px;
+            background-color: #1da1f2;  
+        }
+        .social-buttons button.facebook {
+            background-color: #3b5998;  
+        }
+        .social-buttons button.linkedin {
+            background-color: #0077b5;  
+        }
+    </style>
+
     <div class="section-container">
-        <section class="section single-session-section" aria-label="Session information">
-            <div class="single-session-section__spacer"></div>
-            <div class="single-session-section__session-information">
-                <h1 class="single-session-section__heading">
-                    <div class="single-session-section__metadata">
-                            <span class="single-session-section__pipe">
-    <span>日時未定</span>
-
-                            </span>
-                            @
-                    </div>審査/ハッカソンデモ</h1>
-                <p class="single-session-section__content">
-審査員が集まります。すべての参加チームが提出物をデモします。デモには実際のAVPを使用してください。
-</p>
-
-
-<ul aria-label="セッションカテゴリ" class="session-categories ">
-</ul>
-</div>
-        </section>
-        <section class="section" aria-label="judge of the session">
-            <h1 class="heading heading--2">審査員</h1>
-            <ul class="carousel single-session-judge-list" role="list">
-            </ul>
-        </section>
-    </div>
-    
-        
-    
-        
-    
-        
-    
-        
-    
-        
-    
-        
-    
-        
-    
-        
-    
-        
-    
-        
-    
-        
-    
-        
-    
-        
-    
-
-
-    <div class="section-container section-container--dimmed">
-        <section class="section same-track-sessions-section" aria-label="Further session from the same track">
-            <h1 class="same-track-sessions-section__heading">その他のセッション
+        <section class="section">
+            <h1 class="heading heading--1">SNSシェア画像生成
             </h1>
+            <p>イベントに参加することを表明し、作成した画像をSNSでシェアしましょう！</p>
 
+            
+            <div class="input-row">
+                <label for="photoUpload">アイコン</label>
+                <input type="file" id="photoUpload" accept="image/*" />
+            </div>
 
-<menu class="sessions-menu">
-    
-</menu>
+            
+            <div class="input-row">
+                <label for="nameText">名前</label>
+                <input type="text" id="nameText" placeholder="Taro Yamada" />
+            </div>
 
+            
+            <div class="input-row">
+                <label for="roleText">一言</label>
+                <input type="text" id="roleText" />
+            </div>
+
+            
+            <div class="button-container">
+                <button id="generateBtn">画像を生成する</button>
+                <button id="downloadBtn" disabled>ダウンロード</button>
+                
+                <button id="shareBtn" disabled>画像をシェア</button>
+            </div>
+
+            
+            <div class="preview-container">
+                <canvas id="previewCanvas" width="1200" height="628"></canvas>
+            </div>
+
+            
+            <div class="social-buttons">
+                <button class="twitter" onclick="shareOnX()">Xでシェア</button>
+                <button class="facebook" onclick="shareOnFacebook()">Facebookでシェア
+                </button>
+                <button class="linkedin" onclick="shareOnLinkedIn()">LinkedInでシェア
+                </button>
+            </div>
         </section>
     </div>
+    <script>
+        
+        const BACKGROUND_IMAGE_PATH = '/images/background.png';
+        const OVERLAY_IMAGE_PATH = '/images/avp.png';
 
+        
+        const photoInput = document.getElementById('photoUpload');
+        const nameInput = document.getElementById('nameText');
+        const roleInput = document.getElementById('roleText');
+        const generateBtn = document.getElementById('generateBtn');
+        const downloadBtn = document.getElementById('downloadBtn');
+        const shareBtn = document.getElementById('shareBtn');
+        const previewCanvas = document.getElementById('previewCanvas');
+        const ctx = previewCanvas.getContext('2d');
 
-<div class="section-container section-container--highlighted">
-    <section class="section section--long cta-section">
+        let uploadedPhoto = null;
+        let finalImageBlob = null;
+
+        
+        photoInput.addEventListener('change', (e) => {
+            const file = e.target.files[0];
+            if (!file) return;
+
+            const reader = new FileReader();
+            reader.onload = (event) => {
+                const img = new Image();
+                img.onload = () => {
+                    uploadedPhoto = img;
+                };
+                img.src = event.target.result;
+            };
+            reader.readAsDataURL(file);
+        });
+
+        
+        generateBtn.addEventListener('click', async () => {
+            
+            ctx.clearRect(0, 0, previewCanvas.width, previewCanvas.height);
+
+            
+            const bgImg = await loadImage(BACKGROUND_IMAGE_PATH);
+            ctx.drawImage(bgImg, 0, 0, previewCanvas.width, previewCanvas.height);
+
+            if (uploadedPhoto) {
+                
+                const circleX = 950;
+                const circleY = 260;
+                const diameter = 420;
+                drawCircularImage(ctx, uploadedPhoto, circleX, circleY, diameter);
+
+                
+                const overlayImg = await loadImage(OVERLAY_IMAGE_PATH);
+
+                
+                const ratio = overlayImg.width / overlayImg.height;
+                let overlayWidth, overlayHeight;
+
+                
+                if (ratio > 1) {
+                    
+                    overlayHeight = diameter;
+                    overlayWidth = overlayHeight * ratio;
+                } else {
+                    
+                    overlayWidth = diameter;
+                    overlayHeight = overlayWidth / ratio;
+                }
+
+                
+                
+                overlayWidth *= 0.8;
+                overlayHeight *= 0.8;
+
+                
+                
+                const offsetX = circleX - overlayWidth / 2;
+                const offsetY = circleY - overlayHeight / 2 - 80;
+
+                
+                ctx.drawImage(overlayImg, offsetX, offsetY, overlayWidth, overlayHeight);
+
+                
+                ctx.textAlign = 'center';
+                ctx.fillStyle = '#fff';
+                const radius = diameter / 2;
+
+                ctx.font = 'bold 36px sans-serif';
+                ctx.fillText(nameInput.value, circleX, circleY + radius + 50);
+
+                ctx.font = '28px sans-serif';
+                ctx.fillText(roleInput.value, circleX, circleY + radius + 90);
+            }
+
+            
+            previewCanvas.toBlob((blob) => {
+                finalImageBlob = blob;
+                downloadBtn.disabled = false;
+                shareBtn.disabled = false;
+            }, 'image/png');
+        });
+
+        
+        downloadBtn.addEventListener('click', () => {
+            if (!finalImageBlob) return;
+            const dataUrl = previewCanvas.toDataURL('image/png');
+            const a = document.createElement('a');
+            a.href = dataUrl;
+            a.download = 'visiondevcamp.png';
+            a.click();
+        });
+
+        
+        shareBtn.addEventListener('click', async () => {
+            if (!finalImageBlob) return;
+            if (!navigator.canShare) {
+                alert('Web Share APIに対応していません。');
+                return;
+            }
+            const file = new File([finalImageBlob], 'visiondevcamp.png', {
+                type: 'image/png',
+            });
+            if (!navigator.canShare({ files: [file] })) {
+                alert('画像ファイルのシェアに対応していない環境です。');
+                return;
+            }
+            const shareText = 'Vision Dev Campに参加します！#VisionDevCamp';
+            try {
+                await navigator.share({
+                    text: shareText,
+                    files: [file],
+                });
+            } catch (err) {
+                console.error('共有に失敗:', err);
+            }
+        });
+
+        
+        function shareOnX() {
+            const text = encodeURIComponent('Vision Dev Campに参加します！#VisionDevCamp');
+            const url = 'https://visiondevcamp-fukuoka.pages.dev/';
+            window.open(`https://twitter.com/intent/tweet?text=${text}&url=${url}`, '_blank');
+        }
+
+        function shareOnFacebook() {
+            const url = encodeURIComponent('https://visiondevcamp-fukuoka.pages.dev/');
+            window.open(`https://www.facebook.com/sharer/sharer.php?u=${url}`, '_blank');
+        }
+
+        function shareOnLinkedIn() {
+            const url = encodeURIComponent('https://visiondevcamp-fukuoka.pages.dev/');
+            window.open(`https://www.linkedin.com/shareArticle?mini=true&url=${url}`, '_blank');
+        }
+
         
 
-        <p class="cta-section__message">個人でもチームでも、共にVision Proのアイデアを形にしよう！
-</p>
-
-
-    
-    
-    <a class="button button--outlined" href="https://engineercafe.connpass.com/event/348799/" rel="noopener noreferrer" rel="external" target="_blank">
-        今すぐ登録！
         
-    </a>
+        function loadImage(url) {
+            return new Promise((resolve, reject) => {
+                const img = new Image();
+                img.onload = () => resolve(img);
+                img.onerror = () => reject(new Error('画像を読み込めませんでした: ' + url));
+                img.src = url;
+            });
+        }
 
+        
+        function drawCircularImage(ctx, image, centerX, centerY, diameter) {
+            const radius = diameter / 2;
 
-    </section>
-</div>
+            ctx.save();
+            ctx.beginPath();
+            ctx.arc(centerX, centerY, radius, 0, Math.PI * 2);
+            ctx.closePath();
+            ctx.clip();
 
+            
+            const ratio = image.width / image.height;
+            let drawWidth, drawHeight;
+            if (ratio > 1) {
+                
+                drawHeight = diameter;
+                drawWidth = image.width * (drawHeight / image.height);
+            } else {
+                
+                drawWidth = diameter;
+                drawHeight = image.height * (drawWidth / image.width);
+            }
+            const offsetX = centerX - drawWidth / 2;
+            const offsetY = centerY - drawHeight / 2;
+            ctx.drawImage(image, offsetX, offsetY, drawWidth, drawHeight);
+
+            ctx.restore();
+        }
+    </script>
 
         </main>
 
