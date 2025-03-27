@@ -32,6 +32,7 @@ menu.sessions: スケジュール
 menu.judges: 審査員
 menu.location: 場所
 menu.sponsors: スポンサー
+menu.sns_share_image_generator: バッジ作成
 menu.contact: お問い合わせ
 menu.organizers: 主催者
 main_menu.label: メインメニュー
@@ -83,7 +84,7 @@ schedule_time: '15:04'
 judge:
     title: 'ジャッジ'
     description: 'ジャッジの詳細'
-sns_share_image_generator_page.heading: SNSシェア画像生成
+sns_share_image_generator_page.heading: バッジ作成
 sns_share_image_generator_page.label_photo: アイコン
 sns_share_image_generator_page.label_name: 名前
 sns_share_image_generator_page.label_comment: 一言
@@ -93,5 +94,5 @@ sns_share_image_generator_page.button_share: 画像をシェア
 sns_share_image_generator_page.button_X: Xでシェア
 sns_share_image_generator_page.button_facebook: Facebookでシェア
 sns_share_image_generator_page.button_linkedin: LinkedInでシェア
-sns_share_image_generator_page.message: イベントに参加することを表明し、作成した画像をSNSでシェアしましょう！
+sns_share_image_generator_page.message: イベントに参加することを表明し、作成した画像をSNSでシェアしてイベントを盛り上げましょう！
 sns_share_image_generator_page.share_text: Vision Dev Campに参加します！#VisionDevCamp #VisionDevCamp2025 #visionpro
