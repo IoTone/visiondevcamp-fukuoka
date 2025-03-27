@@ -30,6 +30,7 @@ menu.sessions: Schedule
 menu.judges: Judges
 menu.location: Location
 menu.sponsors: Sponsors
+menu.sns_share_image_generator: Generate a badge
 menu.contact: Contact
 menu.organizers: Organizers
 main_menu.label: Main Menu
@@ -78,7 +79,7 @@ carousel.button_previous: Previous item
 session_categories.label: Session Categories
 schedule_date: 'January 2'
 schedule_time: '15:04'
-sns_share_image_generator_page.heading: SNS Share Image Generator
+sns_share_image_generator_page.heading: Generate a badge
 sns_share_image_generator_page.label_photo: Icon
 sns_share_image_generator_page.label_name: Name
 sns_share_image_generator_page.label_comment: Comment
@@ -88,5 +89,5 @@ sns_share_image_generator_page.button_share: Share
 sns_share_image_generator_page.button_X: Share on X
 sns_share_image_generator_page.button_facebook: Share on Facebook
 sns_share_image_generator_page.button_linkedin: Share on LinkedIn
-sns_share_image_generator_page.message: Declare your participation in the event and share the generated image on social media!
+sns_share_image_generator_page.message: Declare your participation in the event and share the generated image on social media to promote the event!
 sns_share_image_generator_page.share_text: I'm attending Vision Dev Camp! #VisionDevCamp #VisionDevCamp2025 #visionpro

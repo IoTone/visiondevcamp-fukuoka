@@ -25,6 +25,9 @@ languages:
                 - identifier: organizers
                   pageRef: /organizers
                   weight: 60
+                - identifier: sns_share_image_generator
+                  pageRef: /sns_share_image_generator
+                  weight: 70
             footer:
                 - identifier: contact
                   pageRef: /contact
@@ -74,6 +77,9 @@ languages:
                 - identifier: organizers
                   pageRef: /organizers
                   weight: 60
+                - identifier: sns_share_image_generator
+                  pageRef: /sns_share_image_generator
+                  weight: 70
             footer:
                 - identifier: contact
                   pageRef: /contact
