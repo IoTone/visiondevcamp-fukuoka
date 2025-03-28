@@ -266,8 +266,8 @@
         }
 
         function shareOnLinkedIn() {
-            const url = encodeURIComponent('https://visiondevcamp-fukuoka.pages.dev/');
-            window.open(`https://www.linkedin.com/shareArticle?mini=true&url=${url}`, '_blank');
+            const text = encodeURIComponent('{{- T "sns_share_image_generator_page.share_text" }}');
+            window.open(`https://www.linkedin.com/shareArticle?mini=true&summary=${text}`, '_blank');
         }
 
         /********************************************
