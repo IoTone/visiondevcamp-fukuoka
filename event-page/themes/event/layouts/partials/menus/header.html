@@ -17,15 +17,21 @@
     {{- $currentNode := $input.context }}
     {{- range $input.menu }}
         <li>
-            <a
-                href="{{ .URL }}"
-                {{- if or ($currentNode.IsMenuCurrent .Menu .) ($currentNode.HasMenuCurrent .Menu .) }}
-                    class="header-menu__link header-menu__link--active" aria-current="page"
-                {{- else }}
-                    class="header-menu__link"
-                {{- end }}>
-                {{- or (T (printf "menu.%s" .Identifier)) .Name }}
-            </a>
+            {{ if eq .Identifier "press" }}
+                <a href="mailto:press@fukuokaxr.org" class="header-menu__link" aria-label="プレスへのメール">
+                    {{- or (T (printf "menu.%s" .Identifier)) .Name }}
+                </a>
+            {{ else }}
+                <a
+                    href="{{ .URL }}"
+                    {{- if or ($currentNode.IsMenuCurrent .Menu .) ($currentNode.HasMenuCurrent .Menu .) }}
+                        class="header-menu__link header-menu__link--active" aria-current="page"
+                    {{- else }}
+                        class="header-menu__link"
+                    {{- end }}>
+                    {{- or (T (printf "menu.%s" .Identifier)) .Name }}
+                </a>
+            {{- end }}
         </li>
     {{- end }}
 </ul>

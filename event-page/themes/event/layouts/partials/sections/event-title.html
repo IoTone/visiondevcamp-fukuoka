@@ -30,16 +30,25 @@
         </h2>
     </div>
     <script
-      src="https://unpkg.com/htmx.org@1.9.10"
-      integrity="sha384-D1Kt99CQMDuVetoL1lrYwg5t+9QdHe7NLX/SoJYkXDFfX37iInKRy5xLSi8nO7UC"
-      crossorigin="anonymous"
-    > </script>
+        src="https://unpkg.com/htmx.org@1.9.10"
+        integrity="sha384-D1Kt99CQMDuVetoL1lrYwg5t+9QdHe7NLX/SoJYkXDFfX37iInKRy5xLSi8nO7UC"
+        crossorigin="anonymous"></script>
     <script src="https://unpkg.com/hyperscript.org@0.9.14"></script>
 
     <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/htmx/2.0.4/htmx.min.js"></script> -->
 
-    
-    <div class="event-highlights-section__tokyo-info">Registered Attendees: 19 (Lu.ma/connpass)</div>
+    {{- with $input.registeredAttendees }}
+        <div class="event-title-section__registered-attendees">
+            {{- $input.registeredAttendees | markdownify }}
+            <span>
+                (
+                <a href="https://lu.ma/eaqsohir" target="_blank" rel="noopener noreferrer">Lu.ma</a>
+                /
+                <a href="https://engineercafe.connpass.com/event/348799/" target="_blank" rel="noopener noreferrer">connpass</a>
+                )
+            </span>
+        </div>
+    {{- end }}
     <!-- <button _="on click increment :x
             if :x <= 3
             put :x into the next <output/>
@@ -68,7 +77,6 @@
     This div will be updated with the fetched content.
     </div>
 -->
-    
 
     <div class="event-title-section__footer">
         {{- if $input.startDate }}
