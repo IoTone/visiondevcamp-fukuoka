@@ -33,6 +33,7 @@ languages:
                   pageRef: /contact
                   weight: 70
             secondary: []
+                
         params:
             # Open Graph / X (Twitter) Cards
             description: |
@@ -128,7 +129,7 @@ params:
     themes:
         event:
             title: VisionDevCamp Fukuoka
-            shortTitle:
+            shortTitle: Home
             startDate: 2025-04-11
             endDate: 2025-04-13
             address:

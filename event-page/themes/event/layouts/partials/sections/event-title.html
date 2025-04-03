@@ -29,6 +29,46 @@
             @{{ $input.location }}
         </h2>
     </div>
+    <script
+      src="https://unpkg.com/htmx.org@1.9.10"
+      integrity="sha384-D1Kt99CQMDuVetoL1lrYwg5t+9QdHe7NLX/SoJYkXDFfX37iInKRy5xLSi8nO7UC"
+      crossorigin="anonymous"
+    > </script>
+    <script src="https://unpkg.com/hyperscript.org@0.9.14"></script>
+
+    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/htmx/2.0.4/htmx.min.js"></script> -->
+
+    
+    <div class="event-highlights-section__tokyo-info">Registered Attendees: 19 (Lu.ma/connpass)</div>
+    <!-- <button _="on click increment :x
+            if :x <= 3
+            put :x into the next <output/>
+            else
+            put '3 is the max...' into the next <output/>
+            end">We Are a button</button> -->
+    <!--
+    <div class="event-title-section__subheading">Total: </div><div class="event-title-section__subheading" _="
+    on load
+        repeat forever
+            // log the next <output/>
+            increment :count
+            
+            // wait 10s then put :count into my.innerText
+            wait 20s then fetch 'https://lu.ma/eaqsohir' with mode:'no-cors' then put the .jsx-4155675949 of its result into  my.innerText
+            // wait 10s then put :count into the next <output/>
+        end
+    end
+    ">
+    </div> -->
+    <!--
+    <button hx-get="https://lu.ma/eaqsohir" hx-target="#myDiv">
+    Fetch Content
+    </button>
+    <div id="myDiv">
+    This div will be updated with the fetched content.
+    </div>
+-->
+    
 
     <div class="event-title-section__footer">
         {{- if $input.startDate }}
