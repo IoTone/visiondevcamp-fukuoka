@@ -20,7 +20,7 @@
                     {{ $input.subtitle }}
                 </h2>
 
-                <p class="paragraph event-highlights-section__paragraph">{{ $input.description | markdownify }}</p>
+                {{ $input.description | markdownify }}
                 {{- with $input.tokyoEvent }}
                     <div class="event-highlights-section__tokyo-info">
                         <p class="paragraph event-highlights-section__paragraph">{{ $input.tokyoEventMessage }}</p>

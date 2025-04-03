@@ -55,7 +55,8 @@ languages:
                         - Hardware Hackathon Prizes: 1 x M5Stack Camera, 1 x M5StampS3, 1 x Arduino
                         - Lunch provided (meetup style pizza Sat / Sun), Hacker friendly Snacks + Energy Drinks
                         - VisionPro Expert Mentors in Design, Swift, Unity from Silicon Valley, Australia, and Tokyo
-
+                    registeredAttendees: |
+                        20 registered!
                     tokyoEvent:
                         message: Also held in Tokyo!
                         url: https://www.vdctokyo.org/en
@@ -124,6 +125,8 @@ languages:
                         地下鉄天神駅 徒歩5分 / 西鉄バス「天神4丁目」下車すぐ
 
                         ※駐車場、駐輪場は併設しておりません。公共機関をご利用ください。
+                    registeredAttendees: |
+                        登録者数20人！
                     tokyoEvent:
                         message: 東京でも開催しています!
                         url: https://www.vdctokyo.org/
