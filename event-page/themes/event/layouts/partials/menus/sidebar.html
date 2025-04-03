@@ -5,16 +5,23 @@
     {{- $currentNode := $input.context }}
     {{- range $input.menu }}
         <li class="sidebar-menu__item">
-            <a
-                href="{{ .URL }}"
-                {{- if or ($currentNode.IsMenuCurrent .Menu .) ($currentNode.HasMenuCurrent .Menu .) }}
-                    class="sidebar-menu__link sidebar-menu__link--active" aria-current="page"
-                {{- else }}
-                    class="sidebar-menu__link"
-                {{- end }}
-                aria-label="{{- or (T (printf " menu.%s" .Identifier)) .Name }}">
-                {{- or (T (printf "menu.%s" .Identifier)) .Name }}
-            </a>
+            {{ if eq .Identifier "press" }}
+                <script src="https://cdn.jsdelivr.net/npm/mailtoui@1.0.3/dist/mailtoui-min.js"></script>
+                <a href="mailto:press@fukuokaxr.org" class="sidebar-menu__link mailtoui" aria-label="プレスへのメール">
+                    {{- or (T (printf "menu.%s" .Identifier)) .Name }}
+                </a>
+            {{ else }}
+                <a
+                    href="{{ .URL }}"
+                    {{- if or ($currentNode.IsMenuCurrent .Menu .) ($currentNode.HasMenuCurrent .Menu .) }}
+                        class="sidebar-menu__link sidebar-menu__link--active" aria-current="page"
+                    {{- else }}
+                        class="sidebar-menu__link"
+                    {{- end }}
+                    aria-label="{{- or (T (printf " menu.%s" .Identifier)) .Name }}">
+                    {{- or (T (printf "menu.%s" .Identifier)) .Name }}
+                </a>
+            {{ end }}
         </li>
     {{- end }}
 </ul>

@@ -28,12 +28,15 @@ languages:
                 - identifier: sns_share_image_generator
                   pageRef: /sns_share_image_generator
                   weight: 70
+                - identifier: press
+                  pageRef: mailto:press@fukuokaxr.org
+                  weight: 80
             footer:
                 - identifier: contact
                   pageRef: /contact
                   weight: 70
             secondary: []
-                
+
         params:
             # Open Graph / X (Twitter) Cards
             description: |
@@ -89,6 +92,9 @@ languages:
                 - identifier: sns_share_image_generator
                   pageRef: /sns_share_image_generator
                   weight: 70
+                - identifier: press
+                  pageRef: mailto:press@fukuokaxr.org
+                  weight: 80
             footer:
                 - identifier: contact
                   pageRef: /contact
