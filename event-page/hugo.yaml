@@ -68,6 +68,12 @@ languages:
                         - Engineer Cafe - Hacker Space Fukuoka -
                         - Red Brick Culture Center
                         - 1-15-30 Tenjin, Chuo-ku, Fukuoka City
+
+                    visionpro:
+                        description: |
+                            Apple Vision Pro is the latest head-mounted display from Apple.
+                            <br />
+                            At the event, you can develop applications using Apple Vision Pro.
     ja:
         disabled: false
         menus:
@@ -130,6 +136,11 @@ languages:
                     tokyoEvent:
                         message: 東京でも開催しています!
                         url: https://www.vdctokyo.org/
+                    visionpro:
+                        description: |
+                            Apple Vision Proは、Appleの最新のヘッドマウントディスプレイです。
+                            <br />
+                            イベントでは、Apple Vision Proを使用してアプリケーションを開発することができます。
 
 params:
     # Open Graph / X (Twitter) Cards
