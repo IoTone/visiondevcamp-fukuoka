@@ -32,6 +32,10 @@
     }}
 
 
+    <!-- visionpro image -->
+    {{ partial "visionpro-image.html" (dict "description" .Site.Params.themes.event.visionpro.description) }}
+
+
     <!-- sessions -->
     {{ partial "sessions.html" . }}
 

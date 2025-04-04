@@ -1,0 +1,22 @@
+{{ $description := .description }}
+
+
+<section class="section visionpro-section">
+    <img src="/images/visionpro.jpeg" alt="VisionPro" width="2000" height="200" class="visionpro-image" />
+    <div class="visionpro-text">
+        <h2>Apple Vision Pro</h2>
+        <p>
+            {{ $description | safeHTML }}
+        </p>
+    </div>
+</section>
+
+<style>
+    .visionpro-section {
+        margin: 0 auto;
+    }
+    .visionpro-image {
+        width: 100%;
+        height: auto;
+    }
+</style>
