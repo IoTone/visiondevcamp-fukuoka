@@ -169,7 +169,7 @@ params:
                 # linkedinUrl: https://de.linkedin.com/company/medialesson-gmbh
             images:
                 logo: logos/visiondevcamp_fukuoka_logo_style2.png
-                titleBackground: images/visiondevcamp2025-group-photo.jpg
+                titleBackground: images/avp.jpg
                 location: images/engineer-cafe.jpg
             colors:
                 primaryLighter: '#5CB1E8'
