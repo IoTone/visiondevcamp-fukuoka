@@ -29,9 +29,11 @@
       const stream = await navigator.mediaDevices.getUserMedia({ video: true });
       const videoElement = document.getElementById("vid");
       videoElement.srcObject = stream;
+      console.log("V")
       document.getElementById('overlay').style.visibility='visible';
     } catch (error) {
       console.error("Error accessing camera:", error);
+      document.getElementById('overlay').style.visibility='hidden';
     }
   }
 
