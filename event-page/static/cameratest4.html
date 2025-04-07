@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VisionDevCamp Fukuoka 2025</title>
+    <style>
+        body {
+            text-align: center;
+            font-family: Arial, sans-serif;
+        }
+        
+        #videoContainer {
+            position: relative;
+            width: 100%;
+            max-width: 400px;
+            margin: auto;
+        }
+
+        #video {
+            width: 100%;
+            display: block;
+        }
+
+        #overlay {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            pointer-events: none; /* Allows interactions with the video */
+            opacity: 0.7; /* Adjust transparency */
+        }
+    </style>
+</head>
+<body>
+
+    <h2><div id="datetime"></div></h2>
+    <div id="videoContainer">
+        <video id="video" autoplay playsinline></video>
+        <img id="overlay" src="/images/vdc_fukuoka_media_wall.png" alt="Overlay" style="position: absolute; top:0px; left:0px; visibility:hidden">
+    </div>
+
+    <button onclick="startCamera()">Start Camera</button>
+
+    <script>
+        var d1 = new Date();
+        document.getElementById("datetime").innerHTML = d1.toLocaleString();
+        async function startCamera() {
+            try {
+                const stream = await navigator.mediaDevices.getUserMedia({ video: true });
+                document.getElementById("video").srcObject = stream;
+                document.getElementById('overlay').style.visibility='visible';
+            } catch (error) {
+                console.error("Error accessing camera:", error);
+            }
+        }
+        async function startCameraAsync() {
+            try {
+                const stream = await navigator.mediaDevices.getUserMedia({ video: true }).then({
+                    document.getElementById("video").srcObject = stream;
+                    document.getElementById('overlay').style.visibility='visible';
+                })
+                
+            } catch (error) {
+                console.error("Error accessing camera:", error);
+                alert("Error accessing camera:", error);
+            }
+        }
+        startCameraAsync();
+    </script>
+
+</body>
+</html>
