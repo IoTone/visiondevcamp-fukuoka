@@ -35,7 +35,7 @@
 </head>
 <body>
 
-    <h2>Webcam with Overlay Example</h2>
+    <h2><div id="datetime"></div></h2>
     <div id="videoContainer">
         <video id="video" autoplay playsinline></video>
         <img id="overlay" src="/images/vdc_fukuoka_media_wall.png" alt="Overlay" style="position: absolute; top:0px; left:0px; visibility:hidden">
@@ -44,6 +44,8 @@
     <button onclick="startCamera()">Start Camera</button>
 
     <script>
+        var d1 = new Date();
+        document.getElementById("datetime").innerHTML = d1.toLocalString();
         async function startCamera() {
             try {
                 const stream = await navigator.mediaDevices.getUserMedia({ video: true });
