@@ -41,14 +41,21 @@
         <img id="overlay" src="/images/vdc_fukuoka_media_wall.png" alt="Overlay" style="position: absolute; top:0px; left:0px; visibility:hidden">
     </div>
 
-    <button onclick="startCamera()">Start Camera</button>
+    <!-- <button onclick="startCamera()">Start Camera</button> -->
+    <button onclick="toggleCamera()">Switch Camera</button>
+
 
     <script>
         var d1 = new Date();
         document.getElementById("datetime").innerHTML = d1.toLocaleString();
+        let currentFacingMode = "user"; // "user" = front, "environment" = back
         async function startCamera() {
             try {
-                const stream = await navigator.mediaDevices.getUserMedia({ video: true });
+                const stream = await navigator.mediaDevices.getUserMedia({ 
+                    video: {
+                        facingMode: currentFacingMode
+                    }
+                 });
                 document.getElementById("video").srcObject = stream;
                 document.getElementById('overlay').style.visibility='visible';
             } catch (error) {
@@ -66,6 +73,11 @@
                 console.error("Error accessing camera:", error);
                 alert("Error accessing camera:", error);
             }
+        }
+
+        async function toggleCamera() {
+            currentFacingMode = (currentFacingMode === "user") ? "environment" : "user";
+            startCamera();
         }
         startCameraAsync();
     </script>
