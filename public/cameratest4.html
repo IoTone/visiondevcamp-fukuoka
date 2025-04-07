@@ -44,14 +44,13 @@
         <img id="overlay" src="/images/vdc_fukuoka_media_wall.png" alt="Overlay" style="position: absolute; top:0px; left:0px; visibility:hidden">
     </div>
 
-    <!-- <button onclick="startCamera()">Start Camera</button> -->
     <button onclick="toggleCamera()">Switch Camera</button>
-
 
     <script>
         var d1 = new Date();
         document.getElementById("datetime").innerHTML = d1.toLocaleString();
         let currentFacingMode = "user"; // "user" = front, "environment" = back
+        let snapButton = document.getElementById("snap");
         async function startCamera() {
             try {
                 const stream = await navigator.mediaDevices.getUserMedia({ 
@@ -61,6 +60,16 @@
                  });
                 document.getElementById("video").srcObject = stream;
                 document.getElementById('overlay').style.visibility='visible';
+                overlay.onclick = function(){
+                    var c = document.createElement('canvas');
+                    let vid = document.getElementById("video");
+                    c.width = vid.videoWidth;
+                    c.height = vid.videoHeight;
+                    c.getContext('2d').drawImage(vid, 0,0);
+                    c.toBlob(doWhatYouWantWithTheCapturedImage);
+                    // const data = c.toDataURL("image/png");
+                    // photo.setAttribute("src", data);
+                };
             } catch (error) {
                 console.error("Error accessing camera:", error);
             }
@@ -82,7 +91,52 @@
             currentFacingMode = (currentFacingMode === "user") ? "environment" : "user";
             startCamera();
         }
+
+        function takePicture2() {
+            var c = document.createElement('canvas');
+            let vid = document.getElementById("video");
+            c.width = vid.videoWidth;
+            c.height = vid.videoHeight;
+            c.getContext('2d').drawImage(vid, 0,0);
+            c.toBlob(doWhatYouWantWithTheCapturedImage);
+        }
+        function takePicture() {
+            const canvas = document.createElement('canvas');
+            let vid = document.getElementById("video");
+            canvas.width = vid.videoWidth;
+            canvas.height = vid.videoHeight;
+            const context = canvas.getContext("2d");
+            if (width && height) {
+                canvas.width = width;
+                canvas.height = height;
+                context.drawImage(vid, 0, 0, width, height);
+
+                const data = canvas.toDataURL("image/png");
+                photo.setAttribute("src", data);
+            } else {
+                // clearPhoto();
+            }
+        }
+        function doWhatYouWantWithTheCapturedImage(blob){
+            let vid = document.getElementById("video");
+            var url = URL.createObjectURL(blob);
+            var img = new Image();
+            img.onload = function(){URL.revokeObjectURL(url);};
+            img.src = url;
+            URL.revokeObjectURL(vid.src);
+            overlay.parentNode.appendChild(img);
+            vid.parentNode.removeChild(vid);
+            overlay.parentNode.removeChild(overlay);
+        }
         startCameraAsync();
+        snapButton.addEventListener(
+            "click",
+            (ev) => {
+                takePicture2();
+                ev.preventDefault();
+            },
+            false,
+        );
     </script>
 
 </body>
