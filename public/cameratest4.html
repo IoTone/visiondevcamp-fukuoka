@@ -57,7 +57,7 @@
         }
         async function startCameraAsync() {
             try {
-                const stream = await navigator.mediaDevices.getUserMedia({ video: true }).then({
+                const stream = await navigator.mediaDevices.getUserMedia({ video: true }).then(function(stream){
                     document.getElementById("video").srcObject = stream;
                     document.getElementById('overlay').style.visibility='visible';
                 })
