@@ -45,7 +45,7 @@
 
     <script>
         var d1 = new Date();
-        document.getElementById("datetime").innerHTML = d1.toLocalString();
+        document.getElementById("datetime").innerHTML = d1.toLocaleString();
         async function startCamera() {
             try {
                 const stream = await navigator.mediaDevices.getUserMedia({ video: true });
