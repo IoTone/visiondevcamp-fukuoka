@@ -56,7 +56,7 @@ languages:
                         - Lunch provided (meetup style pizza Sat / Sun), Hacker friendly Snacks + Energy Drinks
                         - VisionPro Expert Mentors in Design, Swift, Unity from Silicon Valley, Australia, and Tokyo
                     registeredAttendees: |
-                        22 registered!
+                        24 registered!
                     tokyoEvent:
                         message: Also held in Tokyo!
                         url: https://www.vdctokyo.org/en
@@ -132,7 +132,7 @@ languages:
 
                         ※駐車場、駐輪場は併設しておりません。公共機関をご利用ください。
                     registeredAttendees: |
-                        現在の登録者数は22人です！
+                        現在の登録者数は24人です！
                     tokyoEvent:
                         message: 東京でも開催しています!
                         url: https://www.vdctokyo.org/
