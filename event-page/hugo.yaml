@@ -22,9 +22,9 @@ languages:
                 - identifier: organizers
                   pageRef: /organizers
                   weight: 50
-                # - identifier: sns_share_image_generator
-                #   pageRef: /sns_share_image_generator
-                #   weight: 60
+                - identifier: overview2025
+                  pageRef: /event/2025
+                  weight: 60
                 - identifier: press
                   pageRef: mailto:press@fukuokaxr.org
                   weight: 70
@@ -87,9 +87,9 @@ languages:
                 - identifier: organizers
                   pageRef: /organizers
                   weight: 50
-                # - identifier: sns_share_image_generator
-                #   pageRef: /sns_share_image_generator
-                #   weight: 60
+                - identifier: overview2025
+                  pageRef: /event/2025
+                  weight: 60
                 - identifier: press
                   pageRef: mailto:press@fukuokaxr.org
                   weight: 70
