@@ -13,18 +13,18 @@ languages:
                 - identifier: sessions
                   pageRef: /sessions
                   weight: 20
-                - identifier: judges
-                  pageRef: /judges
-                  weight: 30
+                # - identifier: judges
+                #   pageRef: /judges
+                #   weight: 30
                 - identifier: sponsors
                   pageRef: /sponsors
                   weight: 40
                 - identifier: organizers
                   pageRef: /organizers
                   weight: 50
-                - identifier: sns_share_image_generator
-                  pageRef: /sns_share_image_generator
-                  weight: 60
+                # - identifier: sns_share_image_generator
+                #   pageRef: /sns_share_image_generator
+                #   weight: 60
                 - identifier: press
                   pageRef: mailto:press@fukuokaxr.org
                   weight: 70
@@ -45,13 +45,10 @@ languages:
                     description: |
                         VisionDevCamp is a non-profit developer event focused on application development for Apple Vision Pro and visionOS.
                         An experienced volunteer team supports developers, designers, entrepreneurs, and enthusiasts of Apple Vision Pro and visionOS.
+                    overview2025:
+                        description: |
+                            The VisionDevCamp2025, held from Friday, April 11 to Sunday, April 13, 2025, saw participation from many individuals. Nine teams submitted projects, resulting in the creation of some outstanding projects. Details of the projects will be introduced as soon as they are ready.
 
-                        #### Highlights (Free Event)
-
-                        - Prizes: 1 x ¥10000 Amazon Gift Card, 2 x ¥5000 JCB gift cards, 1 x Solar Charger mobile devices 4 x ¥2000 gift cards
-                        - Hardware Hackathon Prizes: 1 x M5Stack Camera, 1 x M5StampS3, 1 x Arduino
-                        - Lunch provided (meetup style pizza Sat / Sun), Hacker friendly Snacks + Energy Drinks
-                        - VisionPro Expert Mentors in Design, Swift, Unity from Silicon Valley, Australia, and Tokyo
                     registeredAttendees: |
                         38 registered!
                     tokyoEvent:
@@ -81,18 +78,18 @@ languages:
                 - identifier: sessions
                   pageRef: /sessions
                   weight: 20
-                - identifier: judges
-                  pageRef: /judges
-                  weight: 30
+                # - identifier: judges
+                #   pageRef: /judges
+                #   weight: 30
                 - identifier: sponsors
                   pageRef: /sponsors
                   weight: 40
                 - identifier: organizers
                   pageRef: /organizers
                   weight: 50
-                - identifier: sns_share_image_generator
-                  pageRef: /sns_share_image_generator
-                  weight: 60
+                # - identifier: sns_share_image_generator
+                #   pageRef: /sns_share_image_generator
+                #   weight: 60
                 - identifier: press
                   pageRef: mailto:press@fukuokaxr.org
                   weight: 70
@@ -113,13 +110,11 @@ languages:
                         VisionDevCampは、Apple Vision ProとvisionOS向けのアプリケーション開発に焦点を当てた、非営利の開発者向けイベントです。
                         経験豊富なボランティアチームがApple Vision ProとvisionOSの開発者、デザイナー、起業家、および愛好家の方々をサポートします。
 
-                        #### イベントの注目ポイント！
-
-                        - 無料で参加できます！
-                        - 賞品: 1 x ¥10000 Amazonギフトカード、 2 x ¥5000 JCBギフトカード、1 x ソーラーチャージャー携帯端末、 4 x ¥2000ギフトカード
-                        - ハードウェアハッカソン賞品: 1 x M5Stack カメラ、1 x M5StampS3、1 x Arduino
-                        - ランチ提供 (土曜 / 日曜はピザを囲んだ懇親会)、ハッカー向けのスナック + エナジードリンク
-                        - シリコンバレー、オーストラリア、東京の経験豊富なデザイン、Swift、UnityのVisionProメンターが参加します
+                    overview2025:
+                        description: |
+                            2025年4月11日(金)〜13日(日)に開催されたVisionDevCamp2025では、多くの方々にご参加いただきました。<br />
+                            9チームのプロジェクトが応募され、素晴らしいプロジェクトが誕生しました。<br />
+                            プロジェクトの詳細は準備ができ次第下記のページにてご紹介いたします。
 
                     directions: |
                         地下鉄天神駅 徒歩5分 / 西鉄バス「天神4丁目」下車すぐ

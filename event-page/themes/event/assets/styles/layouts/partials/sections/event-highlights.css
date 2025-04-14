@@ -53,6 +53,7 @@
     background-color: #f0f0f0;
     padding: 1.875rem;
     border-radius: 0.5rem;
+    margin-top: 1.875rem;
 }
 
 .event-highlights-section__tokyo-info .button {
@@ -61,4 +62,22 @@
 
 .event-highlights-section__tokyo-info .paragraph {
     margin: 0;
+}
+
+.event-highlights-section__overview {
+    margin-top: 1.875rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 1.875rem;
+    background-color: #f0f0f0;
+    padding: 1.875rem;
+    border-radius: 0.5rem;
+    width: 100%;
+    max-width: 100%;
+}
+
+.event-highlights-section__overview .button {
+    display: block;
 }
