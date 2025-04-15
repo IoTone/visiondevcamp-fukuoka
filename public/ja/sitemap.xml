@@ -3,7 +3,7 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://visiondevcamp-fukuoka.pages.dev/</loc>
-    <lastmod>2025-03-10T10:00:00+09:00</lastmod>
+    <lastmod>2025-04-14T10:00:00+09:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -13,6 +13,32 @@
                 rel="alternate"
                 hreflang="ja"
                 href="https://visiondevcamp-fukuoka.pages.dev/"
+                />
+  </url><url>
+    <loc>https://visiondevcamp-fukuoka.pages.dev/event/</loc>
+    <lastmod>2025-04-14T10:00:00+09:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://visiondevcamp-fukuoka.pages.dev/en/event/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="ja"
+                href="https://visiondevcamp-fukuoka.pages.dev/event/"
+                />
+  </url><url>
+    <loc>https://visiondevcamp-fukuoka.pages.dev/event/2025/</loc>
+    <lastmod>2025-04-14T10:00:00+09:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://visiondevcamp-fukuoka.pages.dev/en/event/2025/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="ja"
+                href="https://visiondevcamp-fukuoka.pages.dev/event/2025/"
                 />
   </url><url>
     <loc>https://visiondevcamp-fukuoka.pages.dev/about/</loc>
