@@ -28,7 +28,8 @@
         "numberOfjudges" ((where .Site.RegularPages "Section" "judges") | len)
         "numberOfSessions" (where (where .Site.RegularPages "Section" "sessions") "Params.isServiceSession" false | len)
         "numberOfDays" (div (sub (add $eventEndDate.Unix $dayInSeconds) $eventStartDate.Unix) $dayInSeconds)
-        "location" .Site.Params.themes.event.location )
+        "location" .Site.Params.themes.event.location
+        "overview2025Description" .Site.Params.themes.event.overview2025.description)
     }}
 
 
@@ -45,8 +46,7 @@
 
 
     <!-- judges -->
-    {{ partial "judges.html" . }}
-
+    <!-- {{ partial "judges.html" . }} -->
 
     <!-- sponsors -->
     {{ partial "sections/our-sponsors.html" . }}

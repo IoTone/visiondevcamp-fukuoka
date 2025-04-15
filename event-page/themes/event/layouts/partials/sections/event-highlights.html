@@ -22,11 +22,17 @@
 
                 {{ $input.description | markdownify }}
                 {{- with $input.tokyoEvent }}
-                    <div class="event-highlights-section__tokyo-info">
+                    <!-- <div class="event-highlights-section__tokyo-info">
                         <p class="paragraph event-highlights-section__paragraph">{{ $input.tokyoEventMessage }}</p>
                         <a href="{{ $input.tokyoEventUrl }}" class="button button--primary">VisionDevCamp Tokyo</a>
-                    </div>
+                    </div> -->
                 {{- end }}
+
+
+                <div class="event-highlights-section__overview">
+                    {{ $input.overview2025Description | safeHTML }}
+                    <a href="/event/2025" class="button button--primary">VisionDevCamp 2025</a>
+                </div>
             </article>
         </header>
 

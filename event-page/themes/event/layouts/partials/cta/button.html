@@ -9,9 +9,9 @@
     {{- page.Scratch.Add "cta_eventbrite_instance" 1 }}
 
 
-    <button id="{{ $buttonId }}" type="button" class="button button--outlined {{ .buttonClass }}" style="display: none;">
+    <!-- <button id="{{ $buttonId }}" type="button" class="button button--outlined {{ .buttonClass }}" style="display: none;">
         {{ T "cta_button.get_ticket" }}
-    </button>
+    </button> -->
 
     {{/* Load Eventbrite script once per page. */}}
     {{- if not (page.Scratch.Get "cta_eventbrite_script_loaded") }}
@@ -39,12 +39,12 @@
 
 {{ define "partials/inline/cta/link.html" }}
     {{ $input := . }}
-    <a class="button button--outlined" href="{{ $input.url }}" rel="noopener noreferrer" rel="external" target="_blank">
+    <!-- <a class="button button--outlined" href="{{ $input.url }}" rel="noopener noreferrer" rel="external" target="_blank">
         {{ T "cta_button.get_ticket" }}
-        <!-- <div class="button__icon">
+        <div class="button__icon">
             {{ partial "graphics/external-link.html" }}
-        </div> -->
-    </a>
+        </div>
+    </a> -->
 {{ end }}
 
 {{- if $input.eventbriteId }}
