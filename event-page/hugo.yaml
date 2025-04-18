@@ -22,6 +22,9 @@ languages:
                 - identifier: organizers
                   pageRef: /organizers
                   weight: 50
+                - identifier: judges
+                  pageRef: /judges
+                  weight: 55
                 - identifier: overview2025
                   pageRef: /event/2025
                   weight: 60
@@ -87,6 +90,9 @@ languages:
                 - identifier: organizers
                   pageRef: /organizers
                   weight: 50
+                - identifier: judges
+                  pageRef: /judges
+                  weight: 55
                 - identifier: overview2025
                   pageRef: /event/2025
                   weight: 60
