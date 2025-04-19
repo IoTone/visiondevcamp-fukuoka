@@ -1,0 +1,16 @@
+
+.link {
+    word-break: break-all;
+}
+
+img {
+    width: 49%;
+    height: auto;
+    display: inline-block;
+}
+
+@media (max-width: 768px) {
+    img {
+        width: 100%;
+    }
+}

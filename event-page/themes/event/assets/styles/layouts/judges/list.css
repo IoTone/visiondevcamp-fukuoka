@@ -8,18 +8,37 @@
 
 .judge-list__menu {
     all: unset;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    align-items: center;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
     list-style: none;
-    gap: 3rem;
+    gap: .9rem;
+}
+
+@media screen and (max-width: 992px) {
+    .judge-list__menu {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .judge-list__menu {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .judge-list__menu {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
 }
 
 .judge-list__item {
     width: 100%;
     max-width: 16.875rem;
+    margin: 0 auto;
 }
+
 .organizer-list {
     width: 100%;
     display: flex;
@@ -40,5 +59,6 @@
 
 .organizer-list__item {
     width: 100%;
-    max-width: 16.875rem; /* Matches the width of the judge card */
+    max-width: 16.875rem;
+    /* Matches the width of the judge card */
 }
