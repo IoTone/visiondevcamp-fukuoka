@@ -1,12 +1,12 @@
 ---
-title: 'Styly'
+title: 'Ryosuke Murai'
 date: 2025-03-05
-avatarResource: 'images/judges/styly_logo.jpg'
-position: 'Styly Team'
-expertise: 'Styly Designer'
+avatarResource: 'images/judges/murai.jpg'
+position: 'Intern @Styly'
+expertise: 'XRcreater'
 description: ''
 xUrl: ''
-companyUrl: 'https://styly.io/'
+companyUrl: ''
 githubUrl: ''
 linkedinUrl: ''
 ---

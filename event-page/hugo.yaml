@@ -28,9 +28,9 @@ languages:
                 - identifier: overview2025
                   pageRef: /event/2025
                   weight: 60
-                - identifier: press
-                  pageRef: mailto:press@fukuokaxr.org
-                  weight: 70
+                # - identifier: press
+                #   pageRef: mailto:press@fukuokaxr.org
+                #   weight: 70
             footer:
                 - identifier: contact
                   pageRef: /contact
@@ -96,9 +96,9 @@ languages:
                 - identifier: overview2025
                   pageRef: /event/2025
                   weight: 60
-                - identifier: press
-                  pageRef: mailto:press@fukuokaxr.org
-                  weight: 70
+                # - identifier: press
+                #   pageRef: mailto:press@fukuokaxr.org
+                #   weight: 70
             footer:
                 - identifier: contact
                   pageRef: /contact
